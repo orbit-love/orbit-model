@@ -2,6 +2,8 @@
 
 # Orbit Model
 
-The Orbit Model is a developer-friendly alternative to the marketing funnel. Developer relations teams can use the Orbit Model  to create strategies, set goals, measure their progress 📈
+The Orbit Model is a developer-friendly alternative to the marketing funnel. Developer relations teams can use the Orbit Model  to create strategies, set goals, and measure their progress 📈
+
+✍️ [Read the blog post](https://developermode.com/blog/orbit-model-vs-funnel-for-developer-relations/)
 
 🚧 Coming soon!
