@@ -2,7 +2,7 @@
 
 # 🛰️ Orbit Model
 
-The Orbit Model helps developer advocates, evangelists, and community managers build enthusiastic communities. The model is an alternative to the funnel that focused on adoption, not conversion.
+The Orbit Model helps developer advocates, evangelists, and community managers build enthusiastic communities. The model is an alternative to the funnel that focuses on adoption, not conversion.
 
 ✍️ [Read the blog post](https://orbit.love/blog/why-orbit-is-better-than-funnel-for-developer-relations)
 
