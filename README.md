@@ -1,4 +1,4 @@
-![Planets around the sun with rings labeled 1-2-3-4](orbit-model.png)
+![Planets around the sun with rings labeled 1-2-3-4](orbit-model-diagram.png)
 
 # Orbit Model
 
