@@ -42,6 +42,6 @@ Orbit 3 is our users. These are folks who have some kind of working integration,
 Orbit 3 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so it’s important we stay top of mind with them.
 
 
-## Contributing
+# Contributing
 
-Contributions and questions are very welcome. Please open an issue with your ideas on how to improve the model, or with information about how you're using it, and let's discuss!
+Contributions and questions are not just welcome, they're essential! Please open an issue with your ideas on how to improve the model, feedback or criticisms of it, or just with information about how you're using it. The discussion will make it better, and we'll have you to thank 💜
