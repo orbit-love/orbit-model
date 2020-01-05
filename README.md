@@ -1,24 +1,27 @@
 ![Planets around the sun with rings labeled 1-2-3-4](orbit-model-diagram.png)
 
-# 🛰️ Orbit Model
+# 🛰️ Welcome to the Orbit Model
 
 The Orbit Model helps developer advocates, evangelists, and community managers build enthusiastic communities. It's meant to be added to and improved by all of us.
 
 ✍️ [Read the blog post](https://orbit.love/blog/why-orbit-is-better-than-funnel-for-developer-relations)
 
-As the funnel is to conversion, the orbit is to adoption. The orbit model is incrementally adoptable, meaning that you can start using it today for just parts of your community, not the whole thing. We recommend you start with Orbit 1. Identify your developers with the highest gravity and make a plan for extending their love and reach even further.
+## The Orbit Model replaces conversion with connection.
+
+As the funnel is to conversion, the orbit is to adoption. The orbit model is incrementally adoptable, meaning that you can start using it today for just parts of your community, not the whole thing. We recommend you start with [Orbit 1](#orbit-1---ambassadors). Identify your developers with the highest gravity and make a plan for extending their love and reach even further.
+
+# Key Concepts of the Orbit Model
+
+📚 [Read the glossary](glossary.md) to learn more about specific terms used in the model. 
 
 ## Gravity = Love x Reach
 
 This is the fundamental equation of the Orbit Model. Think of it this way: everyone in your community has some amount of gravity. Some ability to attract others. The gravity that each person has is a product of two things: love and reach.
 
-### Love
+| Love | Reach |
+|-----------|-----------|
+| Love is their love for what you do. That includes expert knowledge in your technology, a high degree of satisfaction, and feeling like part of the tribe. | Reach is a measure of how well they can help spread the love. Developers with a lot of reach tend to be well-connected, respected by their peers, and have a passion for teaching and sharing. |
 
-Love is their love for what you do. That includes expert knowledge in your technology, a high degree of satisfaction, and feeling like part of the tribe.
-
-### Reach
-
-Reach is a measure of how well they can help spread the love. Developers with a lot of reach tend to be well-connected, respected by their peers, and have a passion for teaching and sharing.
 
 ## Orbit Levels
 
@@ -45,3 +48,5 @@ Orbit 3 is our Observers. These are folks who’ve read our blog posts, watched 
 # Contributing
 
 Contributions and questions are not just welcome, they're essential! Please open an issue with your ideas on how to improve the model, feedback or criticisms of it, or just with information about how you're using it. The discussion will make it better, and we'll have you to thank 💜
+
+[Read the contribution guide](CONTRIBUTING.md) to get started. 
