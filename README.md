@@ -42,7 +42,7 @@ Orbit 3 is our users. These are folks who have some kind of working integration,
 
 ### Orbit 4 - Observers
 
-Orbit 3 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so it’s important we stay top of mind with them.
+Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so it’s important we stay top of mind with them.
 
 
 # Contributing
