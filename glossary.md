@@ -1,6 +1,6 @@
 # Orbit Model Glossary
  
-* **3Rs - Right person, Right opportunity, Right time**
+* **3Rs** - Right person, Right opportunity, Right time
     * Right Person - Who?
     * Right Opportunity - What?
     * Right Time - When?
