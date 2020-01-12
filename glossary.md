@@ -6,14 +6,15 @@ Right person, Right opportunity, Right time
 * Right Opportunity - What?
 * Right Time - When?
 * Great 3R moments lead to great Outcomes
-  
+* [Read more 👇](#what-does-right-mean)
+ 
 ###  Alerts
 Generate notifications when criteria are met
-* Notify me if someone has been Promoted
-* Notify me if an Opportunity should be offered
+* Notify me if someone has been [Promoted](#promotions)
+* Notify me if an [Opportunity](#opportunities) should be offered
   
 ### Channels 
-The places that Orbiters and Guides interact. 
+The places that Orbiters and [Guides](#guides) interact. 
  
 ###  Connections
 Relationships between Orbiters, other Orbiters, and Guides
@@ -23,7 +24,7 @@ An interaction between Orbiters
   * subset of Moments  
 
 ### Gravity
-Every Orbiter has a score based on Love and Reach
+Every Orbiter has a score based on [Love](#love) and [Reach](#reach)
 
 ### Guides 
 The people guiding the Orbiters (community managers)
@@ -32,7 +33,7 @@ The people guiding the Orbiters (community managers)
 Rewards offered in return for opportunities, tangible or intangible
 
 ### Levels
-Orbiters are segmented by Gravity
+Orbiters are segmented by [Gravity](#gravity)
   * Different Opportunities are given to Orbiters based on Level
 
 ### Love 
@@ -43,7 +44,7 @@ Level of commitment of each Orbiter to the product or community
   * Measured in Hearts
 
 ### Moments
-An interaction between an Orbiter and something in the Solar System 
+An interaction between an Orbiter and something in the [Solar System](#solar-system)
 
 ### Opportunities
 Activities that Orbiters can do
@@ -76,8 +77,9 @@ The result of an Opportunity being completed
 
 ### Promotions
 Orbiters move to higher orbit levels as their gravity increases
-### Reach - Influence of each Orbiter is known
-  * Measured in Moments generated
+### Reach
+Influence of each Orbiter is known
+  * Measured in [Moments](#moments) generated
       * i.e. 2k likes on twitter could be 2k moments
       * 10k moments for a personal blog with 10k page views
   * Function of social media / forums / online presence
