@@ -14,6 +14,17 @@ As the funnel is to conversion, the orbit is to adoption. The orbit model is inc
 
 📚 [Read the glossary](glossary.md) to learn more about specific terms used in the model. 
 
+## Orbit versus Funnel
+
+| Funnel | Orbit |
+|-----------|-----------|
+| Conversion | Adoption |
+| Value capture | Value creation |
+| Push people through | Pull people in | 
+| Based on single purchase event | Inclusive of entire lifecycle | 
+| Binary (leads vs. everyone else) | Non-binary (Orbit Leves) | 
+
+
 ## Gravity = Love x Reach
 
 This is the fundamental equation of the Orbit Model. Think of it this way: everyone in your community has some amount of gravity. Some ability to attract others. The gravity that each person has is a product of two things: love and reach.
