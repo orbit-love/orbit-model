@@ -44,6 +44,37 @@ Orbit 3 is our users. These are folks who have some kind of working integration,
 
 Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so it’s important we stay top of mind with them.
 
+## Gravitational force (sum of gravities)
+
+- Orbit is a model for increasing the gravity of individual community members and the gravitational force of the whole community
+- Your community should attract people, pull them in. Welcoming people and high-quality resources make communities attractive.
+- Over time, if a community doesn’t maintain enough gravitational force, it’s likely to lose its members to other technologies.
+
+# Other Concepts
+
+## Conversion vs. Adoption
+
+- The funnel, and conversion, is a *push* model
+    - You push people through the funnel
+- The orbit and adoption is a *pull* model
+    - You make it enticing enough where people want to pull themselves into orbit
+- This theme is prevalent across modern marketing
+    - consumers are  in the driver’s seat
+    - they have access to all the information in order to make their choices, including the competitor
+
+## Value capture vs. Value creation
+
+- The funnel is a model for *capturing value* for the company
+    - What you measure is conversion and the revenue from from conversion
+- The orbit is a model for *creating value* for the community
+    - What you measure is how much value you’ve created for the community - how much you’ve educated them, helped them, given them more reach, etc.
+- 🔗 [How many developers did we help?](https://maxkatz.org/2019/12/05/how-many-developers-did-we-help/)
+
+## ☄️ Asteroid belt
+
+Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user to fan. This is why the community activation happens, not just the product activation from O4 to O3. It takes something personal to really make a fan, like a great box of swag or a kind email recognizing something cool the developer has built. Getting some facetime on a call or at a meetup works well too. In other words, you have to win the heart as well as the mind.
+
+A DevRel program should have a variety of programs in place to help developers cross the chasm from the product into the community, becoming bigger fans and advocates in the process.
 
 # Contributing
 
