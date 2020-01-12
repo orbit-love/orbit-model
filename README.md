@@ -27,7 +27,7 @@ As the funnel is to conversion, the orbit is to adoption. The orbit model is inc
 
 ## Gravity = Love x Reach
 
-This is the fundamental equation of the Orbit Model. Think of it this way: everyone in your community has some amount of gravity. Some ability to attract others. The gravity that each person has is a product of two things: love and reach.
+This is the fundamental equation of the Orbit Model. Think of it this way: everyone in your community has some amount of gravity. Some ability to attract others. The gravity that each person has is a product of two things: **love and reach**.
 
 | Love | Reach |
 |-----------|-----------|
