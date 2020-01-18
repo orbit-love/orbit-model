@@ -87,6 +87,22 @@ Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user 
 
 A DevRel program should have a variety of programs in place to help developers cross the chasm from the product into the community, becoming bigger fans and advocates in the process.
 
+## Clusters
+
+Big communities emerge from sets of smaller communities. In the context of the whole system, these smaller communities are called _clusters_. The nucleus of a cluster can be a person, place, or thing.
+
+- Person example: An influential community member; an ambassador
+- Place example: A geographic location like a city, state, or country; an employer; a program
+- Thing example: A subproject; a unique belief or perspective; a skill or experience
+
+A community member needs less reach to attract someone in their cluster compared to the wider community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators. The fruits of their collaborations will draw in more contributors from their cluster and eventually the whole community.
+
+In the Orbit Model, clusters can be visualized as pie slices stretching from O1 out to O4. Each cluster has its own ambassadors, fans, users, and observers.
+
+When pie slices overlap, it means that some members are part of both clusters. As an example, imagine two clusters: "PHP developers" and "Developers in London". Some of the PHP developers cluster might also be in our London cluster. The more clusters that members share, the more likely it is that their reach will bring themselves in contact with each other.
+
+To increase overall community gravity faster, identify active or potential clusters and connect members around those shared nuclei. As the clusters start to take shape, make connections between them.
+
 # Contributing
 
 Contributions and questions are not just welcome, they're essential! Please open an issue with your ideas on how to improve the model, feedback or criticisms of it, or just with information about how you're using it. The discussion will make it better, and we'll have you to thank 💜
