@@ -83,7 +83,7 @@ Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched 
 
 ## ☄️ Asteroid belt
 
-Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user to fan. This is why the community activation happens, not just the product activation from O4 to O3. It takes something personal to really make a fan, like a great box of swag or a kind email recognizing something cool the developer has built. Getting some facetime on a call or at a meetup works well too. In other words, you have to win the heart as well as the mind.
+Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user to fan. This is where community activation happens, building on product activation from O4 to O3. It takes something personal to really make a fan, like a great box of swag or a kind email recognizing something cool the developer has built. Getting some facetime on a call or at a meetup works well too. In other words, you have to win the heart as well as the mind.
 
 A DevRel program should have a variety of programs in place to help developers cross the chasm from the product into the community, becoming bigger fans and advocates in the process.
 
