@@ -10,7 +10,7 @@ The Orbit Model helps developer advocates, evangelists, and community managers b
 
 As the funnel is to conversion, the orbit is to adoption. The orbit model is incrementally adoptable, meaning that you can start using it today for just parts of your community, not the whole thing. We recommend you start with [Orbit 1](#orbit-1---ambassadors). Identify your developers with the highest gravity and make a plan for extending their love and reach even further.
 
-# Table of Content
+# Table of Contents
 - [Key Concepts of the Orbit Model](#key-concepts-of-the-orbit-model)
     - [Orbit versus Funnel](#orbit-versus-funnel)
     - [Gravity = Love x Reach](#gravity--love-x-reach)
