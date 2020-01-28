@@ -51,6 +51,8 @@ This is the fundamental equation of the Orbit Model. Think of it this way: every
 
 Love, reach, and gravity are important because they help you segment your community into different levels. We call these orbit levels. Having orbit levels helps you give the right opportunity to the right person at the right time.
 
+You can name your orbit levels what you want, and have as many as you like, but for the purposes of having a standard we can all reference, we describe 4 levels with the following names.
+
 ### Orbit 1 - Ambassadors
 
 Orbit 1 is reserved for our inner circle, our Ambassadors. Others call these folks Champions or VIPs or MVPs. The way that we engage with members in each orbit level is different. For ambassadors, who we should know by name, we communicate with via 1:1 email, slack DM, or even texts or Whatsapp. We don’t need many of them, but each ambassador counts because they have a lot of love and reach.
