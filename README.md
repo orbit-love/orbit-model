@@ -118,6 +118,14 @@ When pie slices overlap, it means that some members are part of both clusters. A
 
 To increase overall community gravity faster, identify active or potential clusters and connect members around those shared nuclei. As the clusters start to take shape, make connections between them.
 
+## 1:few:many
+
+Marketing is a 1:many model. Sales is a 1:1 or 1:few model. Community isn't either of these.
+
+Community is **1:few:many**. You, as the dev advocate or community manager are the 1. You have a deep relationship with a handful ambassadors - they are the few. Those ambassadors have deep relationships with the people in their communities - they are the many.
+
+The 1:few:many model explains why so many things that don't scale in community (like facetime and relationship-building) still can have huge results. It's the ripple effect.
+
 # Early Adopters
 
 Using the Orbit Model for your community? Tell the galaxy! Add your name to this list with a link to your site, community, or relevant material.
