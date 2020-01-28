@@ -118,9 +118,9 @@ When pie slices overlap, it means that some members are part of both clusters. A
 
 To increase overall community gravity faster, identify active or potential clusters and connect members around those shared nuclei. As the clusters start to take shape, make connections between them.
 
-# Adoptees
+# Adopters
 
-Using the Orbit Model for your community? Add your name to this list and link to your site or community.
+Using the Orbit Model for your community? Tell the galaxy! Add your name to this list with a link to your site, community, or relevant material.
 
 - [Orbit](https://orbit.love/) (duh!)
 
