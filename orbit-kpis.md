@@ -17,7 +17,7 @@ A team using the Orbit Model measures:
     - From New Orbiters
 
 ### Opportunities 
-- Number of [Opportunities](glossary.md#opportunities) offered and completed
+- Number of [Opportunities](opportunities.md#opportunities) offered and completed
     - Last month the Guides offered 806 Opportunities, 210 of which were completed
 
 ### Reach, Love, and Gravity 
