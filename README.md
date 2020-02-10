@@ -131,6 +131,8 @@ The 1:few:many model explains why so many things that don't scale in community (
 Using the Orbit Model for your community? Tell the galaxy! Add your name to this list with a link to your site, community, or relevant material.
 
 - [Orbit](https://orbit.love/) (duh!)
+- [SimpleAsWater](https://discord.gg/x2kmUXW)
+- [Dappkit](https://dappkit.io?ref=orbit_love_repo)
 
 # Contributing
 
