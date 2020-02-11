@@ -21,6 +21,8 @@ As the funnel is to conversion, the orbit is to adoption. The orbit model is inc
     - [Value capture vs. Value creation](#value-capture-vs-value-creation)
     - [Asteroid belt](#asteroid-belt)
     - [Clusters](#clusters)
+- [Early Adopters](#early-adopters)
+- [Contributing](#contributing) 
 
 
 # Key Concepts of the Orbit Model
