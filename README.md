@@ -8,7 +8,7 @@ The Orbit Model helps developer advocates, evangelists, and community managers b
 
 ## The Orbit Model replaces conversion with connection.
 
-As the funnel is to conversion, the orbit is to adoption. The orbit model is incrementally adoptable, meaning that you can start using it today for just parts of your community, not the whole thing. We recommend you start with [Orbit 1](#orbit-1---ambassadors). Identify your developers with the highest gravity and make a plan for extending their love and reach even further.
+As the funnel is to conversion, the orbit is to adoption. The orbit model is incrementally adaptable, meaning that you can start using it today for just parts of your community, not the whole thing. We recommend you begin with [Orbit 1](#orbit-1---ambassadors). Identify your developers with the highest gravity and make a plan for extending their love and reach even further.
 
 # Table of Contents
 - [Key Concepts of the Orbit Model](#key-concepts-of-the-orbit-model)
@@ -37,7 +37,7 @@ As the funnel is to conversion, the orbit is to adoption. The orbit model is inc
 | Value capture | Value creation |
 | Push people through | Pull people in | 
 | Based on single purchase event | Inclusive of entire lifecycle | 
-| Binary (leads vs. everyone else) | Non-binary (Orbit Leves) | 
+| Binary (leads vs. everyone else) | Non-binary (Orbit Levels) | 
 
 
 ## Gravity = Love x Reach
@@ -51,9 +51,9 @@ This is the fundamental equation of the Orbit Model. Think of it this way: every
 
 ## Orbit Levels
 
-Love, reach, and gravity are important because they help you segment your community into different levels. We call these orbit levels. Having orbit levels helps you give the right opportunity to the right person at the right time.
+Love, reach, and gravity are important because they help you segment your community into different levels. We call these orbit levels. Having orbit levels enables you to give the right opportunity to the right person at the right time.
 
-You can name your orbit levels what you want, and have as many as you like, but for the purposes of having a standard we can all reference, we describe 4 levels with the following names.
+You can name your orbit levels what you want and have as many as you like, but to have a standard, we can provide all reference, we describe 4 levels with the following names.
 
 ### Orbit 1 - Ambassadors
 
@@ -61,16 +61,16 @@ Orbit 1 is reserved for our inner circle, our Ambassadors. Others call these fol
 
 ### Orbit 2 - Fans
 
-Orbit 2 is our fans. These folks are passionate about the technology, can easily explain what it does and how to use it, and are connected to some kind of work or local community. They might not have the love or reach of the ambassadors, but with your help they might someday. In the orbit model, we call it a promotion when a member jumps up a level.
+Orbit 2 is our fans. These folks are passionate about the technology, can easily explain what it does and how to use it, and are connected to some kind of work or local community. They might not have the love or reach of the ambassadors, but with your help, they might someday. In the orbit model, we call it a promotion when a member jumps up a level.
 
 ### Orbit 3 - Users
 
-Orbit 3 is our users. These are folks who have some kind of working integration, some kind of sustained activity. Most customers fall into this level and there can be thousands of them. To help us drive adoption for our community, we need to find the ones we can promote to fans and learn how to motivate them.
+Orbit 3 is our users. These are folks who have some kind of working integration, some kind of sustained activity. Most customers fall into this level, and there can be thousands of them. To help us drive adoption for our community, we need to find the ones we can promote to fans and learn how to motivate them.
 
 
 ### Orbit 4 - Observers
 
-Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so it’s important we stay top of mind with them.
+Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so we must stay top of mind with them.
 
 ## Gravitational force (sum of gravities)
 
@@ -88,21 +88,21 @@ Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched 
     - You make it enticing enough where people want to pull themselves into orbit
 - This theme is prevalent across modern marketing
     - consumers are  in the driver’s seat
-    - they have access to all the information in order to make their choices, including the competitor
+    - they have access to all the information to make their choices, including the competitor
 
 ## Value capture vs. Value creation
 
 - The funnel is a model for *capturing value* for the company
-    - What you measure is conversion and the revenue from from conversion
+    - What you measure is conversion and the revenue from conversion
 - The orbit is a model for *creating value* for the community
     - What you measure is how much value you’ve created for the community - how much you’ve educated them, helped them, given them more reach, etc.
 - 🔗 [How many developers did we help?](https://maxkatz.org/2019/12/05/how-many-developers-did-we-help/)
 
 ## ☄️ Asteroid belt
 
-Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user to fan. This is where community activation happens, building on product activation from O4 to O3. It takes something personal to really make a fan, like a great box of swag or a kind email recognizing something cool the developer has built. Getting some facetime on a call or at a meetup works well too. In other words, you have to win the heart as well as the mind.
+Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user to fan. This is where community activation happens, building on product activation from O4 to O3. It takes something personal to really make a fan, as a well-thought-out box of swag or a kind email recognizing something cool the developer has built. Getting some facetime on a call or at a meetup works well too. In other words, you have to win the heart as well as the mind.
 
-A DevRel program should have a variety of programs in place to help developers cross the chasm from the product into the community, becoming bigger fans and advocates in the process.
+A DevRel team should have a variety of programs in place to help developers across the chasm from the product into the community, becoming bigger fans and advocates in the process.
 
 ## Clusters
 
@@ -112,21 +112,21 @@ Big communities emerge from sets of smaller communities. In the context of the w
 - Place example: A geographic location like a city, state, or country; an employer; a program
 - Thing example: A subproject; a unique belief or perspective; a skill or experience
 
-A community member needs less reach to attract someone in their cluster compared to the wider community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators. The fruits of their collaborations will draw in more contributors from their cluster and eventually the whole community.
+A community member needs less reach to attract someone in their cluster compared to the broader community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators. The fruits of their collaborations will draw in more contributors from their cluster and eventually, the whole community.
 
 In the Orbit Model, clusters can be visualized as pie slices stretching from O1 out to O4. Each cluster has its own ambassadors, fans, users, and observers.
 
-When pie slices overlap, it means that some members are part of both clusters. As an example, imagine two clusters: "PHP developers" and "Developers in London". Some of the PHP developers cluster might also be in our London cluster. The more clusters that members share, the more likely it is that their reach will bring themselves in contact with each other.
+When pie slices overlap, it means that some members are part of both clusters. As an example, imagine two clusters: "PHP developers" and "Developers in London". Some of the PHP developer clusters might also be in our London cluster. The more clusters that members share, the more likely it is that their reach will bring themselves in contact with each other.
 
-To increase overall community gravity faster, identify active or potential clusters and connect members around those shared nuclei. As the clusters start to take shape, make connections between them.
+To increase overall community gravity faster, identify active or potential clusters, and connect members around those shared nuclei. As the clusters start to take shape, make connections between them.
 
 ## 1:few:many
 
 Marketing is a 1:many model. Sales is a 1:1 or 1:few model. Community isn't either of these.
 
-Community is **1:few:many**. You, as the dev advocate or community manager are the 1. You have a deep relationship with a handful ambassadors - they are the few. Those ambassadors have deep relationships with the people in their communities - they are the many.
+Community is **1:few:many**. You, as the dev advocate or community manager, are the 1. You have a deep relationship with handful ambassadors - they are the few. Those ambassadors have deep relationships with the people in their communities - they are the many.
 
-The 1:few:many model explains why so many things that don't scale in community (like facetime and relationship-building) still can have huge results. It's the ripple effect.
+The 1:few:many model explains why so many things that don't scale in a community (like facetime and relationship-building) still can have tremendous results. It's the ripple effect.
 
 # Early Adopters
 
@@ -139,6 +139,6 @@ Using the Orbit Model for your community? Tell the galaxy! Add your name to this
 
 # Contributing
 
-Contributions and questions are not just welcome, they're essential! Please open an issue with your ideas on how to improve the model, feedback or criticisms of it, or just with information about how you're using it. The discussion will make it better, and we'll have you to thank 💜
+Contributions and questions are not just welcome, they're essential! Please open an issue with your ideas on how to improve the model. Feedback or criticisms of it, or only with information about how you're using it. The discussion will make it better, and we'll have you to thank 💜
 
 [Read the contribution guide](CONTRIBUTING.md) to get started. 
