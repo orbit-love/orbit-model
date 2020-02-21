@@ -126,6 +126,14 @@ Community is **1:few:many**. You, as the dev advocate or community manager, are 
 
 The 1:few:many model explains why so many things that don't scale in a community (like facetime and relationship-building) still can have tremendous results. It's the ripple effect.
 
+## Using orbit + funnel together 🍦
+
+When a company adopts orbit, does it replace the funnel? No, not usually. Marketing and sales teams continue to use the funnel to drive purchases and revenue. Community, developer relations, and some marketing sub-teams (e.g. brand advocacy or influencer marketing) use the orbit to drive engagement and community growth. Think of it like an ice cream cone, with a big scoop perched on a waffle cone. Inevitably, some of the ice cream melts and trickles down the cone.
+
+The orbit and funnel meet when a community member reaches the decision that they'd like to purchase or evaluate a product. For complex products, like technology platforms, it's a best practice for the developer advocate or community manager to make an introduction between the potential buyer and someone on the sales team. This ensures a warm handoff and ensures that the sales team has the full context of the buyer's situation, making the sales process move along more smoothly. 
+
+"Handoff" makes it sound easy, but it's actually very important work that is essential for community teams to get credit for, since it contributes to revenue and helps build the community business case. The term "DevRel qualified lead" from DevRel & community leader [Mary Thengvall](https://twitter.com/mary_grace) is an important one to have in your vocabulary for this reason. Check out [Mary's talk from DevRelCon London 2019](https://devrel.net/strategy-and-metrics/dont-create-re-use) to learn more about what it is and how to apply it.
+
 # Early Adopters
 
 Using the Orbit Model for your community? Tell the galaxy! Add your name to this list with a link to your site, community, or relevant material.
