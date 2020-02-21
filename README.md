@@ -1,14 +1,14 @@
 ![Planets around the sun with rings labeled 1-2-3-4](orbit-model-diagram.png)
 
-# 🛰️ Welcome to the Orbit Model
+# ꩜ Welcome to the Orbit Model
 
-The Orbit Model helps developer advocates, evangelists, and community managers build enthusiastic communities. It's meant to be added to and improved by all of us.
+The Orbit Model helps developer advocates, evangelists, and community managers build communities that excel at attracting and retaining members. It's meant to be added to and improved by all of us.
 
 ✍️ [Read the blog post](https://orbit.love/blog/why-orbit-is-better-than-funnel-for-developer-relations)
 
 ## The Orbit Model replaces conversion with connection.
 
-As the funnel is to conversion, the orbit is to adoption. The orbit model is incrementally adaptable, meaning that you can start using it today for just parts of your community, not the whole thing. We recommend you begin with [Orbit 1](#orbit-1---ambassadors). Identify your developers with the highest gravity and make a plan for extending their love and reach even further.
+As the marketing funnel is to conversion, the orbit is to community-led adoption. The orbit model is incrementally adaptable, meaning that you can start using it today for just parts of your community, not the whole thing. We recommend you begin with [Orbit 1](#orbit-1---ambassadors). Identify your developers with the highest gravity and make a plan for extending their love and reach even further.
 
 # Table of Contents
 - [Key Concepts of the Orbit Model](#key-concepts-of-the-orbit-model)
@@ -19,8 +19,8 @@ As the funnel is to conversion, the orbit is to adoption. The orbit model is inc
 - [Other Concepts](#other-concepts)
     - [Conversion vs. Adoption](#conversion-vs-adoption)
     - [Value capture vs. Value creation](#value-capture-vs-value-creation)
-    - [Asteroid belt](#asteroid-belt)
-    - [Clusters](#clusters)
+    - [Community activation](#community-activation)
+    - [Groups](#groups)
 - [Early Adopters](#early-adopters)
 - [Contributing](#contributing) 
 
@@ -53,7 +53,7 @@ This is the fundamental equation of the Orbit Model. Think of it this way: every
 
 Love, reach, and gravity are important because they help you segment your community into different levels. We call these orbit levels. Having orbit levels enables you to give the right opportunity to the right person at the right time.
 
-You can name your orbit levels what you want and have as many as you like, but to have a standard, we can provide all reference, we describe 4 levels with the following names.
+You can name your orbit levels what you want and have as many as you like, but to have a standard we can all reference, we describe 4 levels with the following names that reflect the shape of many modern communities.
 
 ### Orbit 1 - Ambassadors
 
@@ -72,11 +72,9 @@ Orbit 3 is our users. These are folks who have some kind of working integration,
 
 Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so we must stay top of mind with them.
 
-## Gravitational force (sum of gravities)
+## Total Gravity
 
-- Orbit is a model for increasing the gravity of individual community members and the gravitational force of the whole community
-- Your community should attract people, pull them in. Welcoming people and high-quality resources make communities attractive.
-- Over time, if a community doesn’t maintain enough gravitational force, it’s likely to lose its members to other technologies.
+Orbit is a model for increasing the gravity of individual members and the total gravity of the whole community. Over time, if a community doesn’t maintain enough total gravity, it’s likely to see its members pulled away to other places.
 
 # Other Concepts
 
@@ -98,27 +96,27 @@ Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched 
     - What you measure is how much value you’ve created for the community - how much you’ve educated them, helped them, given them more reach, etc.
 - 🔗 [How many developers did we help?](https://maxkatz.org/2019/12/05/how-many-developers-did-we-help/)
 
-## ☄️ Asteroid belt
+## ☄️ Community activation
 
 Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user to fan. This is where community activation happens, building on product activation from O4 to O3. It takes something personal to really make a fan, as a well-thought-out box of swag or a kind email recognizing something cool the developer has built. Getting some facetime on a call or at a meetup works well too. In other words, you have to win the heart as well as the mind.
 
 A DevRel team should have a variety of programs in place to help developers across the chasm from the product into the community, becoming bigger fans and advocates in the process.
 
-## Clusters
+## Groups
 
-Big communities emerge from sets of smaller communities. In the context of the whole system, these smaller communities are called _clusters_. The nucleus of a cluster can be a person, place, or thing.
+Big communities emerge from sets of smaller communities. In the context of the whole system, these smaller communities are simply called _groups_. The nucleus of a group can be a person, place, or thing.
 
 - Person example: An influential community member; an ambassador
 - Place example: A geographic location like a city, state, or country; an employer; a program
 - Thing example: A subproject; a unique belief or perspective; a skill or experience
 
-A community member needs less reach to attract someone in their cluster compared to the broader community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators. The fruits of their collaborations will draw in more contributors from their cluster and eventually, the whole community.
+A community member needs less reach to attract someone in their group compared to the broader community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators. The fruits of their collaborations will draw in more contributors from their group and eventually, the whole community.
 
-In the Orbit Model, clusters can be visualized as pie slices stretching from O1 out to O4. Each cluster has its own ambassadors, fans, users, and observers.
+In the Orbit Model, groups can be visualized as pie slices stretching from O1 out to O4. Each group has its own ambassadors, fans, users, and observers.
 
-When pie slices overlap, it means that some members are part of both clusters. As an example, imagine two clusters: "PHP developers" and "Developers in London". Some of the PHP developer clusters might also be in our London cluster. The more clusters that members share, the more likely it is that their reach will bring themselves in contact with each other.
+When pie slices overlap, it means that some members are part of both groups. As an example, imagine two groups: "PHP developers" and "Developers in London". Some of the PHP developer groups might also be in our London group. The more groups that members share, the more likely it is that their reach will bring themselves in contact with each other.
 
-To increase overall community gravity faster, identify active or potential clusters, and connect members around those shared nuclei. As the clusters start to take shape, make connections between them.
+To increase overall community gravity faster, identify active or potential groups, and connect members around those shared nuclei. As the groups start to take shape, make connections between them.
 
 ## 1:few:many
 
@@ -132,7 +130,7 @@ The 1:few:many model explains why so many things that don't scale in a community
 
 Using the Orbit Model for your community? Tell the galaxy! Add your name to this list with a link to your site, community, or relevant material.
 
-- [Orbit](https://orbit.love/) (duh!)
+- [Orbit](https://orbit.love/)
 - [SimpleAsWater](https://discord.gg/x2kmUXW)
 - [Dappkit](https://dappkit.io?ref=orbit_love_repo)
 - [Puma Browser](https://www.pumabrowser.com/) ([Discord](https://discord.gg/4frpm84))
