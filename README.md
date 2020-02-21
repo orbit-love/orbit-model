@@ -21,6 +21,8 @@ As the marketing funnel is to conversion, the orbit is to community-led adoption
     - [Value capture vs. Value creation](#value-capture-vs-value-creation)
     - [Community activation](#community-activation)
     - [Groups](#groups)
+    - [1:few:many](#1fewmany)
+    - [Using orbit + funnel together](#using-orbit--funnel-together-)
 - [Early Adopters](#early-adopters)
 - [Contributing](#contributing) 
 
