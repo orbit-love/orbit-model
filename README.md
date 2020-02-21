@@ -1,6 +1,6 @@
 ![Planets around the sun with rings labeled 1-2-3-4](orbit-model-diagram.png)
 
-# ꩜ Welcome to the Orbit Model
+# Welcome to the Orbit Model
 
 The Orbit Model helps developer advocates, evangelists, and community managers build communities that excel at attracting and retaining members. It's meant to be added to and improved by all of us.
 
