@@ -4,7 +4,8 @@
 
 The Orbit Model helps developer advocates, evangelists, and community managers build communities that excel at attracting and retaining members. It's meant to be added to and improved by all of us.
 
-✍️ [Read the blog post](https://orbit.love/blog/why-orbit-is-better-than-funnel-for-developer-relations)
+- [Read the blog post](https://orbit.love/blog/why-orbit-is-better-than-funnel-for-developer-relations)
+- [Watch the video from DevRelCon](https://www.youtube.com/watch?v=EDgNuFdVay0)
 
 ## The Orbit Model replaces conversion with connection.
 
