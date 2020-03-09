@@ -1,8 +1,8 @@
 # Opportunities
 
-Creating consistent, authentic connection opportunities between developers is the most reliable way to introduce new tools into the developer community and help them grow. 
+Creating consistent, authentic connection opportunities between developers is the most reliable way to introduce new tools into the developer community and help them grow.
 
-The goal is to offer the right opportunities to individuals in each orbit. There are lots of opportunity types. Here are the most common: 
+The goal is to offer the right opportunities to individuals in each orbit. There are lots of opportunity types. Here are the most common:
 
 - Swag
 - Event invitation
@@ -25,9 +25,9 @@ The goal is to offer the right opportunities to individuals in each orbit. There
 - Help or teach another community member
 - Become a moderator
 - Educational opportunities
-    - Big tie in here
-    - How do we address "missing love" with education
-    - What course does the developer need to take right now
+  - Big tie in here
+  - How do we address "missing love" with education
+  - What course does the developer need to take right now
 - Contracting or job offer
 - Survey / NPS
 - Translate and localize content
