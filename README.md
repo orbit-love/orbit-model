@@ -19,7 +19,7 @@ The Orbit Model was designed by developer advocates for working with communities
   - [Orbit 3 - User](#orbit-3-users)
   - [Orbit 2 - Fans](#orbit-2-fans)
   - [Orbit 1 - Ambassadors](#orbit-1-ambassadors)
-  - ["Orbit 0"](#orbit-0)
+  - [Orbit 0](#orbit-0-team)
   - [Choosing levels](#choosing-levels)
   - [Promotions](#promotions)
 - [Full Example](#full-example)
@@ -68,6 +68,8 @@ Knowing the love of your community members helps you decide what opportunities y
 > On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
 ### Measuring love
+
+In the Orbit Model, we are all about simple calculations as the starting points for quantifying concepts. Community is a fuzzy endeavor and there are rapidly diminishing returns on trying to measure and product exact numbers. But there are no returns on having no numbers.
 
 To calculate love, we start by counting all the activities that a member has done within a recent time period. For example:
 
@@ -197,6 +199,18 @@ for each member
   gravity += (member.love * member.reach)
 ```
 
+Using the examples from above, here's what the gravity would look like.
+
+| Member Name       | Love | Reach | Love \* Reach |
+| ----------------- | ---- | ----- | ------------- |
+| Avery Hartford    | 2    | 5     | 10            |
+| Laura Blight      | 6    | 3     | 18            |
+| Jennifer Lewis    | 7    | 3     | 21            |
+| Terrence Fletcher | 4    | 5     | 20            |
+| Marie Monzo       | 2    | 1     | 2             |
+|                   |      |       | ----          |
+| **Gravity**       |      |       | 71            |
+
 Reach is multiplied by (not added to) love because an increase in a member's reach has the potential to make their impact higher across each place they participate.
 
 In practice, it's useful to introduce coefficients for love and reach that refine the calculation according to each community's need. Growth-fueled communities may assign a higher coefficient to reach, where established communities that value participation may assign a bigger number to love.
@@ -235,7 +249,7 @@ Orbit 1 is reserved for the inner circle, the Ambassadors. These individuals hav
 
 The relationship with ambassadors is close, personal, and transparent. Ambassadors appreciate getting early access to products and events, plus special opportunities that help them reach their individual goals.
 
-## "Orbit 0"
+## Orbit 0 - Team
 
 The folks that have the ultimate responsibility for the community occupy the center of the solar system, at Orbit 0. In a product or technology community, these are the people and organizations who own the asset that the community is building around. In an open source community, this is the core team. In a casual community, these are the organizers.
 
@@ -251,7 +265,28 @@ Generally speaking, the higher the love—measured as the maximum contribution t
 
 ## Level distribution
 
-How many members should go in each level? What distribution should we be aiming for in our community? These are great questions but like all things, the answer depends on the community.
+How many members should go in each level? What distribution should we be aiming for in our community? These questions will affect how you choose orbit levels, so it's good to have an idea of what your community's distribution should look like before you do that.
+
+There's no right answer for all communities, but a helpful framing is to think about how many members at the _next highest_ level can one member reach and maintain a sufficient relationship with?
+
+- How many Fans can 1 Ambassador support?
+- How many Users can 1 Fan support?
+- How many Observers can 1 User support?
+
+A healthy community needs a balance of the levels to ensure that there are enough members to make each type of contribution and that junior members are getting the help and mentorship they need from the more established. Community is a 1:few:many model.
+
+Continuing the Orbit Model tradition of simple calculations, here's a reasonable starting point for many communities. Each member can support 10 members at the next highest level.
+
+| Orbit Level | Size | Percentage |
+| ----------- | ---- | ---------- |
+| Ambassadors | 10   | 1%         |
+| Fans        | 90   | 9%         |
+| Users       | 900  | 90%        |
+| Observers   | ∞    |            |
+
+These values would work for 1 developer advocate or community manager at Orbit 0, since they need to maintain close relationships with the ambassadors. If you had 10 people working in Orbit 10, you could feasibly sustain 100 Ambassadors, 900 Fans and so on.
+
+Your mileage will vary, and for that reason it's important to play with the constants. The ratio between different levels can be different too.
 
 ## Promotions
 
@@ -305,7 +340,7 @@ Orbit is a _pull_ model. Rather than fill up inboxes with unsolicited communicat
 
 This theme is prevalent across all of modern marketing. The customer is in the driver's seat with unlimited access to information and also the reviews of other people. Educating and informing the customer is more effective than trying to mislead or trick them with untestable claims and the same empty hype as everyone else.
 
-### Using orbit + funnel together 🍦
+### The ice cream cone
 
 When a company adopts orbit, does it replace the funnel? No, not usually. Marketing and sales teams continue to use the funnel to drive purchases and revenue. Community, developer relations, and some marketing sub-teams (e.g. brand advocacy or influencer marketing) use the orbit to drive engagement and community growth. Think of it like an ice cream cone, with a big scoop perched on a waffle cone. Inevitably, some of the ice cream melts and trickles down the cone.
 
