@@ -279,9 +279,9 @@ Continuing the Orbit Model tradition of simple calculations, here's a reasonable
 
 | Orbit Level | Size | Percentage |
 | ----------- | ---- | ---------- |
-| Ambassadors | 10   | 1%         |
-| Fans        | 90   | 9%         |
-| Users       | 900  | 90%        |
+| Ambassadors | 10   | ~1%        |
+| Fans        | 100  | ~10%       |
+| Users       | 1000 | ~90%       |
 | Observers   | ∞    |            |
 
 These values would work for 1 developer advocate or community manager at Orbit 0, since they need to maintain close relationships with the ambassadors. If you had 10 people working in Orbit 10, you could feasibly sustain 100 Ambassadors, 900 Fans and so on.
