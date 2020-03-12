@@ -20,14 +20,11 @@ The Orbit Model was designed for communities of software developers but the prin
   - [Orbit 2 - Fans](#orbit-2-fans)
   - [Orbit 1 - Ambassadors](#orbit-1-ambassadors)
   - ["Orbit 0"](#orbit-0)
-- [Measuring](#measurement)
-  - [Calculating love and reach](#calculationg)
+  - [Choosing levels](#choosing-levels)
   - [Promotions](#promotions)
-  - [Community activation](#community-activation)
-- [Helpful concepts](#Helpful-concepts)
-  - [Opportunities](#opportunities)
+- [Full Example](#full-example)
+- [Additional topics](#additional-topics)
   - [Groups](#groups)
-  - [Guides](#guides)
   - [Orbit vs. funnel](#orbit-vs-funnel)
 - [Resources](#resources)
 - [Early adopters](#early-adopters)
@@ -66,6 +63,8 @@ Love is a member's level of engagement and investment in the community. Someone 
 
 People have different degrees of love for each of the communities that they participate in, so love is measured on a community-by-community basis. I might have high love for the running club I help organize but relatively low love for my neighborhood association where I usually skip the meetings.
 
+Knowing the love of your community members helps you decide what opportunities you should be offering them, ranging from those that require a large amount of time and responsibility down to simpler contributions that they can make in a few minutes. The more inline your offer is with the community member's current engagement level, the more likely they are to take you up on it.
+
 ### Measuring love
 
 To calculate love, we start by counting all the activities that a member has done within a recent time period. For example:
@@ -93,7 +92,7 @@ If love is a measure of engagement within the community, reach is a measure of b
 
 Unlike love, the Orbit Model tends to see a person's reach as independent of a particular community. Exceptions do apply for established communities where understanding a member's reach solely inside of that community is useful, but for smaller communities looking to grow it's generally more important to know about a member's reach in the broad sense.
 
-Why do we care about reach? Because individuals with high reach will attract others to join them as they journey through our solar system. Our relationship and love-building investment in high-reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their reach.
+Why do we care about reach? Because individuals with high reach will attract others to join them as they journey through our solar system. Our relationship and love-building investment in high-reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their reach. As we'll see in a minute, doing that also helps increase the gravity of our community.
 
 ### Measuring reach
 
@@ -190,7 +189,7 @@ The folks that have the ultimate responsibility for the community occupy the cen
 
 Folks in Orbit 0 have the dual responsibility to engage both inside the community and advocate for it outside to all of its various stakeholders.
 
-## Mapping members to levels
+## Choosing levels
 
 Love and reach are values that you measure, but orbit level is a choice that you make for each member based on where you believe they can best serve (and will be best served by) the community.
 
@@ -200,35 +199,29 @@ Generally speaking, the higher the love—measured as the maximum contribution t
 
 ## Promotions
 
+It's a happy moment when you've identified a community member who's ready to move into the next orbit level. In the Orbit Model, we call these promotions.
 
-# Measuring
+> The promotion can be an actual moment that you celebrate with the member, or just something that you note down in your community database.
 
-## Calculating love and reach
+Measuring a member's will help you identify when it's time to start offering them activities and responsibility characteristics of the next orbit level. If they complete those activities and seem ready for more, you'll know it's time to promote them.
 
+# Full example
 
-## Community activation
+Coming soon!
 
-Between O3 and O2 is the asteroid belt. Here you must cross the chasm from user to fan. This is where community activation happens, building on product activation from O4 to O3. It takes something personal to really make a fan, as a well-thought-out box of swag or a kind email recognizing something cool the developer has built. Getting some facetime on a call or at a meetup works well too. In other words, you have to win the heart as well as the mind.
-
-A DevRel team should have a variety of programs in place to help developers across the chasm from the product into the community, becoming bigger fans and advocates in the process.
-
-# Helpful concepts
-
-## Opportunities
-
-...
+# Additional topics
 
 ## Groups
 
-Big communities are generally composed of sets of smaller communities. In the context of the whole system, these smaller communities are simply called _groups_. The nucleus of a group can be a person, place, or thing.
+Large communities are often composed of sets of smaller communities. In the context of the whole system, these smaller communities in the Orbit Model are called _groups_. The nucleus of a group can be a person, place, or thing.
 
 - Person example: An influential community member; an ambassador
 - Place example: A geographic location like a city, state, or country; an employer; a program
 - Thing example: A subproject; a unique belief or perspective; a skill or experience
 
-A community member needs less reach to attract someone in their group compared to the broader community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators. The fruits of their collaborations will draw in more contributors from their group and eventually, the whole community.
+A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators.
 
-In the Orbit Model, groups can be visualized as pie slices stretching from O1 out to O4. Each group has its own ambassadors, fans, users, and observers.
+In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own ambassadors, fans, users, and observers.
 
 When pie slices overlap, it means that some members are part of both groups. As an example, imagine two groups: "PHP developers" and "Developers in London". Some of the PHP developer groups might also be in our London group. The more groups that members share, the more likely it is that their reach will bring themselves in contact with each other.
 
