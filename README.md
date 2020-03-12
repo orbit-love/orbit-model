@@ -2,9 +2,9 @@
 
 # Welcome to the Orbit Model
 
-The Orbit Model is a framework for building high-gravity communities. A high-gravity community is one that excels at attracting and retaining members by offering an outstanding member experience.
+The Orbit Model is a framework for building high-gravity communities. A high-gravity community is one that excels at attracting and retaining members by having an outstanding member experience.
 
-The Orbit Model was designed for communities of software developers but the principles apply to most things that are community-shaped. The model was first used in 2014 and put on GitHub in November 2019 so anyone can use it and contribute back. We aim to make these tools useful to open source maintainers, developer advocates, community managers, and anyone interested in building a community.
+The Orbit Model was designed by developer advocates for working with communities of software developers, but the principles apply to most things that are community-shaped. The model was first used in 2014 and put on GitHub in November 2019 so anyone can use it and contribute back. We aim to make this framework useful to open source maintainers, developer advocates, community managers, founders, and anyone interested in building a community.
 
 👇 Keep reading to learn how to get started.
 
@@ -34,8 +34,8 @@ The Orbit Model was designed for communities of software developers but the prin
 
 The Orbit Model is a vocabulary and visual canvas that makes it easier to ask, discuss, and answer questions about your community. Questions like:
 
-- What should each community member be doing?
 - What do I call a highly-engaged community member?
+- What should I ask community member to do?
 - How do I prioritize who to spend time with?
 - How do I attract new people to the community?
 - How do I measure my community's engagement? Growth?
@@ -51,9 +51,9 @@ Who can use the Orbit Model?
 
 ### The solar system
 
-The underlying metaphor is one we all learned about in school: the solar system. A solar system, with all of its celestial bodies and concentric orbits, lends itself well to visualizing a community. Some members are close to the heart of things, others far way. Some members are as large and visible as Jupiter, others barely the size an asteriod. And of course, everything is constantly in motion.
+The underlying metaphor is one we all learned about in school: the solar system. A solar system, with all of its celestial bodies and concentric orbits, lends itself well to visualizing a community. Some members are close to the heart of things, others far way. Some members are as large and visible as Jupiter, others barely the size of an asteroid. And of course, everything is constantly in motion.
 
-To make it easy to discuss the differences between members, the Orbit Model assigns each person 2 core attributes: _love_ and _reach_. Advocates and community managers actively try to increase these for their members.
+To make it easy to discuss the differences between members, so we can give them the optimal experience, the Orbit Model assigns each person 2 core attributes: _love_ and _reach_. Advocates and community managers actively try to increase these for their members.
 
 ## Love
 
@@ -61,9 +61,11 @@ Love is a member's level of engagement and investment in the community. Someone 
 
 > "Jennifer has come to the last 5 meetups and next month she's hosting her own. In addition, she just published a blog post about how to install our package on Linux. Her love is increasing fast this year!"
 
-People have different degrees of love for each of the communities that they participate in, so love is measured on a community-by-community basis. I might have high love for the running club I help organize but relatively low love for my neighborhood association where I usually skip the meetings.
+Members have different degrees of love for each of the communities that they participate in, so love is measured on a community-by-community basis. I might have high love for the running club I help organize but relatively low love for my neighborhood association where I usually skip the meetings.
 
 Knowing the love of your community members helps you decide what opportunities you should be offering them, ranging from those that require a large amount of time and responsibility down to simpler contributions that they can make in a few minutes. The more inline your offer is with the community member's current engagement level, the more likely they are to take you up on it.
+
+> On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
 ### Measuring love
 
@@ -72,27 +74,51 @@ To calculate love, we start by counting all the activities that a member has don
 - Attended our conference
 - Spoke at a meetup
 - Opened a pull request on GitHub
-- Answered a question on our forum
+- Answered a forum question
 
 It's important to be tracking when members do these activities so you can do the math. Each activity is given a score of how much engagement it represents. In the Orbit Model, we like to keep the numbers easy to calculate and uniform across model users, so we recommend using a simple 1-10 scale.
 
 > "Organizing a community meetup takes a lot of time and effort, so we give it an activity score of 8/10. Just attending a meetup is a 3/10, but publishing a summary counts for 2 more points."
 
-Once we have a member's activity history, we look at both the _maximum_ and _sum_ of the activity scores. The maximum tells us the largest contribution the member has made and the sum gives us a picture of their overall impact. Both are important inputs into the decision of the member's orbit level, but it's the **maximum** that we generally use as the single figure when talking about a member's love, since it tells us more about the highest future contributions the member could make. We'll see why that's important later when we discuss opportunities.
+Defining your community's list of activities and activity scores is one of the first things to do when starting with the Orbit Model. Make a table that looks like this:
+
+| Activity                        | Score (out of 10) |
+| ------------------------------- | ----------------- |
+| Attended our conference         | 5                 |
+| Spoke at a meetup               | 7                 |
+| Opened a pull request on GitHub | 4                 |
+| Answered a forum question       | 2                 |
+
+Then make another table that records the activities for each member. Capture the member's name, activity type, date, and activity score from the previous table.
+
+| Member Name       | Activity Type             | Date       | Score |
+| ----------------- | ------------------------- | ---------- | ----- |
+| Jennifer Lewis    | Attended our conference   | 2019-11-14 | 5     |
+| Terrence Fletcher | Opened a pull request     | 2019-12-21 | 4     |
+| Marie Monzo       | Answered a forum question | 2020-01-14 | 2     |
+| Jennifer Lewis    | Spoke at a meetup         | 2020-02-11 | 7     |
+
+Once we have a member's activity history, we look at both the _maximum_ and _sum_ of the activity scores. The maximum tells us the largest contribution the member has made and the sum gives us a picture of their overall participation level.
+
+| Member Name       | Max Score | Total Score | Love (= Max Score) |
+| ----------------- | --------- | ----------- | ------------------ |
+| Jennifer Lewis    | 7         | 12          | 7                  |
+| Terrence Fletcher | 4         | 4           | 4                  |
+| Marie Monzo       | 2         | 2           | 2                  |
+
+Both the maximum and the sum are important inputs into the decision of the member's orbit level, but it's the **maximum** that we generally use as the single figure when talking about a member's love, since it tells us more about the highest next contributions that we could offer to that member. We'll see why that's important later when we discuss opportunities.
 
 > "Jennifer's biggest contribution this year was organizing that meetup, an 8/10 for us. So in our database, her love is 8.
-
-Defining your community's list of activities and activity scores is one of the first things to do when starting with the Orbit Model.
 
 ## Reach
 
 If love is a measure of engagement within the community, reach is a measure of broader influence. Reach takes into account a member's reputation and sphere of influence, however that falls inside and outside the community.
 
-> "Matthew is one of our highest-reach community members. He's constantly engaging with folks on twitter and runs a blog with thousands of visitors per month. He's also a senior engineer at a well-respected agency."
+> "Avery is one of our highest-reach community members. They're constantly engaging with folks on twitter and they run a blog with thousands of visitors per month. They're also a senior engineer at a well-respected agency."
 
 Unlike love, the Orbit Model tends to see a person's reach as independent of a particular community. Exceptions do apply for established communities where understanding a member's reach solely inside of that community is useful, but for smaller communities looking to grow it's generally more important to know about a member's reach in the broad sense.
 
-Why do we care about reach? Because individuals with high reach will attract others to join them as they journey through our solar system. Our relationship and love-building investment in high-reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their reach. As we'll see in a minute, doing that also helps increase the gravity of our community.
+Why do we care about reach? Because individuals with high reach will attract others to join them as they journey through our solar system. Our relationship and love-building investment in high-reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their sphere of influence. As we'll see in a minute, doing that also helps increase the gravity of our community.
 
 ### Measuring reach
 
@@ -104,11 +130,37 @@ To calculate reach, we need to look at evidence of a member's sphere of influenc
 - Title and position inside their company
 - Pagerank or estimated traffic to their website or blog
 
-Like with love, we can create a simple 1-10 scale of reach and then determine how to assign each member a score.
+Like with love, we create a table that assigns a point value to each element of a member's reach.
 
-> "Matthew has over 1,000 followers on Twitter: that counts for 2 points. He also has an active blog: there's another 2. Finally, he has an open source project with more than 500 stars on GitHub. Since our community has many developers, we count 4 points for that, bringing his total to 8/10."
+| Reach element                      | Score |
+| ---------------------------------- | ----- |
+| Over 1k twitter followers          | 1     |
+| Active blog                        | 1     |
+| Open source project with 500 stars | 3     |
+| Over 100 followers on DEV          | 2     |
+
+For each member, we log and add up the scores of the criteria they meet. That table looks like this:
+
+| Member Name    | Reach element                      | Score |
+| -------------- | ---------------------------------- | ----- |
+| Avery Hartford | Over 1k twitter followers          | 1     |
+| Avery Hartford | Active blog                        | 1     |
+| Laura Blight   | Active blog                        | 1     |
+| Avery Hartford | Open source project with 500 stars | 3     |
+| Laura Blight   | Over 100 followers on DEV          | 2     |
+
+Then we can take the sum for each member.
+
+| Name           | Total Reach |
+| -------------- | ----------- |
+| Avery Hartford | 5           |
+| Laura Blight   | 3           |
 
 Assigning the scales and scores might feel arbitrary, and that's okay. The absolute values don't matter. What matters is that the scale gives you a decent picture of one member relative to another, and becomes useful to you in describing and prioritizing work. Don't be afraid to try different combinations of values to see what feels right.
+
+If the numbers you've chosen are giving you too many members with 0 points or over 10 points, considering adjusting the reach elements and their scores until the distribution looks right.
+
+> On the visual canvas of the Orbit Model, reach is represented by the diameter of the circle that represents each member. The bigger the circle, the higher the reach.
 
 ## Gravity
 
@@ -196,6 +248,10 @@ Love and reach are values that you measure, but orbit level is a choice that you
 > Jamie is creating content and coming to each of our meetups, plus she's volunteered to speak next month. Her activity and responsibility level is consistent with our Fans, so let's put her into Orbit 2.
 
 Generally speaking, the higher the love—measured as the maximum contribution they've made or the volume of contribution—should closely correlate with the orbit level. High-love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4.
+
+## Level distribution
+
+How many members should go in each level? What distribution should we be aiming for in our community? These are great questions but like all things, the answer depends on the community.
 
 ## Promotions
 
