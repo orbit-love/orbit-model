@@ -78,12 +78,12 @@ To calculate love, we start by counting all the activities that a member has don
 It's important to be tracking when members do these activities so you can do the math. Each activity is given a score of how much engagement it represents. In the Orbit Model, we like to keep the numbers easy to calculate and uniform across model users, so we recommend using a simple 1-10 scale.
 
 > "Organizing a community meetup takes a lot of time and effort, so we give it an activity score of 8/10. Just attending a meetup is a 3/10, but publishing a summary counts for 2 more points."
- 
-Once we have a member's activity history, we look at both the *maximum* and *sum* of the activity scores. The maximum tells us the largest contribution the member has made and the sum gives us a picture of their overall impact. Both are important inputs into the decision of the member's orbit level, but it's the **maximum** that we generally use as the single figure when talking about a member's love, since it tells us more about the highest future contributions the member could make. We'll see why that's important later when we discuss opportunities.
+
+Once we have a member's activity history, we look at both the _maximum_ and _sum_ of the activity scores. The maximum tells us the largest contribution the member has made and the sum gives us a picture of their overall impact. Both are important inputs into the decision of the member's orbit level, but it's the **maximum** that we generally use as the single figure when talking about a member's love, since it tells us more about the highest future contributions the member could make. We'll see why that's important later when we discuss opportunities.
 
 > "Jennifer's biggest contribution this year was organizing that meetup, an 8/10 for us. So in our database, her love is 8.
 
-Defining your community's list of activities and activity scores is one of the first things to do when starting with the Orbit Model. See the [Measuring](#measuring) section below for more information.
+Defining your community's list of activities and activity scores is one of the first things to do when starting with the Orbit Model.
 
 ## Reach
 
@@ -132,7 +132,6 @@ Gravity should reflect things that are happening in the community:
 
 A basic equation that takes those factors into account is:
 
-
 ```
 Gravity = Sum(Love * Reach) for each member
 ```
@@ -151,40 +150,61 @@ Reach is multiplied by (not added to) love because an increase in a member's rea
 
 In practice, it's useful to introduce coefficients for love and reach that refine the calculation according to each community's need. Growth-fueled communities may assign a higher coefficient to reach, where established communities that value participation may assign a bigger number to love.
 
+Gravity is something you can calculate on a monthly or even weekly basis to see how your community is trending. It's a good north star and barometer to track over time, and watch how the different community programs that you run affect it.
 
-# Orbit Levels
+# Orbit levels
 
-> Love and reach are values that you measure. A member's orbit level is a choice you make, informed but not dictated by those values.
+In most communities, there are a few members with a lot of love, a lot of members with a little love, and other groups of people somewhere in between. In the Orbit Model, we call these cohorts _orbit levels_. The highest-love members orbit at the level closest to the center of the solar system.
 
-Love, reach, and gravity are important because they help you segment your community into different levels. We call these orbit levels. Having orbit levels enables you to give the right opportunity to the right person at the right time.
+Orbit levels are a practical tool for segmenting the community and designing different programs at each level, along with clear pathways for members to move between them. Orbit levels also provide a handy vocabulary for talking about the role each member plays in the community.
 
-You can name your orbit levels what you want and have as many as you like, but to have a standard we can all reference, we describe 4 levels with the following names that reflect the shape of many modern communities.
+You can name your orbit levels whatever fits your community the best, but the model comes with some standard names that tend to work for most communities. Each orbit level has a corresponding number, with 1 reserved for the most highly engaged folks. Numbers increase from there as engagement decreases.
 
 ## Orbit 4 - Observers
 
-Orbit 4 is our Observers. These are folks who’ve read our blog posts, watched our talks, kicked the tires with one of our sample apps, or just followed us on twitter. Relative to the other levels, there are a lot of observers. But at some point in the future, many of these observers might need our technology for something, so we must stay top of mind with them.
+Orbit 4 is called Observers. These are folks who’ve read our community's blog posts, watched talks, followed us on twitter, or tried our product. They're not fully-activated community members yet, but are at least passively interested and form a part of our audience. They might not join your community today but might in the future, and finding ways to stay top of mind with them is important.
+
+Content is a great way to engage with observers, as well as lighweight events where they can learn without feeling any pressure.
 
 ## Orbit 3 - Users
 
-Orbit 3 is our users. These are folks who have some kind of working integration, some kind of sustained activity. Most customers fall into this level, and there can be thousands of them. To help us drive adoption for our community, we need to find the ones we can promote to fans and learn how to motivate them.
+Orbit 3 is called Users. These individuals have navigated the onramp into the community and are starting to establish a track record of usage (if there's a product involved) or participation. They've made some lightweight contributions like writing documentation, doing translation, or volunteering at an event.
+
+Online community channels like forums are a good way to engage with users, as it gives them a chance to learn the norms and personalities of the community while taking small steps to contribute. Likewise, events where they can meet other members are good.
 
 ## Orbit 2 - Fans
 
-Orbit 2 is our fans. These folks are passionate about the technology, can easily explain what it does and how to use it, and are connected to some kind of work or local community. They might not have the love or reach of the ambassadors, but with your help, they might someday. In the orbit model, we call it a promotion when a member jumps up a level.
+Orbit 2 is called Fans. These folks have graduated from being just Users by taking on more time-intensive, higher impact roles in the community. They might be moderating the forum, guiding the chat room, giving talks, or hosting small events. They're consistent, recognizable faces who embody the culture and actions the community expects.
+
+Motivating and engaging with fans is more high-touch than users or observers. They'll appreciate hands-on activities like workshops and that match them with community leaders that they can learn from.
 
 ## Orbit 1 - Ambassadors
 
-Orbit 1 is reserved for our inner circle, our Ambassadors. Others call these folks Champions or VIPs or MVPs. The way that we engage with members in each orbit level is different. For ambassadors, who we should know by name, we communicate with via 1:1 email, slack DM, or even texts or Whatsapp. We don’t need many of them, but each ambassador counts because they have a lot of love and reach.
+Orbit 1 is reserved for the inner circle, the Ambassadors. These individuals have very high love for the community, taking on important challenges and playing a leadership role. They're known to many other members, who look to them for guidance and help. They may head one or more large groups inside of the community.
+
+The relationship with ambassadors is close, personal, and transparent. Ambassadors appreciate getting early access to products and events, plus special opportunities that help them reach their individual goals.
 
 ## "Orbit 0"
 
-Team / core team
+The folks that have the ultimate responsibility for the community occupy the center of the solar system, at Orbit 0. In a product or technology community, these are the people and organizations who own the asset that the community is building around. In an open source community, this is the core team. In a casual community, these are the organizers.
+
+Folks in Orbit 0 have the dual responsibility to engage both inside the community and advocate for it outside to all of its various stakeholders.
+
+## Mapping members to levels
+
+Love and reach are values that you measure, but orbit level is a choice that you make for each member based on where you believe they can best serve (and will be best served by) the community.
+
+> Jamie is creating content and coming to each of our meetups, plus she's volunteered to speak next month. Her activity and responsibility level is consistent with our Fans, so let's put her into Orbit 2.
+
+Generally speaking, the higher the love—measured as the maximum contribution they've made or the volume of contribution—should closely correlate with the orbit level. High-love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4.
+
+## Promotions
+
 
 # Measuring
 
 ## Calculating love and reach
 
-## Promotions
 
 ## Community activation
 
