@@ -1,4 +1,4 @@
-![Planets around the sun with rings labeled 1-2-3-4](images/orbit-model-diagram.png)
+![planets around the sun with rings labeled 1-2-3-4](images/orbit-model-diagram.png)
 
 # Welcome to the Orbit Model
 
@@ -71,7 +71,7 @@ To make it easy to discuss the differences between members, so we can give them 
 
 Love is a member's level of engagement and investment in the community. Someone with high love is highly active, capable, and experienced. They're willing and able to play key roles in the community like contributing, moderating, and organizing.
 
-> "Jennifer has come to the last 5 meetups and next month she's hosting her own. In addition, she just published a blog post about how to install our package on Linux. Her love is increasing fast this year!"
+> "Jennifer has come to the last 5 meetups and next month she's hosting her own. In addition, she just published a blog post about how to install our package on Linux. Her love is increasing fast this year, we should feature her work on the community showcase!"
 
 Members have different degrees of love for each of the communities that they participate in, so love is measured on a community-by-community basis. I might have high love for the running club I help organize but relatively low love for my neighborhood association where I usually skip the meetings.
 
@@ -79,9 +79,10 @@ Members have different degrees of love for each of the communities that they par
 
 **The more inline your offer is with the community member's current engagement level, the more likely they are to take you up on it.**
 
-> On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
+💡 On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
 ### Measuring love
+
 In the Orbit Model, a member's love is inferred by the quantity and quality of activities complete they've completed. ```
 To calculate love, start by counting all the activities that a member has done within a recent time period. For example:
 
@@ -172,7 +173,7 @@ Then we can take the sum for each member.
 
 If the numbers you've chosen are giving you too many members with 0 points or over 10 points, consider adjusting the reach elements and their scores until the distribution looks right.
 
-> On the visual canvas of the Orbit Model, reach is represented by the diameter of the circle that represents each member. The bigger the circle, the higher the reach.
+💡 On the visual canvas of the Orbit Model, reach is represented by the diameter of the circle that represents each member. The bigger the circle, the higher the reach.
 
 ## Gravity
 
@@ -332,7 +333,7 @@ The activities aren't exclusive to the orbit levels: Ambassadors hopefully subsc
 
 It's a happy moment when you've identified a community member who's ready to move into the next orbit level. In the Orbit Model, we call these promotions.
 
-> The promotion can be an actual moment that you celebrate with the member, or just something that you note down in your community database.
+💡 The promotion can be an actual moment that you celebrate with the member, or just something that you note down in your community database.
 
 Measuring a member's love will help you identify when it's time to start offering them activities and responsibility characteristic of the next orbit level. If they complete those activities and seem ready for more, you'll know it's time to promote them.
 
@@ -365,7 +366,7 @@ Large communities are usually composed of sets of smaller communities. In the Or
 
 A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing also have a lower barrier to becoming collaborators.
 
-> In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Ambassadors, Fans, Users, and Observers.
+💡 In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Ambassadors, Fans, Users, and Observers.
 
 **Gravity-building tip: Identify active or potential groups and help them increase their reach, attracting new members to the group.**
 
