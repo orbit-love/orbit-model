@@ -327,7 +327,7 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Subscribe to newsletter |       Orbit 4        |
 | Follow us on twitter    |       Orbit 4        |
 
-The activities aren't exclusive to the orbit levels: Ambassadors hopefully subscribe to the newsletter and follow us on twitter too. But when we want to find an activity to offer to an Ambassador, we can look for activities marked 'Orbit 1' like delivering a keynote or organizing a meetup.
+The activities aren't exclusive to the orbit levels: Ambassadors hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to an Ambassador, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 
 ## Promotions
 
