@@ -262,7 +262,18 @@ Love and reach are values that you measure, but **orbit level is a choice that y
 
 > Jamie is creating content and coming to each of our meetups, plus she's volunteered to speak next month. Her activity level is consistent with our Fans, so let's put her into Orbit 2.
 
-Generally speaking, the higher the love—measured as the maximum contribution they've made or the volume of contribution—should closely correlate with the orbit level. High love members should go into orbits 1 and 2, with low-love members being further out at 3 and 4.
+Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of you can map love to orbit level:
+
+| Orbit level (possible) | Love (from) | Love (to) |
+| ---------------------- | ----------- | --------- |
+| 4 - Observers          | 0           | 2         |
+| 3 - Users              | 3           | 6         |
+| 2 - Fans               | 7           | 8         |
+| 1 - Ambassadors        | 9           | 10        |
+
+Love is the maximum score for a recent completed activity.
+
+The example table can serve as a guide, but remember that orbit level is ultimately a choice that should factor in your intuition about where in the community the member will best be served.
 
 ## Level distribution
 
