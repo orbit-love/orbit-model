@@ -338,7 +338,7 @@ Measuring a member's love will help you identify when it's time to start offerin
 
 # Orbit KPIs
 
-Here's a summary of the most important things to measure if you're using the Orbit Model.
+Here's a summary of the most important things to measure when using the Orbit Model.
 
 | Metric         | Applies To                            | Calculation                              | Tells you...                                     |
 | -------------- | ------------------------------------- | ---------------------------------------- | ------------------------------------------------ |
