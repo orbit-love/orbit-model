@@ -29,6 +29,7 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit 0](#orbit-0-team)
   - [Choosing levels](#choosing-levels)
   - [Promotions](#promotions)
+- [Orbit KPIs](#orbit-kpis)
 - [Full Example](#full-example)
 - [Additional topics](#additional-topics)
   - [Groups](#groups)
@@ -289,6 +290,19 @@ It's a happy moment when you've identified a community member who's ready to mov
 > The promotion can be an actual moment that you celebrate with the member, or just something that you note down in your community database.
 
 Measuring a member's love will help you identify when it's time to start offering them activities and responsibility characteristic of the next orbit level. If they complete those activities and seem ready for more, you'll know it's time to promote them.
+
+# Orbit KPIs
+
+Here's a summary of the most important things to measure if you're using the Orbit Model.
+
+| Metric         | Applies To                            | Calculation                              | Tells you...                                     |
+| -------------- | ------------------------------------- | ---------------------------------------- | ------------------------------------------------ |
+| Gravity        | Whole community, orbit levels, groups | Sum(love \* reach) of each member        | Overall barometer for growth and engagement      |
+| Level size     | Orbit levels 4, 3, 2, and 1           | Count of members at level                | How balanced the community is                    |
+| Orbit level    | Member                                | Chosen by Team, factoring in love        | What experience that member should get           |
+| Love           | Member                                | Maximum recent activity score (1-10)     | What contribution you can ask the member to make |
+| Reach          | Member                                | Sum of reach criteria scores (1-10)      | How likely member is to attract others           |
+| Activity score | Member                                | Sum of scores of each completed activity | How much participation the member has            |
 
 # Full example
 
