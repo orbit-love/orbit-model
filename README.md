@@ -26,7 +26,8 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit 3 - User](#orbit-3-users)
   - [Orbit 2 - Fans](#orbit-2-fans)
   - [Orbit 1 - Ambassadors](#orbit-1-ambassadors)
-  - [Orbit 0](#orbit-0-team)
+  - [Orbit 0 - Team](#orbit-0-team)
+- [Using the levels](#using-the-levels)
   - [Choosing levels](#choosing-levels)
   - [Level distribution](#level-distribution)
   - [Activities by level](#activities-by-level)
@@ -38,6 +39,7 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit vs. funnel](#orbit-vs-funnel)
 - [Resources](#resources)
 - [Early adopters](#early-adopters)
+- [About the Orbit Model](#about-the-orbit-model)
 - [Contributing](#contributing)
 
 # Introduction
@@ -261,6 +263,10 @@ The relationship with ambassadors is close, personal, and transparent. Ambassado
 The folks that have the ultimate responsibility for the community occupy the center of the solar system, at Orbit 0. In a product or technology community, these are the people and organizations who own the asset that the community is building around. In an open source community, this is the core team. In a casual community, these are the organizers.
 
 Folks in Orbit 0 have the dual responsibility to engage both inside the community and advocate for it outside to all of its various stakeholders.
+
+# Using the levels
+
+This section covers how to set up orbit levels and get the most out of them.
 
 ## Choosing levels
 
