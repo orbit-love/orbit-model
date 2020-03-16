@@ -359,9 +359,9 @@ Coming soon!
 
 Large communities are usually composed of sets of smaller communities. In the Orbit Model these sub-communities are called _groups_. The identity of the group can form around people, places, and things. For example:
 
-- An influential community member; an ambassador
-- A geographic location like a city, state, or country; an employer; a program
-- A subproject or interest; a unique belief or perspective;
+- People - an influential community member; an ambassador
+- Places - a geographic location like a city, state, or country; an employer; a program
+- Things - a subproject or interest; a unique belief or perspective
 
 A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing also have a lower barrier to becoming collaborators.
 
