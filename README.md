@@ -82,7 +82,7 @@ Members have different degrees of love for each of the communities that they par
 > On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
 ### Measuring love
-
+In the Orbit Model, a member's love is inferred by the quantity and quality of activities complete they've completed. ```
 To calculate love, start by counting all the activities that a member has done within a recent time period. For example:
 
 - Attended our conference
