@@ -312,19 +312,17 @@ Coming soon!
 
 ## Groups
 
-Large communities are often composed of sets of smaller communities. In the context of the whole system, these smaller communities in the Orbit Model are called _groups_. The nucleus of a group can be a person, place, or thing.
+Large communities are usually composed of sets of smaller communities. In the Orbit Model these sub-communities are called _groups_. The identity of the group can form around people, places, and things. For example:
 
-- Person example: An influential community member; an ambassador
-- Place example: A geographic location like a city, state, or country; an employer; a program
-- Thing example: A subproject; a unique belief or perspective; a skill or experience
+- An influential community member; an ambassador
+- A geographic location like a city, state, or country; an employer; a program
+- A subproject or interest; a unique belief or perspective;
 
-A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing have a lower barrier to becoming collaborators.
+A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing also have a lower barrier to becoming collaborators.
 
-In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own ambassadors, fans, users, and observers.
+> In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Ambassadors, Fans, Users, and Observers.
 
-When pie slices overlap, it means that some members are part of both groups. As an example, imagine two groups: "PHP developers" and "Developers in London". Some of the PHP developer groups might also be in our London group. The more groups that members share, the more likely it is that their reach will bring themselves in contact with each other.
-
-**To increase overall community gravity faster, identify active or potential groups, and connect members around those shared nuclei.** As the groups start to take shape, make connections between them.
+**Gravity-building tip: Identify active or potential groups and help them increase their reach, attracting new members to the group.**
 
 ## Orbit vs. funnel
 
