@@ -218,7 +218,7 @@ Using the examples from above, here's what the gravity would look like.
 |                   |      |       | ----          |
 | **Gravity**       |      |       | 71            |
 
-**Reach is multiplied by (not added to) love because an increase in a member's reach has the potential to make their impact higher across each place they participate.**
+**Reach is multiplied by (not added to) love because an increase in a member's reach can increase the impact of all of the activities they complete.**
 
 To get even more granular, you can introduce coefficients for love and reach that refine the calculation according to each community's need. Growth-fueled communities may assign a higher coefficient to reach, where established communities that value participation may assign a bigger number to love.
 
