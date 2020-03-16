@@ -41,6 +41,7 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
 - [Early adopters](#early-adopters)
 - [About the Orbit Model](#about-the-orbit-model)
 - [Contributing](#contributing)
+- [Changelog](#changelog)
 
 # Introduction
 
@@ -426,3 +427,21 @@ The Orbit Model was developed by developer advocates for working with communitie
 Contributions and questions are not just welcome, they're essential! Please open issues with ideas on how to improve the model, including feedback, critiques, and information about how you're using it. The discussion will make it better, and we'll have you to thank 💜
 
 Read the [contribution guide](CONTRIBUTING.md) to learn more.
+
+# Changelog
+
+**March 3, 2019**
+
+- Created sections for love, reach, and gravity
+- Added calculations and example tables for each metric
+- Added Orbit KPIs section
+- Added sections about choosing and distributing orbit levels
+
+**December 10, 2019**
+
+- Added orbit levels
+- Improved introduction
+
+**June 11, 2019**
+
+- Repository created
