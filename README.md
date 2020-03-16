@@ -75,7 +75,7 @@ Love is a member's level of engagement and investment in the community. Someone 
 
 Members have different degrees of love for each of the communities that they participate in, so love is measured on a community-by-community basis. I might have high love for the running club I help organize but relatively low love for my neighborhood association where I usually skip the meetings.
 
-**Knowing the love of your community members helps you decide what opportunities you should be offering them,** ranging from those that require a large amount of time and responsibility down to simpler contributions that they can make in a few minutes.
+**Knowing the love of your community members helps you decide what opportunities you should offer them,** ranging from those that require a large amount of time and responsibility down to simpler contributions that they can make in a few minutes.
 
 **The more inline your offer is with the community member's current engagement level, the more likely they are to take you up on it.**
 
