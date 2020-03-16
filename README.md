@@ -226,6 +226,10 @@ In most communities, there are a few members with a lot of love, a lot of member
 
 You can name your orbit levels whatever fits your community the best, but the model comes with some standard names that tend to work for most communities. Each orbit level has a corresponding number, with 1 reserved for the most highly engaged folks. Numbers increase from there as engagement decreases.
 
+_Click to expand this image of orbit levels and concepts:_
+
+![Diagram of circles orbiting a center](orbit-model-canvas.png)
+
 ## Orbit 4 - Observers
 
 Orbit 4 is called Observers. These are folks who’ve read our community's blog posts, watched talks, followed us on twitter, or tried our product. They're not fully-activated community members yet, but are at least passively interested and form a part of our audience. They might not join your community today but might in the future, and finding ways to stay top of mind with them is important.
