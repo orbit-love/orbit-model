@@ -94,7 +94,7 @@ It's important to track when members complete these activities so you can do the
 
 > "Organizing a community meetup takes a lot of time and effort, so we give it an activity score of 8/10. Just attending a meetup is a 3/10, but publishing a summary counts for 2 more points."
 
-Defining your community's list of activities and activity scores is one of the first things to do when starting with the Orbit Model. Make a table that looks like this:
+Defining your community's list of activities and activity scores is one of the first things to do when starting with the Orbit Model. To get started, first make a table that looks like this:
 
 | Activity                        | Score (out of 10) |
 | ------------------------------- | ----------------- |
