@@ -1,4 +1,4 @@
-![Planets around the sun with rings labeled 1-2-3-4](orbit-model-diagram.png)
+![Planets around the sun with rings labeled 1-2-3-4](images/orbit-model-diagram.png)
 
 # Welcome to the Orbit Model
 
@@ -233,7 +233,7 @@ You can name your orbit levels whatever fits your community the best, but the mo
 
 _Click to expand this image of orbit levels and concepts:_
 
-![Diagram of circles orbiting a center](orbit-model-canvas.png)
+![Diagram of circles orbiting a center](images/orbit-model-canvas.png)
 
 ## Orbit 4 - Observers
 
