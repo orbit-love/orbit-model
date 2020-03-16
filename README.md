@@ -302,7 +302,6 @@ No community is the same, but here's a reasonable starting point for many commun
 | Observers   | ∞    |            |
 
 Observers play a mostly passive, audience-style role in the community, so the size of the level is not bounded.
-j
 There are a few motivations for having targets around the distribution of orbit levels. First, members need to see visible examples of other members doing work at the next level and build relationships with them, before they consider taking the next step. That can’t happen if there are too few Ambassadors relative to Fans or too few Fans relative to Users. The second motivation is to make sure the community is getting all the different contribution types that it needs. For example, when an Ambassador posts a question on the forum, Fans can help start the conversation, Users can continue it, and Observers can read it.
 
 Your mileage will vary, and for that reason it's important to play with the constants. The ratio between different levels can be different too.
