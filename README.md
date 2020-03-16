@@ -28,6 +28,8 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit 1 - Ambassadors](#orbit-1-ambassadors)
   - [Orbit 0](#orbit-0-team)
   - [Choosing levels](#choosing-levels)
+  - [Level distribution](#level-distribution)
+  - [Activities by level](#activities-by-level)
   - [Promotions](#promotions)
 - [Orbit KPIs](#orbit-kpis)
 - [Full Example](#full-example)
@@ -297,6 +299,28 @@ j
 There are a few motivations for having targets around the distribution of orbit levels. First, members need to see visible examples of other members doing work at the next level and build relationships with them, before they consider taking the next step. That can’t happen if there are too few Ambassadors relative to Fans or too few Fans relative to Users. The second motivation is to make sure the community is getting all the different contribution types that it needs. For example, when an Ambassador posts a question on the forum, Fans can help start the conversation, Users can continue it, and Observers can read it.
 
 Your mileage will vary, and for that reason it's important to play with the constants. The ratio between different levels can be different too.
+
+## Activities by level
+
+Having a list of activities organized by orbit level makes it easy to find opportunities to offer to each member. Here's an example:
+
+| Activity                | Offer to orbit level |
+| ----------------------- | :------------------: |
+| Attend our conference   |         All          |
+| Reply to forum topic    |         All          |
+| Deliver keynote         |       Orbit 1        |
+| Organize meetup         |       Orbit 1        |
+| Speak at a meetup       |       Orbit 2        |
+| Open a pull request     |       Orbit 2        |
+| Post forum topic        |       Orbit 2        |
+| Share project on forum  |       Orbit 3        |
+| Attend event            |       Orbit 3        |
+| Receive product credits |       Orbit 3        |
+| Read blog post          |       Orbit 4        |
+| Subscribe to newsletter |       Orbit 4        |
+| Follow us on twitter    |       Orbit 4        |
+
+The activities aren't exclusive to the orbit levels: Ambassadors hopefully subscribe to the newsletter and follow us on twitter too. But when we want to find an activity to offer to an Ambassador, we can look for activities marked 'Orbit 1' like delivering a keynote or organizing a meetup.
 
 ## Promotions
 
