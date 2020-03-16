@@ -182,7 +182,7 @@ Gravity is the attractive force of a community that acts to retain existing memb
 
 Gravity is a function of both love—in this example the work that people have put into building the French ecosystem—and also reach—the visibility and awareness of French companies in the global market.
 
-**The combination of love & reach is the magic recipe that leads to higher growth and sustainability than either factor can alone**.
+**This combination of love and reach is central to the Orbit Model. Only by measuring and increasing both factors can a community drive sustainable growth.**
 
 Just like a great product can still struggle to produce sales without some kind of marketing, a high love community can struggle to maintain its gravity if it can't develop enough reach.
 
