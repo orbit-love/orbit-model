@@ -6,10 +6,10 @@ The Orbit Model is a framework for building high gravity communities. A high gra
 
 The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orbit Level:
 
-**Love** is a member's level of engagement and investment in the community.
-**Reach** is a measure of a community member’s broader influence, and takes into account a member's reputation and sphere of influence.
-**Gravity** is the attractive force of a community that acts to retain existing members and attract new ones.
-**Orbit levels** are a practical tool for member segmentation and used to design different programs for each level of the community.
+- **Love** is a member's level of engagement and investment in the community.
+- **Reach** is a measure of a community member’s broader influence, and takes into account a member's reputation and sphere of influence.
+- **Gravity** is the attractive force of a community that acts to retain existing members and attract new ones.
+- **Orbit levels** are a practical tool for member segmentation and used to design different programs for each level of the community.
 
 **The goal of the Orbit Model is to increase the Gravity of your community.**
 
