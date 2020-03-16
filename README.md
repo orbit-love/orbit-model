@@ -2,7 +2,7 @@
 
 # Welcome to the Orbit Model
 
-The Orbit Model is a framework for building high-gravity communities. A high-gravity community is one that excels at attracting and retaining members by providing an outstanding member experience.
+The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience.
 
 The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orbit Level:
 
@@ -126,7 +126,7 @@ Reach is a measure of a community member’s influence, and takes into account a
 
 Unlike love, reach is independent of a particular community. Exceptions do apply for established communities where understanding a member's reach solely inside of that community is useful, but for smaller communities looking to grow it's generally more important to know about a member's reach in the broad sense.
 
-Why do we care about reach? Because individuals with high reach will attract others to join them as they journey through our solar system. Our relationship and love-building investment in high-reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their sphere of influence. As we'll see in a minute, doing that also helps increase the gravity of our community.
+Why do we care about reach? Because individuals with high reach will attract others to join them as they journey through our solar system. Our relationship and love-building investment in high reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their sphere of influence. As we'll see in a minute, doing that also helps increase the gravity of our community.
 
 ### Measuring reach
 
@@ -178,7 +178,7 @@ Gravity is a function of both love—in this example the work that people have p
 
 **The combination of love & reach is the magic recipe that leads to higher growth and sustainability than either factor can alone**.
 
-Just like a great product can still struggle to produce sales without some kind of marketing, a high-love community can struggle to maintain its gravity if it can't develop enough reach.
+Just like a great product can still struggle to produce sales without some kind of marketing, a high love community can struggle to maintain its gravity if it can't develop enough reach.
 
 ### Measuring gravity
 
@@ -261,7 +261,7 @@ Love and reach are values that you measure, but **orbit level is a choice that y
 
 > Jamie is creating content and coming to each of our meetups, plus she's volunteered to speak next month. Her activity level is consistent with our Fans, so let's put her into Orbit 2.
 
-Generally speaking, the higher the love—measured as the maximum contribution they've made or the volume of contribution—should closely correlate with the orbit level. High-love members should go into orbits 1 and 2, with low-love members being further out at 3 and 4.
+Generally speaking, the higher the love—measured as the maximum contribution they've made or the volume of contribution—should closely correlate with the orbit level. High love members should go into orbits 1 and 2, with low-love members being further out at 3 and 4.
 
 ## Level distribution
 
