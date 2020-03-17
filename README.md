@@ -1,4 +1,5 @@
-![planets around the sun with rings labeled 1-2-3-4](images/orbit-model-diagram.png)
+![Diagram of circles orbiting a center](images/orbit-model-canvas.png)
+_Click to expand this image of orbit levels and concepts._
 
 # Welcome to the Orbit Model
 
@@ -232,10 +233,6 @@ In most communities, there are a few members with a lot of love, a lot of member
 
 You can name your orbit levels whatever fits your community the best, but the model comes with some standard names that tend to work for most communities. Each orbit level has a corresponding number, with 1 reserved for the most highly engaged folks. Numbers increase from there as engagement decreases.
 
-_Click to expand this image of orbit levels and concepts:_
-
-![Diagram of circles orbiting a center](images/orbit-model-canvas.png)
-
 ## Orbit 4 - Observers
 
 Orbit 4 is called Observers. These are folks who’ve read our community's blog posts, watched talks, followed us on twitter, or tried our product. They're not fully-activated community members yet, but are at least passively interested and form a part of our audience. They might not join your community today but might in the future, and finding ways to stay top of mind with them is important.
@@ -278,12 +275,12 @@ Love and reach are values that you measure, but **orbit level is a choice that y
 
 Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of you can map love to orbit level:
 
-| Orbit level (possible) | Love (from) | Love (to) |
-| ---------------------- | ----------- | --------- |
-| 4 - Observers          | 0           | 2         |
-| 3 - Users              | 3           | 6         |
-| 2 - Fans               | 7           | 8         |
-| 1 - Ambassadors        | 9           | 10        |
+| Orbit level            | Love range  |
+| ---------------------- | ----------- |
+| 4 - Observers          | 0-2         |
+| 3 - Users              | 3-6         |
+| 2 - Fans               | 7-8         |
+| 1 - Ambassadors        | 9-10        |
 
 Love is the maximum score for a recent completed activity.
 
