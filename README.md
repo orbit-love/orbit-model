@@ -82,7 +82,9 @@ Members have different degrees of love for each of the communities that they par
 
 💡 On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
-<img alt="Diagram of an orbiting circle moving closer to the center" src="images/orbit-model-love-zoom.png" width="480">
+<p align="center">
+  <img alt="Diagram of an orbiting circle moving closer to the center" src="images/orbit-model-love-zoom.png" width="480">
+</p>
 
 ### Measuring love
 
@@ -138,7 +140,9 @@ Unlike love, reach is independent of a particular community. Exceptions do apply
 
 Why do we care about reach? Because **individuals with high reach will attract others to join them as they journey through our solar system.** Our relationship and love-building investment in high reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their sphere of influence. As we'll see in a minute, doing that also helps increase the gravity of our community.
 
-<img alt="Diagram of an orbiting circle growing in size" src="images/orbit-model-reach-zoom.png" width="480">
+<p align="center">
+  <img alt="Diagram of an orbiting circle growing in size" src="images/orbit-model-reach-zoom.png" width="480">
+</p>
 
 ### Measuring reach
 
