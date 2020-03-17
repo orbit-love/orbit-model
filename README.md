@@ -429,7 +429,7 @@ Read the [contribution guide](CONTRIBUTING.md) to learn more.
 
 # Changelog
 
-**March 3, 2019**
+**March 16, 2019**
 
 - Created sections for love, reach, and gravity
 - Added calculations and example tables for each metric
