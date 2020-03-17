@@ -1,5 +1,4 @@
-![Diagram of circles orbiting a center](images/orbit-model-canvas.png)
-_Click to expand this image of orbit levels and concepts._
+[![Diagram of circles orbiting a center](images/orbit-model-canvas.png)](https://res.cloudinary.com/dzello/image/upload/v1584403931/orbit/orbit-model-canvas.png)
 
 # Welcome to the Orbit Model
 
@@ -275,12 +274,12 @@ Love and reach are values that you measure, but **orbit level is a choice that y
 
 Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of you can map love to orbit level:
 
-| Orbit level            | Love range  |
-| ---------------------- | ----------- |
-| 4 - Observers          | 0-2         |
-| 3 - Users              | 3-6         |
-| 2 - Fans               | 7-8         |
-| 1 - Ambassadors        | 9-10        |
+| Orbit level     | Love range |
+| --------------- | ---------- |
+| 4 - Observers   | 0-2        |
+| 3 - Users       | 3-6        |
+| 2 - Fans        | 7-8        |
+| 1 - Ambassadors | 9-10       |
 
 Love is the maximum score for a recent completed activity.
 
