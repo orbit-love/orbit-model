@@ -312,8 +312,6 @@ There are a few motivations for having targets around the distribution of orbit 
 
 💡 There needs to be enough Orbit 0 - Team members to support and mentor the number of Ambassadors.
 
-Your mileage will vary, and for that reason it's important to play with the constants. The ratio between different levels can be different too.
-
 ## Activities by level
 
 Having a list of activities organized by orbit level makes it easy to find opportunities to offer to each member. Here's an example:
