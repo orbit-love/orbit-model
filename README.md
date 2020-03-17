@@ -87,7 +87,7 @@ Members have different degrees of love for each of the communities that they par
 
 ### Measuring love
 
-In the Orbit Model, a member's love is inferred by the quantity and quality of activities complete they've completed. ```
+In the Orbit Model, a member's love is inferred by the quantity and quality of activities complete they've completed.
 To calculate love, start by counting all the activities that a member has done within a recent time period. For example:
 
 - Attended our conference
