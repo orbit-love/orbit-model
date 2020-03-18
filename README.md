@@ -357,7 +357,9 @@ Here's a summary of the most important things to measure when using the Orbit Mo
 
 # Full example
 
-Coming soon!
+The [Orbit Model Airtable template](https://airtable.com/shrOH6UzOdzZICXnJ) contains example member data, formulas, and graphs that show you how the pieces of the Orbit Model fit together.
+
+Read the [full blog post](https://orbit.love/blog/introducing-the-orbit-model-airtable-template) to learn how each part of the template works and to make your own copy.
 
 # Additional topics
 
@@ -411,6 +413,8 @@ For complex products, like technology platforms, it's a best practice for the de
 
 # Resources
 
+- [Orbit Model Airtable template](https://airtable.com/shrOH6UzOdzZICXnJ)
+- [Introducing the Orbit Model Airtable Template](https://orbit.love/blog/introducing-the-orbit-model-airtable-template) - Patrick Woods - Orbit Blog
 - [Why Orbit is better than funnel for developer relations](https://orbit.love/blog/why-orbit-is-better-than-funnel-for-developer-relations) — Orbit Blog
 - [Communities aren't funnels](https://www.youtube.com/watch?v=EDgNuFdVay0) — Josh Dzielak, DevRelCon 2019
 
