@@ -426,6 +426,7 @@ Using the Orbit Model for your community? Tell the galaxy! Add your name to this
 - [SimpleAsWater](https://discord.gg/x2kmUXW)
 - [Dappkit](https://dappkit.io?ref=orbit_love_repo)
 - [Puma Browser](https://www.pumabrowser.com/) ([Discord](https://discord.gg/4frpm84))
+- [Apollo GraphQL](https://www.apollographql.com/docs/)
 
 # About the Orbit Model
 
