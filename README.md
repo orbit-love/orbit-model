@@ -69,7 +69,7 @@ To make it easy to discuss the differences between members, so we can give them 
 
 ## Love
 
-Love is a member's level of engagement and investment in the community. Someone with high love is highly active, capable, and experienced. They're willing and able to play key roles in the community like contributing, moderating, and organizing.
+Love is a member's level of engagement and investment in the community. Someone with high love is highly active and plays key roles in the community like contributing, moderating, and organizing.
 
 > "Jennifer has come to the last 5 meetups and next month she's hosting her own. In addition, she just published a blog post about how to install our package on Linux. Her love is increasing fast this year, we should feature her work on the community showcase!"
 
@@ -131,7 +131,7 @@ It’s important to track both the sum and the max, but the **max** tells us mor
 
 ## Reach
 
-Reach is a measure of a community member’s influence, and takes into account a member's reputation and sphere of influence.
+Reach is a measure of a community member’s sphere of influence and takes into account their reputation, credibility, and degree of connectedness.
 
 > "Avery is one of our highest-reach community members. They're constantly engaging with folks on twitter and they run a blog with thousands of visitors per month. They're also a senior engineer at a well-respected agency."
 
