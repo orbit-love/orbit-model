@@ -13,7 +13,10 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
 
 **The goal of the Orbit Model is to increase the Gravity of your community.**
 
-👇 Keep reading to learn how to get started.
+> The Orbit Model was created and is maintained by the team at Orbit, the community management platform. [Learn more and signup for early access](https://orbit.love/).
+
+
+👇 Keep reading to learn how to get started with the Orbit Model.
 
 # Table of Contents
 
@@ -431,6 +434,8 @@ Using the Orbit Model for your community? Tell the galaxy! Add your name to this
 # About the Orbit Model
 
 The Orbit Model was developed by developer advocates for working with communities of software developers, but the principles apply to most things that are community-shaped. The model was first used in 2014 and put on GitHub in November 2019 so anyone can use it and contribute back. We aim to make this framework useful to open source maintainers, developer advocates, community managers, founders, and anyone interested in building a community.
+
+The Orbit Model was created and is maintained by the team at [Orbit](https://orbit.love/), the community management platform. To learn more about the Orbit product, check out recent [blog articles](https://orbit.love/blog) or visit https://orbit.love/. 
 
 # Contributing
 
