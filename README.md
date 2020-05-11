@@ -160,7 +160,9 @@ Like with love, we create a table that assigns a point value to each element of 
 
 | Reach element                      | Score |
 | ---------------------------------- | ----- |
-| Over 1k twitter followers          | 1     |
+| 1-2k Twitter followers             | 1     |
+| 2-5k followers:                    | 2     |
+| 5+k followers:                     | 3     |
 | Active blog                        | 1     |
 | Open source project with 500 stars | 3     |
 | Over 100 followers on DEV          | 2     |
@@ -169,7 +171,7 @@ For each member, we log and add up the scores of the criteria they meet. That ta
 
 | Member Name    | Reach element                      | Score |
 | -------------- | ---------------------------------- | ----- |
-| Avery Hartford | Over 1k twitter followers          | 1     |
+| Avery Hartford | 2-5k followers                     | 2     |
 | Avery Hartford | Active blog                        | 1     |
 | Laura Blight   | Active blog                        | 1     |
 | Avery Hartford | Open source project with 500 stars | 3     |
@@ -179,7 +181,7 @@ Then we can take the sum for each member.
 
 | Name           | Total Reach |
 | -------------- | ----------- |
-| Avery Hartford | 5           |
+| Avery Hartford | 6           |
 | Laura Blight   | 3           |
 
 If the numbers you've chosen are giving you too many members with 0 points or over 10 points, consider adjusting the reach elements and their scores until the distribution looks right.
@@ -221,13 +223,13 @@ Using the examples from above, here's what the gravity would look like.
 
 | Member Name       | Love | Reach | Love \* Reach |
 | ----------------- | ---- | ----- | ------------- |
-| Avery Hartford    | 2    | 5     | 10            |
+| Avery Hartford    | 2    | 6     | 12            |
 | Laura Blight      | 6    | 3     | 18            |
 | Jennifer Lewis    | 7    | 3     | 21            |
 | Terrence Fletcher | 4    | 5     | 20            |
 | Marie Monzo       | 2    | 1     | 2             |
 |                   |      |       | ----          |
-| **Gravity**       |      |       | 71            |
+| **Gravity**       |      |       | 73            |
 
 **Reach is multiplied by (not added to) love because an increase in a member's reach can increase the impact of all of the activities they complete.**
 
