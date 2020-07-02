@@ -285,7 +285,7 @@ Love and reach are values that you measure, but **orbit level is a choice that y
 
 > Jamie is creating content and coming to each of our meetups, plus she's volunteered to speak next month. Her activity level is consistent with our Fans, so let's put her into Orbit 2.
 
-Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of you can map love to orbit level:
+Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of how you can map love to an orbit level:
 
 | Orbit level     | Love range |
 | --------------- | ---------- |
@@ -304,12 +304,12 @@ How many members should go in each level? What distribution should we be aiming 
 
 No community is the same, but here's a reasonable starting point for many communities. Roughly speaking, each level is 10 times as large as the previous one.
 
-| Orbit Level | Size | Percentage |
-| ----------- | ---- | ---------- |
-| Ambassadors | 10   | ~1%        |
-| Fans        | 100  | ~10%       |
-| Users       | 1000 | ~90%       |
-| Observers   | ∞    |            |
+| Orbit Level     | Size | Percentage |
+| --------------- | ---- | ---------- |
+| 1 - Ambassadors | 10   | ~1%        |
+| 2 - Fans        | 100  | ~10%       |
+| 3 - Users       | 1000 | ~90%       |
+| 4 - Observers   | ∞    |            |
 
 Observers play a mostly passive, audience-style role in the community, so the size of the level is not bounded.
 
