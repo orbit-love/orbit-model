@@ -39,7 +39,7 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
 - [Full Example](#full-example)
 - [Additional topics](#additional-topics)
   - [Groups](#groups)
-  - [Orbit vs. funnel](#orbit-vs-funnel)
+  - [Orbit and funnel](#orbit-and-funnel)
 - [Resources](#resources)
 - [Early adopters](#early-adopters)
 - [About the Orbit Model](#about-the-orbit-model)
@@ -382,11 +382,13 @@ A community member can more easily reach folks in their group compared to the br
 
 **Gravity-building tip: Identify active or potential groups and help them increase their reach, attracting new members to the group.**
 
-## Orbit vs. funnel
+## Orbit and funnel
 
-Many orbit model users ask about its relationship to the traditional marketing funnel. The funnel is a model for _capturing value_ for the company. The key measurements are conversion through the different stages and ultimately the revenue from conversion.
+What is the relationship between the orbit model and the marketing funnel? This is a common question, and a good one. A company that sells a product and has a community should use both of them together. But what are the key differences?
 
-**Orbit is a model for _creating value_ for the community and thereby increasing its gravity.** We measure how much value is being created in the community and who is doing it, in order to offer the people the right rewards and opportunities.
+The funnel is a model for _capturing value_ for the company. The key measurements are conversion through the different stages and ultimately the revenue from conversion.
+
+**Orbit is a model for _creating value_ for the community.** We measure how much value is being created in the community and who is doing it, in order to offer the people the right rewards and opportunities.
 
 Here's a quick table summing up a few key differences:
 
@@ -400,15 +402,11 @@ Here's a quick table summing up a few key differences:
 
 The funnel is a _push_ model. Marketers put together campaigns that actively deliver messages to customer inboxes and messaging apps to try and make them take action on something, to push them to the next stage of the funnel.
 
-Orbit is a _pull_ model. Rather than fill up inboxes with unsolicited communications, the community manager using orbit strives to make their community as enticing as possible, such that existing members will spread it via word-of-mouth and new members will naturally pull themselves in once they see the value others are getting.
-
-This theme is prevalent across all of modern marketing. The customer is in the driver's seat with unlimited access to information and also the reviews of other people. Educating and informing the customer is more effective than trying to mislead or trick them with untestable claims and the same empty hype as everyone else.
+Orbit is a _pull_ model. The goal is to make the community as enticing as possible, such that existing members will spread it via word-of-mouth and new members will naturally pull themselves in once they see the value others are getting.
 
 ### The ice cream cone
 
-When a company adopts orbit, does it replace the funnel? No, not usually. Marketing and sales teams continue to use the funnel to drive purchases and revenue.
-
-Community, developer relations, and some marketing sub-teams (e.g. brand advocacy or influencer marketing) use the orbit model to drive engagement and community growth. Think of it like an ice cream cone, with a big scoop perched on a waffle cone. Inevitably, some of the ice cream melts and trickles down the cone.
+Here's a common situation when a company adopts the orbit model. The community and developer relation teams use orbit to foster community engagement and growth, while marketing and sales teams continue to use the funnel to drive purchases and revenue. Think of it like an ice cream cone, with a big scoop perched on a waffle cone. Inevitably, some of the ice cream melts and trickles down the cone. The bigger the scoop, the more reaches the cone.
 
 **The orbit model and funnel meet when a community member reaches the decision that they'd like to purchase or evaluate a product.**
 
