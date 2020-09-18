@@ -28,7 +28,7 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit 4 - Observers](#orbit-4---observers)
   - [Orbit 3 - Participants](#orbit-3---participants)
   - [Orbit 2 - Contributors](#orbit-2---contributors)
-  - [Orbit 1 - Core](#orbit-1---core)
+  - [Orbit 1 - Advocates](#orbit-1---advocates)
   - [Orbit 0 - Team](#orbit-0---team)
 - [Using the levels](#using-the-levels)
   - [Choosing levels](#choosing-levels)
@@ -90,47 +90,77 @@ Members have different degrees of love for each of the communities that they par
 
 ### Measuring love
 
-In the Orbit Model, a member's love is inferred by the quantity and quality of activities they've completed.
-To calculate love, start by counting all the activities that a member has done within a recent time period. For example:
+In the Orbit Model, a member's love is inferred by the quantity, quality, and recency of activities they've completed. In other words, for each member, you want to understand what they've contributed, the relative importance of each contribution, and when the contribution happened. 
+
+Start by making a list of all the activities that are important for your community. For example:
 
 - Attended our conference
 - Spoke at a meetup
 - Opened a pull request on GitHub
 - Answered a forum question
 
-It's important to track when members complete these activities so you can do the math. Each activity is given a score of how much engagement it represents. We recommend using a simple 1-10 scale.
+Then consider the relative importance of each kind of activity you track. We recommend using a simple 1-3 scale.
 
-> "Organizing a community meetup takes a lot of time and effort, so we give it an activity score of 8/10. Just attending a meetup is a 3/10, but publishing a summary counts for 2 more points."
+> "Organizing a community meetup takes a lot of time and effort, so we give it an activity weight of 3. Just attending a meetup is a 1, but publishing a summary may count for 2."
 
-Defining your community's list of activities and activity scores is one of the first things to do when starting with the Orbit Model. To get started, first make a table that looks like this:
+Since all activities default to a weight of 1, weighting activities is entirely optional. Some communities will require and welcome the complexity, while others will be just fine with the defauult weights. 
 
-| Activity                        | Score (out of 10) |
+Make a table that looks like this:
+
+| Activity                        | Weight (out of 3) |
 | ------------------------------- | ----------------- |
-| Attended our conference         | 5                 |
-| Spoke at a meetup               | 7                 |
-| Opened a pull request on GitHub | 4                 |
-| Answered a forum question       | 2                 |
+| Attended our conference         | 1                 |
+| Spoke at a meetup               | 3                 |
+| Opened a pull request on GitHub | 1                 |
+| Had a pull request merged       | 3                 |
+| Answered a forum question       | 3                 |
 
-Then make another table that records the activities for each member. Capture the member's name, activity type, date, and activity score from the previous table.
+Defining your community's list of activities and activity weights is one of the first things to do when starting with the Orbit Model. 
 
-| Member Name       | Activity Type             | Date       | Score |
+Then, make another table that records the activities for each member. Capture the member's name, activity type, date, and activity weight from the previous table.
+
+| Member Name       | Activity Type             | Date       | Weight |
 | ----------------- | ------------------------- | ---------- | ----- |
-| Jennifer Lewis    | Attended our conference   | 2019-11-14 | 5     |
-| Terrence Fletcher | Opened a pull request     | 2019-12-21 | 4     |
-| Marie Monzo       | Answered a forum question | 2020-01-14 | 2     |
-| Jennifer Lewis    | Spoke at a meetup         | 2020-02-11 | 7     |
+| Jennifer Lewis    | Attended our conference   | 2019-11-14 | 1     |
+| Terrence Fletcher | Opened a pull request     | 2019-12-21 | 1     |
+| Marie Monzo       | Answered a forum question | 2020-01-14 | 3     |
+| Marie Monzo       | Had a pull request merged | 2020-01-20 | 3     |
+| Jennifer Lewis    | Spoke at a meetup         | 2020-02-11 | 3     |
 
-Once we have a member's activity history, we look at both the _maximum_ and _sum_ of the activity scores. The **maximum** tells us the largest contribution the member has made, and the **sum** gives us a picture of their overall participation level.
+Once we have a member's activity history, we look at the weight of each activity along with how many months ago it ocurred to arrive at the value for each individual activity. 
 
-| Member Name       | Max Score | Total Score | Love (= Max Score) |
-| ----------------- | --------- | ----------- | ------------------ |
-| Jennifer Lewis    | 7         | 12          | 7                  |
-| Terrence Fletcher | 4         | 4           | 4                  |
-| Marie Monzo       | 2         | 2           | 2                  |
+`value(month) =  (sum of activity values) * (0.9 ^ number of months ago)`
 
-It’s important to track both the sum and the max, but the **max** tells us more about the most impactful contribution the member can make, and helps determine which opportunity to offer next. More on that below.
+For activities completed during the current month, `number of months ago` = 0.
 
-> "Jennifer's biggest contribution this year was organizing that meetup, an 8/10 for us. So in our database, her love is 8.”
+To your table, add columns for "Months ago" and "Value." 
+
+In this example, let's say today is February 20, 2020, so February activites are zero months ago, January activities are 1 month ago, etc. 
+
+| Member Name       | Activity Type             | Date       | Weight| Months ago | Value |
+| ----------------- | ------------------------- | ---------- | ----- | ---------- | ----- |
+| Jennifer Lewis    | Attended our conference   | 2019-11-14 | 1     | 3          | 0.729 |
+| Terrence Fletcher | Opened a pull request     | 2019-12-21 | 1     | 2          | 0.81  |
+| Marie Monzo       | Answered a forum question | 2020-01-14 | 3     | 1          | 2.7   |
+| Marie Monzo       | Had a pull request merged | 2020-01-20 | 3     | 1          | 2.7   |
+| Jennifer Lewis    | Spoke at a meetup         | 2020-02-11 | 3     | 0          | 3.0   |
+
+
+Then, to calculate love, we sum the values for each member over the past 12 months. 
+
+`love(member) = sum of value(month) for the last 12 months`
+
+| Member Name       | Love      | 
+| ----------------- | --------- | 
+| Marie Monzo       | 5.4       | 
+| Jennifer Lewis    | 3.729     | 
+| Terrence Fletcher | 0.81      | 
+
+The resulting Love score takes into account the frequency, recency, and weight of each member's involvement. 
+
+To see the Love for your community, simply sum the Love of all members. 
+
+Love will grow as the frequency of value of contribution increases each month. On the other hand, Love will decrease as contributions drop-off and age. 
 
 ## Reach
 
@@ -265,13 +295,13 @@ Motivating and engaging with Contributors requires a higher touch than Participa
 
 They will appreciate activities that pair them with prominent members of the community and offer deeper learning or development experiences. As a Contributor, they’re making a strong contribution to the community, and the recognition and opportunities provided to them should be commensurate with that.
 
-## Orbit 1 - Core
+## Orbit 1 - Advocates
 
-Orbit 1 is reserved for the inner circle, the Core members. These individuals have very high love for the community, taking on important challenges and playing a leadership role. They're known to many other members, who look to them for guidance and help. They may head one or more large groups inside of the community.
+Orbit 1 is reserved for the inner circle, the Advocates. These individuals have very high love for the community, taking on important challenges and playing a leadership role. They're known to many other members, who look to them for guidance and help. They may head one or more large groups inside of the community.
 
-The relationship with the core is close, personal, and transparent. They appreciate getting early access to products and events, access to people at the Team level, and opportunities that are specific to their individual goals. 
+The relationship with the Advocates is close, personal, and transparent. They appreciate getting early access to products and events, access to people at the Team level, and opportunities that are specific to their individual goals. 
 
-For example, you could use your network to help a Core member find a new job, or if they have a large audience you could offer to sponsor or contribute to their newsletter.
+For example, you could use your network to help an Advocate find a new job, or if they have a large audience you could offer to sponsor or contribute to their newsletter.
 
 ## Orbit 0 - Team
 
@@ -291,12 +321,14 @@ Love and reach are values that you measure, but **orbit level is a choice that y
 
 Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of how you can map love to an orbit level:
 
-| Orbit level       | Love range |
+| Orbit level       | Recenecy   |
 | ---------------   | ---------- |
-| 4 - Observers     | 0-2        |
-| 3 - Participants  | 3-6        |
-| 2 - Contributors  | 7-8        |
-| 1 - Core          | 9-10       |
+| 1 - Advocates          | Active in the last month       |
+| 2 - Contributors  | Active in the last 90 days
+        |
+| 3 - Participants  | Active in the last year
+        |
+| 4 - Observers     | Inactive         |
 
 Love is the maximum score for a recent completed activity.
 
@@ -310,18 +342,18 @@ No community is the same, but here's a reasonable starting point for many commun
 
 | Orbit Level      | Size | Percentage |
 | ---------------  | ---- | ---------- |
-| 1 - Core         | 10   | ~1%        |
+| 1 - Advocates         | 10   | ~1%        |
 | 2 - Contributors | 100  | ~10%       |
 | 3 - Participants | 1000 | ~90%       |
 | 4 - Observers    | ∞    |            |
 
 Observers play a mostly passive, audience-style role in the community, so the size of the level is not bounded.
 
-There are a few motivations for having targets around the distribution of orbit levels. First, it's a way to make sure the community is getting all the different contribution types that it needs. For example, when a Core member posts a question on the forum, Contributors can help start the conversation, when can continue it, and Observers can read it. 
+There are a few motivations for having targets around the distribution of orbit levels. First, it's a way to make sure the community is getting all the different contribution types that it needs. For example, when an Advocate posts a question on the forum, Contributors can help start the conversation, when can continue it, and Observers can read it. 
 
-Second, there needs to be enough mentorship available from members at lower levels to attract and transfer knowledge to members who are advancing. One Core member would have a hard time mentoring and supporting 50 Contributors ns all by themself, but 5 Core members might be enough.
+Second, there needs to be enough mentorship available from members at lower levels to attract and transfer knowledge to members who are advancing. One Advocate would have a hard time mentoring and supporting 50 Contributors all by themself, but 5 Advocates might be enough.
 
-💡 There needs to be enough Orbit 0 - Team members to support and mentor the number of Core members.
+💡 There needs to be enough Orbit 0 - Team members to support and mentor the number of Advocates.
 
 ## Activities by level
 
@@ -343,7 +375,7 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Subscribe to newsletter |       Orbit 4        |
 | Follow us on twitter    |       Orbit 4        |
 
-The activities aren't exclusive to the orbit levels: Core members hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to a Core member, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
+The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to a Core member, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 
 ## Promotions
 
