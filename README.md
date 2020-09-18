@@ -324,10 +324,8 @@ Generally speaking, the higher the love—measured as the maximum contribution t
 | Orbit level       | Recenecy   |
 | ---------------   | ---------- |
 | 1 - Advocates          | Active in the last month       |
-| 2 - Contributors  | Active in the last 90 days
-        |
-| 3 - Participants  | Active in the last year
-        |
+| 2 - Contributors  | Active in the last 90 days |
+| 3 - Participants  | Active in the last year|
 | 4 - Observers     | Inactive         |
 
 Love is the maximum score for a recent completed activity.
