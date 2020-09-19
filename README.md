@@ -31,7 +31,7 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit 1 - Advocates](#orbit-1---advocates)
   - [Orbit 0 - Team](#orbit-0---team)
 - [Using the levels](#using-the-levels)
-  - [Choosing levels](#choosing-levels)
+  - [Determining levels](#determining-levels)
   - [Level distribution](#level-distribution)
   - [Activities by level](#activities-by-level)
   - [Promotions](#promotions)
@@ -313,45 +313,22 @@ Folks in Orbit 0 have the dual responsibility to engage both inside the communit
 
 This section covers how to set up orbit levels and get the most out of them.
 
-## Choosing levels
+## Determining levels
 
-Love and reach are values that you measure, but **orbit level is a choice that you make for each member based on where you believe they can best serve (and will be best served by) the community**.
+Generally speaking, the higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
 
-> Jamie is creating content and coming to each of our meetups, plus she's volunteered to speak next month. Her activity level is consistent with our Participants, so let's put her into Orbit 2.
+To achieve this, we recommend a step function to group members into Orbit Levels base on love. We use the following ranges in the Orbit product. 
 
-Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of how you can map love to an orbit level:
+| Orbit level       | Love range   |
+| ---------------   | ----------   |
+| 1 - Advocates     | ≥ 1.5        |
+| 2 - Contributors  | 1 – 1.5      |
+| 3 - Participants  | .5 – 1       |
+| 4 - Observers     | < .5         |
 
-| Orbit level       | Recenecy   |
-| ---------------   | ---------- |
-| 1 - Advocates          | Active in the last month       |
-| 2 - Contributors  | Active in the last 90 days |
-| 3 - Participants  | Active in the last year|
-| 4 - Observers     | Inactive         |
+Based on these ranges, the resulting level distribution looks like this: 
 
-Love is the maximum score for a recent completed activity.
-
-The example table can serve as a guide, but remember that orbit level is ultimately a choice that should factor in your intuition about where in the community the member will best be served.
-
-## Level distribution
-
-How many members should go in each level? What distribution should we be aiming for in our community? These questions will affect how you choose orbit levels, so it's good to have an idea of what your community's distribution should look like before you do that.
-
-No community is the same, but here's a reasonable starting point for many communities. Roughly speaking, each level is 10 times as large as the previous one.
-
-| Orbit Level      | Size | Percentage |
-| ---------------  | ---- | ---------- |
-| 1 - Advocates         | 10   | ~1%        |
-| 2 - Contributors | 100  | ~10%       |
-| 3 - Participants | 1000 | ~90%       |
-| 4 - Observers    | ∞    |            |
-
-Observers play a mostly passive, audience-style role in the community, so the size of the level is not bounded.
-
-There are a few motivations for having targets around the distribution of orbit levels. First, it's a way to make sure the community is getting all the different contribution types that it needs. For example, when an Advocate posts a question on the forum, Contributors can help start the conversation, when can continue it, and Observers can read it. 
-
-Second, there needs to be enough mentorship available from members at lower levels to attract and transfer knowledge to members who are advancing. One Advocate would have a hard time mentoring and supporting 50 Contributors all by themself, but 5 Advocates might be enough.
-
-💡 There needs to be enough Orbit 0 - Team members to support and mentor the number of Advocates.
+[![Line chart showing Orbit Levels over time](https://res.cloudinary.com/dzello/image/upload/v1600473812/orbit/Orbit_Level_Chart.png)](https://res.cloudinary.com/dzello/image/upload/v1600473812/orbit/Orbit_Level_Chart.png)
 
 ## Activities by level
 
