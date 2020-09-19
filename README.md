@@ -32,7 +32,6 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit 0 - Team](#orbit-0---team)
 - [Using the levels](#using-the-levels)
   - [Determining levels](#determining-levels)
-  - [Level distribution](#level-distribution)
   - [Activities by level](#activities-by-level)
   - [Promotions](#promotions)
 - [Orbit KPIs](#orbit-kpis)
