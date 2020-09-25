@@ -28,11 +28,10 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Orbit 4 - Observers](#orbit-4---observers)
   - [Orbit 3 - Participants](#orbit-3---participants)
   - [Orbit 2 - Contributors](#orbit-2---contributors)
-  - [Orbit 1 - Core](#orbit-1---core)
+  - [Orbit 1 - Advocates](#orbit-1---advocates)
   - [Orbit 0 - Team](#orbit-0---team)
 - [Using the levels](#using-the-levels)
-  - [Choosing levels](#choosing-levels)
-  - [Level distribution](#level-distribution)
+  - [Determining levels](#determining-levels)
   - [Activities by level](#activities-by-level)
   - [Promotions](#promotions)
 - [Orbit KPIs](#orbit-kpis)
@@ -85,7 +84,7 @@ Members have different degrees of love for each of the communities that they par
 💡 On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
 <p align="center">
-  <img alt="Diagram of an orbiting circle moving closer to the center" src="images/orbit-model-love-zoom.png" width="480">
+  <img alt="Diagram of an orbiting circle moving closer to the center" src="images/orbit-model-love-zoom.png" width="480">f
 </p>
 
 ### Measuring love
@@ -104,6 +103,8 @@ Then consider the relative importance of each kind of activity you track. We rec
 > "Organizing a community meetup takes a lot of time and effort, so we give it an activity weight of 3. Just attending a meetup is a 1, but publishing a summary may count for 2."
 
 Since all activities default to a weight of 1, weighting activities is entirely optional. Some communities will require and welcome the complexity, while others will be just fine with the defauult weights. 
+
+We suggest starting with all weights at 1, then adding weights to activities if the need for finer-grained reporting and analysis arises. 
 
 Make a table that looks like this:
 
@@ -133,6 +134,8 @@ Once we have a member's activity history, we look at the weight of each activity
 
 For activities completed during the current month, `number of months ago` = 0.
 
+Recording when an activity ocurrs will allow you to calculate [Activity Decay](#Actvity-Decay). 
+
 To your table, add columns for "Months ago" and "Value." 
 
 In this example, let's say today is February 20, 2020, so February activites are zero months ago, January activities are 1 month ago, etc. 
@@ -146,9 +149,9 @@ In this example, let's say today is February 20, 2020, so February activites are
 | Jennifer Lewis    | Spoke at a meetup         | 2020-02-11 | 3     | 0          | 3.0   |
 
 
-Then, to calculate love, we sum the values for each member over the past 12 months. 
+Then, to calculate love, we sum the values for each member.
 
-`love(member) = sum of value(month) for the last 12 months`
+`love(member) = sum of value(month)`
 
 | Member Name       | Love      | 
 | ----------------- | --------- | 
@@ -161,6 +164,14 @@ The resulting Love score takes into account the frequency, recency, and weight o
 To see the Love for your community, simply sum the Love of all members. 
 
 Love will grow as the frequency of value of contribution increases each month. On the other hand, Love will decrease as contributions drop-off and age. 
+
+### Actvity Decay
+
+The de facto orientation of a community member is not stasis, but rather is drift. Over time, without without ongoing interaction and engagement, a community's members will all drift away. 
+
+In the Orbit Model, we call this tendency Activity Decay. In the Love formula, decay is represented by `(0.9 ^ number of months ago)`, which ensures that recent activities are weighted more heavily than those in the past, and that Love and the distribution of Orbit Levels will accurately reflect the willingness of each member to participate. 
+
+Over time, community members will slowly make their way from inner to outer Orbits. 
 
 ## Reach
 
@@ -187,7 +198,7 @@ To calculate reach, we need to look at evidence of a member's sphere of influenc
 - Pagerank or estimated traffic to their website or blog
 
 Like with love, we create a table that assigns a point value to each element of a member's reach.
-
+5
 | Reach element                      | Score |
 | ---------------------------------- | ----- |
 | 1-2k Twitter followers             | 1     |
@@ -295,13 +306,13 @@ Motivating and engaging with Contributors requires a higher touch than Participa
 
 They will appreciate activities that pair them with prominent members of the community and offer deeper learning or development experiences. As a Contributor, they’re making a strong contribution to the community, and the recognition and opportunities provided to them should be commensurate with that.
 
-## Orbit 1 - Core
+## Orbit 1 - Advocates
 
-Orbit 1 is reserved for the inner circle, the Core members. These individuals have very high love for the community, taking on important challenges and playing a leadership role. They're known to many other members, who look to them for guidance and help. They may head one or more large groups inside of the community.
+Orbit 1 is reserved for the inner circle, the Advocates. These individuals have very high love for the community, taking on important challenges and playing a leadership role. They're known to many other members, who look to them for guidance and help. They may head one or more large groups inside of the community.
 
-The relationship with the core is close, personal, and transparent. They appreciate getting early access to products and events, access to people at the Team level, and opportunities that are specific to their individual goals. 
+The relationship with the Advocates is close, personal, and transparent. They appreciate getting early access to products and events, access to people at the Team level, and opportunities that are specific to their individual goals. 
 
-For example, you could use your network to help a Core member find a new job, or if they have a large audience you could offer to sponsor or contribute to their newsletter.
+For example, you could use your network to help an Advocate find a new job, or if they have a large audience you could offer to sponsor or contribute to their newsletter.
 
 ## Orbit 0 - Team
 
@@ -313,45 +324,22 @@ Folks in Orbit 0 have the dual responsibility to engage both inside the communit
 
 This section covers how to set up orbit levels and get the most out of them.
 
-## Choosing levels
+c## Determining levels
 
-Love and reach are values that you measure, but **orbit level is a choice that you make for each member based on where you believe they can best serve (and will be best served by) the community**.
+Generally speaking, the higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
 
-> Jamie is creating content and coming to each of our meetups, plus she's volunteered to speak next month. Her activity level is consistent with our Participants, so let's put her into Orbit 2.
+To achieve this, we recommend a step function to group members into Orbit Levels base on love. We use the following ranges in the Orbit product. 
 
-Generally speaking, the higher the love—measured as the maximum contribution they've made—should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. Here's an example of how you can map love to an orbit level:
+| Orbit level       | Love range   |
+| ---------------   | ----------   |
+| 1 - Advocates     | ≥ 1.5        |
+| 2 - Contributors  | 1 – 1.5      |
+| 3 - Participants  | .5 – 1       |
+| 4 - Observers     | < .5         |
 
-| Orbit level       | Love range |
-| ---------------   | ---------- |
-| 4 - Observers     | 0-2        |
-| 3 - Participants  | 3-6        |
-| 2 - Contributors  | 7-8        |
-| 1 - Core          | 9-10       |
+Based on these ranges, the resulting level distribution looks like this: 
 
-Love is the maximum score for a recent completed activity.
-
-The example table can serve as a guide, but remember that orbit level is ultimately a choice that should factor in your intuition about where in the community the member will best be served.
-
-## Level distribution
-
-How many members should go in each level? What distribution should we be aiming for in our community? These questions will affect how you choose orbit levels, so it's good to have an idea of what your community's distribution should look like before you do that.
-
-No community is the same, but here's a reasonable starting point for many communities. Roughly speaking, each level is 10 times as large as the previous one.
-
-| Orbit Level      | Size | Percentage |
-| ---------------  | ---- | ---------- |
-| 1 - Core         | 10   | ~1%        |
-| 2 - Contributors | 100  | ~10%       |
-| 3 - Participants | 1000 | ~90%       |
-| 4 - Observers    | ∞    |            |
-
-Observers play a mostly passive, audience-style role in the community, so the size of the level is not bounded.
-
-There are a few motivations for having targets around the distribution of orbit levels. First, it's a way to make sure the community is getting all the different contribution types that it needs. For example, when a Core member posts a question on the forum, Contributors can help start the conversation, when can continue it, and Observers can read it. 
-
-Second, there needs to be enough mentorship available from members at lower levels to attract and transfer knowledge to members who are advancing. One Core member would have a hard time mentoring and supporting 50 Contributors all by themself, but 5 Core members might be enough.
-
-💡 There needs to be enough Orbit 0 - Team members to support and mentor the number of Core members.
+[![Line chart showing Orbit Levels over time](https://res.cloudinary.com/dzello/image/upload/v1600473812/orbit/Orbit_Level_Chart.png)](https://res.cloudinary.com/dzello/image/upload/v1600473812/orbit/Orbit_Level_Chart.png)
 
 ## Activities by level
 
@@ -373,7 +361,7 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Subscribe to newsletter |       Orbit 4        |
 | Follow us on twitter    |       Orbit 4        |
 
-The activities aren't exclusive to the orbit levels: Core members hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to a Core member, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
+The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to a Core member, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 
 ## Promotions
 
