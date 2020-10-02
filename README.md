@@ -84,7 +84,7 @@ Members have different degrees of love for each of the communities that they par
 💡 On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
 <p align="center">
-  <img alt="Diagram of an orbiting circle moving closer to the center" src="images/orbit-model-love-zoom.png" width="480">f
+  <img alt="Diagram of an orbiting circle moving closer to the center" src="images/orbit-model-love-zoom.png" width="480">
 </p>
 
 ### Measuring love
@@ -326,7 +326,7 @@ This section covers how to set up orbit levels and get the most out of them.
 
 c## Determining levels
 
-Generally speaking, the higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
+The higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
 
 To achieve this, we recommend a step function to group members into Orbit Levels base on love. We use the following ranges in the Orbit product. 
 
@@ -361,7 +361,7 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Subscribe to newsletter |       Orbit 4        |
 | Follow us on twitter    |       Orbit 4        |
 
-The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to a Core member, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
+The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to an Advocate, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 
 ## Promotions
 
@@ -402,7 +402,7 @@ Large communities are usually composed of sets of smaller communities. In the Or
 
 A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing also have a lower barrier to becoming collaborators.
 
-💡 In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Core, Contributors, Participants, and Observers.
+💡 In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Advocates, Contributors, Participants, and Observers.
 
 **Gravity-building tip: Identify active or potential groups and help them increase their reach, attracting new members to the group.**
 
