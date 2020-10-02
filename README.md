@@ -118,7 +118,11 @@ Make a table that looks like this:
 
 Defining your community's list of activities and activity weights is one of the first things to do when starting with the Orbit Model. 
 
-Then, make another table that records the activities for each member. Capture the member's name, activity type, date, and activity weight from the previous table.
+> Keep in mind that weights should be used insofar as they reflect a member's elevated love in reality. They should _not_ be used to "game" your charts and metrics. For example, if writing a guest blog post truly indicates a person's elevated Love for your community, by all means increase the weight of that activity in the Orbit Model. 
+
+> On the other hand, if driving Twitter engagement happens to be your team's OKR for the quarter, you should not increase the weight of retweets as a result. 
+
+With your activites and weights defined, make another table that records the activities for each member. Capture the member's name, activity type, date, and activity weight from the previous table.
 
 | Member Name       | Activity Type             | Date       | Weight |
 | ----------------- | ------------------------- | ---------- | ----- |
@@ -324,7 +328,7 @@ Folks in Orbit 0 have the dual responsibility to engage both inside the communit
 
 This section covers how to set up orbit levels and get the most out of them.
 
-c## Determining levels
+## Determining levels
 
 The higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
 
