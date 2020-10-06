@@ -1,4 +1,4 @@
-[![Diagram of circles orbiting a center](images/orbit-model-canvas.png)](https://res.cloudinary.com/dzello/image/upload/v1584403931/orbit/orbit-model-canvas.png)
+[![Diagram of circles orbiting a center](images/orbit-model-canvas.png)](https://res.cloudinary.com/dzello/image/upload/v1601328377/orbit/orbit-model-canvas.png)
 
 # Welcome to the Orbit Model
 
@@ -104,6 +104,7 @@ Then consider the relative importance of each kind of activity you track. We rec
 
 Since all activities default to a weight of 1, weighting activities is entirely optional. Some communities will require and welcome the complexity, while others will be just fine with the defauult weights. 
 
+
 We suggest starting with all weights at 1, then adding weights to activities if the need for finer-grained reporting and analysis arises. 
 
 Make a table that looks like this:
@@ -117,6 +118,7 @@ Make a table that looks like this:
 | Answered a forum question       | 3                 |
 
 Defining your community's list of activities and activity weights is one of the first things to do when starting with the Orbit Model. 
+
 
 > Keep in mind that weights should be used insofar as they reflect a member's elevated love in reality. They should _not_ be used to "game" your charts and metrics. For example, if writing a guest blog post truly indicates a person's elevated Love for your community, by all means increase the weight of that activity in the Orbit Model. 
 
@@ -176,6 +178,7 @@ The de facto state of a community member is not stasis, but rather is drift. Ove
 In the Orbit Model, we call this tendency Activity Decay. In the Love formula, decay is represented by `(0.9 ^ number of months ago)`, which ensures that recent activities are weighted more heavily than those in the past, and that Love and the distribution of Orbit Levels will accurately reflect the willingness of each member to participate. 
 
 Over time, community members will slowly make their way from inner to outer Orbits. 
+
 
 ## Reach
 
@@ -365,8 +368,8 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Subscribe to newsletter |       Orbit 4        |
 | Follow us on twitter    |       Orbit 4        |
 
-The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to an Advocate, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 
+The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to an Advocate, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 ## Promotions
 
 It's a happy moment when you've identified a community member who's ready to move into the next orbit level. In the Orbit Model, we call these promotions.
