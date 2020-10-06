@@ -171,7 +171,7 @@ Love will grow as the frequency of value of contribution increases each month. O
 
 ### Actvity Decay
 
-The de facto orientation of a community member is not stasis, but rather is drift. Over time, without without ongoing interaction and engagement, a community's members will all drift away. 
+The de facto state of a community member is not stasis, but rather is drift. Over time, without without ongoing interaction and engagement, a community's members will all drift away. 
 
 In the Orbit Model, we call this tendency Activity Decay. In the Love formula, decay is represented by `(0.9 ^ number of months ago)`, which ensures that recent activities are weighted more heavily than those in the past, and that Love and the distribution of Orbit Levels will accurately reflect the willingness of each member to participate. 
 
