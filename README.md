@@ -104,6 +104,9 @@ Then consider the relative importance of each kind of activity you track. We rec
 
 Since all activities default to a weight of 1, weighting activities is entirely optional. Some communities will require and welcome the complexity, while others will be just fine with the defauult weights. 
 
+
+We suggest starting with all weights at 1, then adding weights to activities if the need for finer-grained reporting and analysis arises. 
+
 Make a table that looks like this:
 
 | Activity                        | Weight (out of 3) |
@@ -116,7 +119,12 @@ Make a table that looks like this:
 
 Defining your community's list of activities and activity weights is one of the first things to do when starting with the Orbit Model. 
 
-Then, make another table that records the activities for each member. Capture the member's name, activity type, date, and activity weight from the previous table.
+
+> Keep in mind that weights should be used insofar as they reflect a member's elevated love in reality. They should _not_ be used to "game" your charts and metrics. For example, if writing a guest blog post truly indicates a person's elevated Love for your community, by all means increase the weight of that activity in the Orbit Model. 
+
+> On the other hand, if driving Twitter engagement happens to be your team's OKR for the quarter, you should not increase the weight of retweets as a result. 
+
+With your activites and weights defined, make another table that records the activities for each member. Capture the member's name, activity type, date, and activity weight from the previous table.
 
 | Member Name       | Activity Type             | Date       | Weight |
 | ----------------- | ------------------------- | ---------- | ----- |
@@ -132,6 +140,8 @@ Once we have a member's activity history, we look at the weight of each activity
 
 For activities completed during the current month, `number of months ago` = 0.
 
+Recording when an activity ocurrs will allow you to calculate [Activity Decay](#Actvity-Decay). 
+
 To your table, add columns for "Months ago" and "Value." 
 
 In this example, let's say today is February 20, 2020, so February activites are zero months ago, January activities are 1 month ago, etc. 
@@ -145,9 +155,9 @@ In this example, let's say today is February 20, 2020, so February activites are
 | Jennifer Lewis    | Spoke at a meetup         | 2020-02-11 | 3     | 0          | 3.0   |
 
 
-Then, to calculate love, we sum the values for each member over the past 12 months. 
+Then, to calculate love, we sum the values for each member.
 
-`love(member) = sum of value(month) for the last 12 months`
+`love(member) = sum of value(month)`
 
 | Member Name       | Love      | 
 | ----------------- | --------- | 
@@ -160,6 +170,15 @@ The resulting Love score takes into account the frequency, recency, and weight o
 To see the Love for your community, simply sum the Love of all members. 
 
 Love will grow as the frequency of value of contribution increases each month. On the other hand, Love will decrease as contributions drop-off and age. 
+
+### Actvity Decay
+
+The de facto state of a community member is not stasis, but rather is drift. Over time, without without ongoing interaction and engagement, a community's members will all drift away. 
+
+In the Orbit Model, we call this tendency Activity Decay. In the Love formula, decay is represented by `(0.9 ^ number of months ago)`, which ensures that recent activities are weighted more heavily than those in the past, and that Love and the distribution of Orbit Levels will accurately reflect the willingness of each member to participate. 
+
+Over time, community members will slowly make their way from inner to outer Orbits. 
+
 
 ## Reach
 
@@ -186,7 +205,7 @@ To calculate reach, we need to look at evidence of a member's sphere of influenc
 - Pagerank or estimated traffic to their website or blog
 
 Like with love, we create a table that assigns a point value to each element of a member's reach.
-
+5
 | Reach element                      | Score |
 | ---------------------------------- | ----- |
 | 1-2k Twitter followers             | 1     |
@@ -314,7 +333,7 @@ This section covers how to set up orbit levels and get the most out of them.
 
 ## Determining levels
 
-Generally speaking, the higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
+The higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
 
 To achieve this, we recommend a step function to group members into Orbit Levels base on love. We use the following ranges in the Orbit product. 
 
@@ -349,8 +368,8 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Subscribe to newsletter |       Orbit 4        |
 | Follow us on twitter    |       Orbit 4        |
 
-The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to a Core member, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 
+The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to an Advocate, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 ## Promotions
 
 It's a happy moment when you've identified a community member who's ready to move into the next orbit level. In the Orbit Model, we call these promotions.
@@ -390,7 +409,7 @@ Large communities are usually composed of sets of smaller communities. In the Or
 
 A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing also have a lower barrier to becoming collaborators.
 
-💡 In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Core, Contributors, Participants, and Observers.
+💡 In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Advocates, Contributors, Participants, and Observers.
 
 **Gravity-building tip: Identify active or potential groups and help them increase their reach, attracting new members to the group.**
 
