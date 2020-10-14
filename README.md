@@ -461,6 +461,7 @@ Using the Orbit Model for your community? Tell the galaxy! Add your name to this
 - [Dappkit](https://dappkit.io?ref=orbit_love_repo)
 - [Puma Browser](https://www.pumabrowser.com/) ([Discord](https://discord.gg/4frpm84))
 - [Apollo GraphQL](https://www.apollographql.com/docs/)
+- [Parabeac-Core](https://github.com/Parabeac/Parabeac-Core)
 
 # About the Orbit Model
 
