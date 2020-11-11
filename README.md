@@ -140,7 +140,7 @@ Once we have a member's activity history, we look at the weight of each activity
 
 For activities completed during the current month, `number of months ago` = 0.
 
-Recording when an activity ocurrs will allow you to calculate [Activity Decay](#Actvity-Decay). 
+Recording when an activity ocurrs will allow you to calculate [Activity Decay](#Activity-Decay). 
 
 To your table, add columns for "Months ago" and "Value." 
 
@@ -171,7 +171,7 @@ To see the Love for your community, simply sum the Love of all members.
 
 Love will grow as the frequency of value of contribution increases each month. On the other hand, Love will decrease as contributions drop-off and age. 
 
-### Actvity Decay
+### Activity Decay
 
 The de facto state of a community member is not stasis, but rather is drift. Over time, without without ongoing interaction and engagement, a community's members will all drift away. 
 
