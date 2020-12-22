@@ -102,7 +102,7 @@ Then consider the relative importance of each kind of activity you track. We rec
 
 > "Organizing a community meetup takes a lot of time and effort, so we give it an activity weight of 3. Just attending a meetup is a 1, but publishing a summary may count for 2."
 
-Since all activities default to a weight of 1, weighting activities is entirely optional. Some communities will require and welcome the complexity, while others will be just fine with the defauult weights. 
+Since all activities default to a weight of 1, weighting activities is entirely optional. Some communities will require and welcome the complexity, while others will be just fine with the default weights. 
 
 
 We suggest starting with all weights at 1, then adding weights to activities if the need for finer-grained reporting and analysis arises. 
