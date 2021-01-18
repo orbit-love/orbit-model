@@ -135,13 +135,13 @@ With your activites and weights defined, make another table that records the act
 | Marie Monzo       | Had a pull request merged | 2020-01-20 | 3     |
 | Jennifer Lewis    | Spoke at a meetup         | 2020-02-11 | 3     |
 
-Once we have a member's activity history, we look at the weight of each activity along with how many months ago it ocurred to arrive at the value for each individual activity. 
+Once we have a member's activity history, we look at the weight of each activity along with how many months ago it occurred to arrive at the value for each individual activity. 
 
 `value(month) =  (sum of activity values) * (0.9 ^ number of months ago)`
 
 For activities completed during the current month, `number of months ago` = 0.
 
-Recording when an activity ocurrs will allow you to calculate [Activity Decay](#Activity-Decay). 
+Recording when an activity occurs will allow you to calculate [Activity Decay](#Activity-Decay). 
 
 To your table, add columns for "Months ago" and "Value." 
 
@@ -185,7 +185,7 @@ Over time, community members will slowly make their way from inner to outer Orbi
 
 Reach is a measure of a community member’s sphere of influence and takes into account their reputation, credibility, and degree of connectedness.
 
-> "Avery is one of our highest-reach community members. They're constantly engaging with folks on twitter and they run a blog with thousands of visitors per month. They're also a senior engineer at a well-respected agency."
+> "Avery is one of our highest-reach community members. They're constantly engaging with folks on Twitter and they run a blog with thousands of visitors per month. They're also a senior engineer at a well-respected agency."
 
 Unlike love, reach is independent of a particular community. Exceptions do apply for established communities where understanding a member's reach solely inside of that community is useful, but for smaller communities looking to grow it's generally more important to know about a member's reach in the broad sense.
 
@@ -296,7 +296,7 @@ You can name your orbit levels whatever fits your community the best, but the mo
 
 ## Orbit 4 - Observers
 
-Orbit 4 is called Observers. These are folks who’ve read our community's blog posts, watched talks, followed us on twitter, or tried our product. They're not fully-activated community members yet, but are at least passively interested and form a part of our audience. They might not join your community today but might in the future, and finding ways to stay top of mind with them is important.
+People in Orbit 4 are called Observers. These are folks who’ve read our community's blog posts, watched talks, followed us on Twitter, or tried our product. They're not fully-activated community members yet, but are at least passively interested and form a part of our audience. They might not join your community today but might in the future, and finding ways to stay top of mind with them is important.
 
 Content is a great way to engage with observers, as well as lightweight events where they can learn without feeling any pressure.
 
@@ -336,7 +336,7 @@ This section covers how to set up orbit levels and get the most out of them.
 
 The higher love should correlate with the orbit level. High love members should go into orbits 1 and 2, with lower love members being further out at 3 and 4. 
 
-To achieve this, we recommend a step function to group members into Orbit Levels base on love. We use the following ranges in the Orbit product. 
+To achieve this, we recommend a step function to group members into Orbit Levels based on love. We use the following ranges in the Orbit product. 
 
 | Orbit level       | Love range   |
 | ---------------   | ----------   |
@@ -367,10 +367,10 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Receive product credits |       Orbit 3        |
 | Read blog post          |       Orbit 4        |
 | Subscribe to newsletter |       Orbit 4        |
-| Follow us on twitter    |       Orbit 4        |
+| Follow us on Twitter    |       Orbit 4        |
 
 
-The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on twitter too. But **when we want to find an activity to offer to an Advocate, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
+The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on Twitter, too. But **when we want to find an activity to offer to an Advocate, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
 ## Promotions
 
 It's a happy moment when you've identified a community member who's ready to move into the next orbit level. In the Orbit Model, we call these promotions.
