@@ -13,7 +13,8 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
 
 **The goal of the Orbit Model is to increase the Gravity of your community.**
 
-> The Orbit Model was created and is maintained by the team at Orbit, the community management platform. [Learn more and sign up for early access here](https://orbit.love/).
+> The Orbit Model was created and is maintained by the team at Orbit, the community management platform.  
+[Learn more and sign up for early access here](https://orbit.love/).
 
 
 👇 Keep reading to learn how to get started with the Orbit Model.
