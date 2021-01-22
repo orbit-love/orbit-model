@@ -206,7 +206,7 @@ To calculate reach, we need to look at evidence of a member's sphere of influenc
 - Pagerank or estimated traffic to their website or blog
 
 Like with love, we create a table that assigns a point value to each element of a member's reach.
-5
+
 | Reach element                      | Score |
 | ---------------------------------- | ----- |
 | 1-2k Twitter followers             | 1     |
@@ -478,7 +478,7 @@ Read the [contribution guide](CONTRIBUTING.md) to learn more.
 
 # Changelog
 
-**March 16, 2019**
+**March 16, 2020**
 
 - Created sections for love, reach, and gravity
 - Added calculations and example tables for each metric
