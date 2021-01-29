@@ -48,7 +48,7 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
 
 # Introduction
 
-The Orbit Model is a vocabulary and visual canvas that helps organizations understand, manage, and grow their community. Questions like:
+The Orbit Model is a vocabulary and visual canvas that helps organizations understand, manage, and grow their community. It helps answer questions like:
 
 - How do I measure my community's engagement and growth?
 - How do I attract new people to my community?
@@ -57,10 +57,16 @@ The Orbit Model is a vocabulary and visual canvas that helps organizations under
 
 Who can use the Orbit Model?
 
-- Developer communities
-- Open source projects
-- Community-driven businesses
-- and more...
+**Developer communities**.  
+Understand who's adopting your software so that you can build your community. 
+
+**Open source projects**.  
+Keep track of who's opening issues and creating PRs so that you can build strong relationships with your individual contributors.
+
+**Community-driven businesses**.  
+Get to know who your most influential customers are so that you can leverage how they're sharing your product and increase your reach to attract more customers. 
+
+**And anyone else focused on growing their community!**
 
 ### The solar system
 
@@ -191,6 +197,8 @@ Unlike love, reach is independent of a particular community. Exceptions do apply
 
 Why do we care about reach? Because **individuals with high reach will attract others to join them as they journey through our solar system.** Our relationship and love-building investment in high reach individuals may pay off bigger as a result. Everyone has some reach though, and one of our jobs as an orbit modeler is to help each of our members grow their sphere of influence. As we'll see in a minute, doing that also helps increase the gravity of our community.
 
+💡 On the visual canvas of the Orbit Model, reach is represented by the diameter of the circle that represents each member. The bigger the circle, the higher the reach.
+
 <p align="center">
   <img alt="Diagram of an orbiting circle growing in size" src="images/orbit-model-reach-zoom.png" width="480">
 </p>
@@ -234,8 +242,6 @@ Then we can take the sum for each member.
 | Laura Blight   | 3           |
 
 If the numbers you've chosen are giving you too many members with 0 points or over 10 points, consider adjusting the reach elements and their scores until the distribution looks right.
-
-💡 On the visual canvas of the Orbit Model, reach is represented by the diameter of the circle that represents each member. The bigger the circle, the higher the reach.
 
 ## Gravity
 
@@ -422,6 +428,10 @@ The funnel is a model for _capturing value_ for the company. The key measurement
 
 **Orbit is a model for _creating value_ for the community.** We measure how much value is being created in the community and who is doing it, in order to offer the people the right rewards and opportunities.
 
+As an example (using the Orbit community), some of our community members work in gaming, and so we might consider options for connecting them to one another or creating a space for them to talk about Orbit and gaming. 
+
+Taking a developer tool as another example, it would be possible for community facilitators to group community members by SDK, and then further invite the most active members to lead each particular SDK group.
+
 Here's a quick table summing up a few key differences:
 
 | Funnel                           | Orbit Model                   |
@@ -452,6 +462,7 @@ For complex products, like technology platforms, it's a best practice for the de
 - [Introducing the Orbit Model Airtable Template](https://orbit.love/blog/introducing-the-orbit-model-airtable-template) - Patrick Woods - Orbit Blog
 - [Why Orbit is better than funnel for developer relations](https://orbit.love/blog/why-orbit-is-better-than-funnel-for-developer-relations) — Orbit Blog
 - [Communities aren't funnels](https://www.youtube.com/watch?v=EDgNuFdVay0) — Josh Dzielak, DevRelCon 2019
+- [How we're using Orbit to build Orbit](https://orbit.love/blog/how-we-use-orbit-to-build-orbit/) - Orbit Blog
 
 # Early adopters
 
