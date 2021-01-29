@@ -7,12 +7,12 @@ The Orbit Model is a framework for building high gravity communities. A high gra
 “轨道模型”是一个构建高“向心力”社区的框架体系。一个高向心力社区意味着社区通过提供一份极致体验以吸引和留存社区成员。
 
 The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orbit Level:
-轨道模型包含四项基本概念： 向心力， 兴趣， 触达，及轨道层级： 
+轨道模型包含四项基本概念： 向心力， 兴趣， 影响力，及轨道层级： 
 
 - **Love** is a member's level of engagement and activity in the community.
 - **热情** 是用于描述社区成员投入到社区的参与程度和活跃程度。
 - **Reach** is a measure of a community member’s sphere of influence.
-- **触达** 是用于描述社区成员影响（力）范围的一种度量指标。
+- **影响力** 是用于描述社区成员影响（力）范围的一种度量指标。
 - **Gravity** is the attractive force of a community that acts to retain existing members and attract new ones.
 - **向心力**是一种描述社区吸引力的指标，可以用于社区成员的留存和新成员的吸纳。
 - **Orbit levels** are a practical tool for member segmentation and used to design different programs for each level of the community.
@@ -57,27 +57,45 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
 
 # Introduction
 
+# 简介
+
 The Orbit Model is a vocabulary and visual canvas that helps organizations understand, manage, and grow their community. Questions like:
+轨道模型是一套帮助组织了解、管理和经营社区的可视化词典。我们通常会遇到如下问题：
 
 - How do I measure my community's engagement and growth?
+- 如何度量社区成员的参与度和成长？
 - How do I attract new people to my community?
+- 如何吸引新人参与社区？
 - Which members should I prioritize spending time with?
+- 哪些社区成员值得我们投入更多时间在他们身上？
 - What contribution should I ask each community member to make?
+- 哪些贡献是我们需要引导社区成员参与的？
 
 Who can use the Orbit Model?
 
+谁适合使用轨道模型？
+
 - Developer communities
+- 开发者社区
 - Open source projects
+- 开源项目
 - Community-driven businesses
+- 社区驱动的生意
 - and more...
+- 以及其他领域...
 
 ### The solar system
 
+### “太阳系”
+
 A solar system, with all of its celestial bodies and concentric orbits, lends itself well to visualizing a community. Some members are close to the heart of things, others far away. Some members are as large and visible as Jupiter, others barely the size of an asteroid. And of course, everything is constantly in motion.
+让我们想象一下太阳系，围绕着她的天体和同心圆轨道，这套模型非常适合可视化地描述一个社区。将社区成员和围绕着太阳的行星做一下类比，有些成员如同水星火星一样紧紧围绕在太阳身边，而有些如天王星海王星一样远离星系中心。有些成员的影响力如木星般辐射周边，而有些成员可能像小行星般追随巨人的脚步。社区中的万事万物如同星系一般不停运转中。
 
 To make it easy to discuss the differences between members, so we can give them the appropriate experience, the Orbit Model assigns each person 2 core attributes: _love_ and _reach_.
+为了便于讨论社区成员之间的不同， 所以我们给他们不同的描述， 轨道模型赋予每一个人2中核心属性： **热情** 和 **影响力**。
 
 **The goal is to increase Love and Reach for each of your community members.**
+**我们的目标就是为每一位社区成员增进他们的热情和影响力
 
 ## Love
 
