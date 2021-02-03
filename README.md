@@ -464,6 +464,10 @@ For complex products, like technology platforms, it's a best practice for the de
 - [Communities aren't funnels](https://www.youtube.com/watch?v=EDgNuFdVay0) — Josh Dzielak, DevRelCon 2019
 - [How we're using Orbit to build Orbit](https://orbit.love/blog/how-we-use-orbit-to-build-orbit/) - Orbit Blog
 
+
+
+[Download our custom Orbit Model icons for Slack!](https://orbit.love/blog/download-these-orbit-model-icons-for-your-slack-workspace)
+
 # Early adopters
 
 Using the Orbit Model for your community? Tell the galaxy! Add your name to this list with a link to your site, community, or relevant material.
