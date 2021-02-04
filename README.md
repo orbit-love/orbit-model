@@ -465,7 +465,7 @@ For complex products, like technology platforms, it's a best practice for the de
 - [How we're using Orbit to build Orbit](https://orbit.love/blog/how-we-use-orbit-to-build-orbit/) - Orbit Blog
 
 <p align="left">
-  <img alt="Orbit-themed Slack icons" src="images/orbit-model-slack-icons.png" width="360">
+  <a href="https://github.com/orbit-love/orbit-model/raw/main/Orbit%20Emoji.zip"><img alt="Orbit-themed chat icons" src="images/orbit-model-slack-icons.png" width="360"></a>
 </p>
 
 [Download our custom Orbit Model icons for Slack!](https://orbit.love/blog/download-these-orbit-model-icons-for-your-slack-workspace)
