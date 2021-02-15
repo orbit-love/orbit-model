@@ -473,6 +473,17 @@ For complex products, like technology platforms, it's a best practice for the de
 - [Download the icons](https://github.com/orbit-love/orbit-model/raw/main/Orbit%20Emoji.zip)
 - [Read the blog post](https://orbit.love/blog/download-these-orbit-model-icons-for-your-slack-workspace)
 
+# Orbit Model printables
+
+Download and print the Orbit Model diagram (available in color and black/white)
+
+<p align="left">
+  <a href="https://github.com/orbit-love/orbit-model/raw/main/Printables.zip"><img alt="Orbit Model in color" src="images/orbit_model_color.png" width="360"></a>
+  <a href="https://github.com/orbit-love/orbit-model/raw/main/Printables.zip"><img alt="Orbit Model in black and white" src="images/orbit_model_bw.png" width="360"></a>
+</p>
+
+- [Download the images](https://github.com/orbit-love/orbit-model/raw/main/Printables.zip)
+
 # Early adopters
 
 Using the Orbit Model for your community? Tell the galaxy! Add your name to this list with a link to your site, community, or relevant material.
