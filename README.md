@@ -1,4 +1,4 @@
-[![Diagram of circles orbiting a center](images/orbit-model-canvas.png)](https://res.cloudinary.com/dzello/image/upload/v1601328377/orbit/orbit-model-canvas.png)
+![Diagram of circles orbiting a center](images/orbit_model_color.png)
 
 # Welcome to the Orbit Model
 
