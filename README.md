@@ -91,7 +91,7 @@ Members have different degrees of love for each of the communities that they par
 💡 On the visual canvas of the Orbit Model, love is represented by distance from the center of the solar system. The more love, the closer to the center.
 
 <p align="center">
-  <img alt="Diagram of an orbiting circle moving closer to the center" src="images/orbit-model-love-zoom.png" width="480">
+  <img alt="Diagram of an orbiting circle moving closer to the center" src="images/love_diagram.png" width="560">
 </p>
 
 ### Measuring love
@@ -200,7 +200,7 @@ Why do we care about reach? Because **individuals with high reach will attract o
 💡 On the visual canvas of the Orbit Model, reach is represented by the diameter of the circle that represents each member. The bigger the circle, the higher the reach.
 
 <p align="center">
-  <img alt="Diagram of an orbiting circle growing in size" src="images/orbit-model-reach-zoom.png" width="480">
+  <img alt="Diagram of an orbiting circle growing in size" src="images/reach_diagram.png" width="560">
 </p>
 
 ### Measuring reach
