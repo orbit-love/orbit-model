@@ -513,7 +513,7 @@ Read the [contribution guide](CONTRIBUTING.md) to learn more.
 
 **July 23, 2021
 
--Updated Orbit Level names
+- Updated Orbit Level names
 
 **March 16, 2020**
 
