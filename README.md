@@ -511,7 +511,7 @@ Read the [contribution guide](CONTRIBUTING.md) to learn more.
 
 # Changelog
 
-**July 23, 2021
+**July 23, 2021**
 
 - Updated Orbit Level names
 
