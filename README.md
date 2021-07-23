@@ -1,4 +1,4 @@
-![Diagram of circles orbiting a center](https://user-images.githubusercontent.com/34941235/126797506-46c128ee-bc0b-4306-892e-588fff797aeb.png)
+![Diagram of circles orbiting a center](images/orbit_model_color.png)
 
 
 # Welcome to the Orbit Model
