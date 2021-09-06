@@ -5,19 +5,18 @@
 
 The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience.
 
-The Orbit Model contains five fundamental concepts: Presence, Love, Reach and Orbit Levels.
+The Orbit Model contains five fundamental concepts: Gravity, Love, Reach, Orbit Levels, and Presence.
 
+- **Gravity** is the attractive force of a community that acts to retain existing members and attract new ones.
 - **Love** is a member's overall level of engagement and impact in the community.
 - **Reach** is a measure of a community member’s sphere of influence.
-- **Gravity** is the attractive force of a community that acts to retain existing members and attract new ones.
-- **Presence** is a measure of a community member's activity over a period of time.
 - **Orbit levels** are a practical tool for member segmentation and help you create different programs for different types of community members.
+- **Presence** is a measure of a community member's activity over a period of time.
 
-**The goal of the Orbit Model is to increase the Presence of your community.**
+**The goal of the Orbit Model is to increase the Gravity of your community.**
 
 > The Orbit Model was created and is maintained by the team at Orbit, the community management platform.  
 [Learn more and sign up for early access here](https://orbit.love/).
-
 
 👇 Keep reading to learn how to get started with the Orbit Model.
 
@@ -60,14 +59,14 @@ The Orbit Model is a vocabulary and visual canvas that helps organizations under
 
 Who can use the Orbit Model?
 
-**Developer communities**.  
-Understand who's adopting your software so that you can build your community. 
-
-**Open source projects**.  
-Keep track of who's opening issues and creating PRs so that you can build strong relationships with your individual contributors.
+**Product and developer communities**.  
+Form a community of your most enthusiastic users and developers.
 
 **Community-driven businesses**.  
-Get to know who your most influential customers are so that you can leverage how they're sharing your product and increase your reach to attract more customers. 
+Learn who your most influential customers and help increase their reach.
+
+**Open source projects**.  
+Build relationships that help convert users into contributors.
 
 **And anyone else focused on growing their community!**
 
@@ -307,7 +306,7 @@ A member with high-Love and high-Presence could be consider to be on your commun
 
 ### Measuring Presence
 
-The calculation of Presence is based on the number of days active in a given time range. This could mean measuring a community member's activity over a selected date range, channel, or sub-channel.
+One method of calculating Presence is for a member is to look at how many days they've been active in the community out of the last 30, 90, or 365. To get a more precise view, you can calculate Presence at the level of individual platforms (e.g. GitHub, Twitter, Discord) or other community-specific channels (e.g. events).
 
 # Orbit levels
 
