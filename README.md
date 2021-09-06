@@ -5,12 +5,13 @@
 
 The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience.
 
-The Orbit Model contains four fundamental concepts: Presence, Love, Reach and Orbit Levels.
+The Orbit Model contains five fundamental concepts: Presence, Love, Reach and Orbit Levels.
 
 - **Love** is a member's overall level of engagement and impact in the community.
 - **Reach** is a measure of a community member’s sphere of influence.
+- **Gravity** is the attractive force of a community that acts to retain existing members and attract new ones.
 - **Presence** is a measure of a community member's activity over a period of time.
-- **Orbit** levels are a practical tool for member segmentation and help you create different programs for different types of community members.
+- **Orbit levels** are a practical tool for member segmentation and help you create different programs for different types of community members.
 
 **The goal of the Orbit Model is to increase the Presence of your community.**
 
@@ -26,6 +27,7 @@ The Orbit Model contains four fundamental concepts: Presence, Love, Reach and Or
   - [Love](#love)
   - [Reach](#reach)
   - [Gravity](#gravity)
+  - [Presence](#presence)
 - [Orbit levels](#orbit-levels)
   - [Orbit 4 - Exploring](#orbit-4---exploring)
   - [Orbit 3 - Participating](#orbit-3---participating)
@@ -292,6 +294,20 @@ Using the examples from above, here's what the gravity would look like.
 To get even more granular, you can introduce coefficients for love and reach that refine the calculation according to each community's need. Growth-fueled communities may assign a higher coefficient to reach, where established communities that value participation may assign a bigger number to love.
 
 You should calculate gravity on a monthly or even weekly basis to see how your community is trending. It's a good north star and barometer to track over time, and watch how the different community programs that you run affect it.
+
+## Presence
+
+A common element between interesting segments of users is their presence. Presence is a measure of how active a member is over a selected period of time. It helps you understand how regularly a member is active and how present they are in your community. 
+
+> Marie is one of our most present members. She shows up regularly and consistently on Discord, regularly contributes via Github, and interacts with us on Twitter.
+
+Presence, Orbit Level, and Love are signals to help surface opportunities to be proactive in community building. These signals change over time relative to each other.
+
+A member with high-Love and high-Presence could be consider to be on your community building "happy path". When a member falls out of this path it could be an opportunity for action.
+
+### Measuring Presence
+
+The calculation of Presence is based on the number of days active in a given time range. This could mean measuring a community member's activity over a selected date range, channel, or sub-channel.
 
 # Orbit levels
 
