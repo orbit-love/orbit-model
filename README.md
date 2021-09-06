@@ -1,17 +1,19 @@
 ![Diagram of circles orbiting a center](images/orbit_model_color.png)
 
+
 # Welcome to the Orbit Model
 
 The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience.
 
-The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orbit Level:
+The Orbit Model contains five fundamental concepts: Presence, Love, Reach and Orbit Levels.
 
-- **Love** is a member's level of engagement and activity in the community.
+- **Love** is a member's overall level of engagement and impact in the community.
 - **Reach** is a measure of a community member’s sphere of influence.
 - **Gravity** is the attractive force of a community that acts to retain existing members and attract new ones.
-- **Orbit levels** are a practical tool for member segmentation and used to design different programs for each level of the community.
+- **Presence** is a measure of a community member's activity over a period of time.
+- **Orbit levels** are a practical tool for member segmentation and help you create different programs for different types of community members.
 
-**The goal of the Orbit Model is to increase the Gravity of your community.**
+**The goal of the Orbit Model is to increase the Presence of your community.**
 
 > The Orbit Model was created and is maintained by the team at Orbit, the community management platform.  
 [Learn more and sign up for early access here](https://orbit.love/).
@@ -25,11 +27,12 @@ The Orbit Model contains four fundamental concepts: Gravity, Love, Reach and Orb
   - [Love](#love)
   - [Reach](#reach)
   - [Gravity](#gravity)
+  - [Presence](#presence)
 - [Orbit levels](#orbit-levels)
-  - [Orbit 4 - Observers](#orbit-4---observers)
-  - [Orbit 3 - Participants](#orbit-3---participants)
-  - [Orbit 2 - Contributors](#orbit-2---contributors)
-  - [Orbit 1 - Advocates](#orbit-1---advocates)
+  - [Orbit 4 - Exploring](#orbit-4---exploring)
+  - [Orbit 3 - Participating](#orbit-3---participating)
+  - [Orbit 2 - Contributing](#orbit-2---contributing)
+  - [Orbit 1 - Building](#orbit-1---building)
   - [Orbit 0 - Team](#orbit-0---team)
 - [Using the levels](#using-the-levels)
   - [Determining levels](#determining-levels)
@@ -292,6 +295,20 @@ To get even more granular, you can introduce coefficients for love and reach tha
 
 You should calculate gravity on a monthly or even weekly basis to see how your community is trending. It's a good north star and barometer to track over time, and watch how the different community programs that you run affect it.
 
+## Presence
+
+A common element between interesting segments of users is their presence. Presence is a measure of how active a member is over a selected period of time. It helps you understand how regularly a member is active and how present they are in your community. 
+
+> Marie is one of our most present members. She shows up regularly and consistently on Discord, regularly contributes via Github, and interacts with us on Twitter.
+
+Presence, Orbit Level, and Love are signals to help surface opportunities to be proactive in community building. These signals change over time relative to each other.
+
+A member with high-Love and high-Presence could be consider to be on your community building "happy path". When a member falls out of this path it could be an opportunity for action.
+
+### Measuring Presence
+
+The calculation of Presence is based on the number of days active in a given time range. This could mean measuring a community member's activity over a selected date range, channel, or sub-channel.
+
 # Orbit levels
 
 In most communities, there are a few members with a lot of love, a lot of members with a little love, and other groups of people somewhere in between. In the Orbit Model, we call these cohorts _orbit levels_. The highest-love members orbit at the level closest to the center of the solar system.
@@ -300,19 +317,19 @@ In most communities, there are a few members with a lot of love, a lot of member
 
 You can name your orbit levels whatever fits your community the best, but the model comes with some standard names that tend to work for most communities. Each orbit level has a corresponding number, with 1 reserved for the most highly engaged folks. Numbers increase from there as engagement decreases.
 
-## Orbit 4 - Observers
+## Orbit 4 - Exploring
 
-People in Orbit 4 are called Observers. These are folks who’ve read our community's blog posts, watched talks, followed us on Twitter, or tried our product. They're not fully-activated community members yet, but are at least passively interested and form a part of our audience. They might not join your community today but might in the future, and finding ways to stay top of mind with them is important.
+People in Orbit 4 are called Explorers. These are folks who’ve read our community's blog posts, watched talks, followed us on Twitter, or tried our product. They're not fully-activated community members yet, but are at least passively interested and form a part of our audience. They might not join your community today but might in the future, and finding ways to stay top of mind with them is important.
 
 Content is a great way to engage with observers, as well as lightweight events where they can learn without feeling any pressure.
 
-## Orbit 3 - Participants
+## Orbit 3 - Participating
 
 People in Orbit 3 are called Participants. These individuals have navigated the onramp into the community and are starting to establish a track record of usage (if there's a product involved) or participation. They've made some lightweight contributions like writing documentation, doing translation, or volunteering at an event.
 
 Online community channels like forums are a good way to engage with users, as it gives them a chance to learn the norms and personalities of the community while taking small steps to contribute. Likewise, events where they can meet other members are good.
 
-## Orbit 2 - Contributors
+## Orbit 2 - Contributing
 
 People in Orbit 2 are called Contributors. These folks have graduated from being just Participants by taking on more time-intensive, higher impact roles in the community. They might be moderating the forum, guiding the chat room, giving talks, or hosting small events. They're consistent, recognizable faces who embody the culture and actions the community expects.
 
@@ -320,13 +337,13 @@ Motivating and engaging with Contributors requires a higher touch than Participa
 
 They will appreciate activities that pair them with prominent members of the community and offer deeper learning or development experiences. As a Contributor, they’re making a strong contribution to the community, and the recognition and opportunities provided to them should be commensurate with that.
 
-## Orbit 1 - Advocates
+## Orbit 1 - Building
 
-Orbit 1 is reserved for the inner circle, the Advocates. These individuals have very high love for the community, taking on important challenges and playing a leadership role. They're known to many other members, who look to them for guidance and help. They may head one or more large groups inside of the community.
+Orbit 1 is reserved for the inner circle, the Builders. These individuals have very high love for the community, taking on important challenges and playing a leadership role. They're known to many other members, who look to them for guidance and help. They may head one or more large groups inside of the community.
 
-The relationship with the Advocates is close, personal, and transparent. They appreciate getting early access to products and events, access to people at the Team level, and opportunities that are specific to their individual goals. 
+The relationship with the Builders is close, personal, and transparent. They appreciate getting early access to products and events, access to people at the Team level, and opportunities that are specific to their individual goals. 
 
-For example, you could use your network to help an Advocate find a new job, or if they have a large audience you could offer to sponsor or contribute to their newsletter.
+For example, you could use your network to help a Builder find a new job, or if they have a large audience you could offer to sponsor or contribute to their newsletter.
 
 ## Orbit 0 - Team
 
@@ -346,10 +363,10 @@ To achieve this, we recommend a step function to group members into Orbit Levels
 
 | Orbit level       | Love range   |
 | ---------------   | ----------   |
-| 1 - Advocates     | ≥ 1.5        |
-| 2 - Contributors  | 1 – 1.5      |
-| 3 - Participants  | .5 – 1       |
-| 4 - Observers     | < .5         |
+| 1 - Building      | ≥ 1.5        |
+| 2 - Contributing  | 1 – 1.5      |
+| 3 - Participating | .5 – 1       |
+| 4 - Exploring     | < .5         |
 
 Based on these ranges, the resulting level distribution looks like this: 
 
@@ -376,7 +393,8 @@ Having a list of activities organized by orbit level makes it easy to find oppor
 | Follow us on Twitter    |       Orbit 4        |
 
 
-The activities aren't exclusive to the orbit levels: Advocates hopefully subscribe to the newsletter and follow us on Twitter, too. But **when we want to find an activity to offer to an Advocate, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
+The activities aren't exclusive to the orbit levels: Builders hopefully subscribe to the newsletter and follow us on Twitter, too. But **when we want to find an activity to offer to a Builder, we can look for activities marked "Orbit 1," like delivering a keynote or organizing a meetup**.
+
 ## Promotions
 
 It's a happy moment when you've identified a community member who's ready to move into the next orbit level. In the Orbit Model, we call these promotions.
@@ -391,7 +409,7 @@ Here's a summary of the most important things to measure when using the Orbit Mo
 
 | Metric         | Applies To                            | Calculation                              | Tells you...                                     |
 | -------------- | ------------------------------------- | ---------------------------------------- | ------------------------------------------------ |
-| Gravity        | Whole community, orbit levels, groups | Sum(love \* reach) of each member        | Overall barometer for growth and engagement      |
+| Presence        | Whole community, orbit levels, groups | Sum(love \* reach) of each member        | Overall barometer for growth and engagement      |
 | Level size     | Orbit levels 4, 3, 2, and 1           | Count of members at level                | How balanced the community is                    |
 | Orbit level    | Member                                | Chosen by Team, factoring in love        | What experience that member should get           |
 | Love           | Member                                | Maximum recent activity score (1-10)     | What contribution you can ask the member to make |
@@ -416,7 +434,7 @@ Large communities are usually composed of sets of smaller communities. In the Or
 
 A community member can more easily reach folks in their group compared to the broader community. Members who associate with a specific person, place, or thing also have a lower barrier to becoming collaborators.
 
-💡 In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Advocates, Contributors, Participants, and Observers.
+💡 In the Orbit Model, groups can be visualized as triangular pie slices stretching from O1 out to O4. Each group has its own Builders, Contributors, Participants, and Observers.
 
 **Gravity-building tip: Identify active or potential groups and help them increase their reach, attracting new members to the group.**
 
@@ -508,6 +526,10 @@ Contributions and questions are not just welcome, they're essential! Please open
 Read the [contribution guide](CONTRIBUTING.md) to learn more.
 
 # Changelog
+
+**July 23, 2021**
+
+- Updated Orbit Level names
 
 **March 16, 2020**
 
