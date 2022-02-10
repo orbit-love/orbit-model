@@ -408,7 +408,7 @@ Here's a summary of the most important things to measure when using the Orbit Mo
 
 | Metric         | Applies To                            | Calculation                              | Tells you...                                     |
 | -------------- | ------------------------------------- | ---------------------------------------- | ------------------------------------------------ |
-| Presence        | Whole community, orbit levels, groups | Sum(love \* reach) of each member        | Overall barometer for growth and engagement      |
+| Gravity        | Whole community, orbit levels, groups | Sum(love \* reach) of each member        | Overall barometer for growth and engagement      |
 | Level size     | Orbit levels 4, 3, 2, and 1           | Count of members at level                | How balanced the community is                    |
 | Orbit level    | Member                                | Chosen by Team, factoring in love        | What experience that member should get           |
 | Love           | Member                                | Maximum recent activity score (1-10)     | What contribution you can ask the member to make |
