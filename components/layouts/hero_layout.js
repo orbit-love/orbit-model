@@ -113,39 +113,41 @@ export default function HeroLayout() {
               <Slide7 />
             </div>
           </ScrollPage>
-          <ScrollPage page={8}>
-            <div className="md:my-32"></div>
-            <div className="overflow-y-auto pb-12 my-24 text-center md:px-8">
-              <h1 className="px-6 text-3xl font-extrabold md:text-4xl">
-                Speak the cosmic language
-              </h1>
-              <p className="px-6 my-4 mx-auto w-full text-lg md:my-6 md:my-12 md:w-2/3 md:text-xl">
-                The model is a family of concepts designed to work together,
-                giving your team a vocabulary and framework for visualizing how
-                your community works.
-              </p>
-              <div className="my-12 mx-auto w-3/4 text-lg md:w-3/4">
-                <div className="flex flex-wrap justify-center">
-                  <Icon name="Gravity" href="/love"></Icon>
-                  <Icon name="Love" href="/love"></Icon>
-                  <Icon
-                    name={
-                      <span>
-                        Orbit <br />
-                        Levels
-                      </span>
-                    }
-                    icon=""
-                    href="/love/orbit-levels"
-                  ></Icon>
-                  <Icon name="Roles" href="/love/roles"></Icon>
-                  <Icon name="Reach" href="/reach"></Icon>
-                  <Icon name="Impact" href="/impact"></Icon>
-                  <Icon name="...more" href="/introduction"></Icon>
+          <div className="xs:block hidden">
+            <ScrollPage page={8}>
+              <div className="md:my-32"></div>
+              <div className="xs:block hidden overflow-y-auto pb-12 my-24 text-center md:px-8">
+                <h1 className="xs:text-3xl px-6 text-xl font-extrabold md:text-4xl">
+                  Speak the cosmic language
+                </h1>
+                <p className="xs:text-lg px-6 my-4 mx-auto w-full md:my-6 md:my-12 md:w-2/3 md:text-xl">
+                  The model is a family of concepts designed to work together,
+                  giving your team a vocabulary and framework for visualizing
+                  how your community works.
+                </p>
+                <div className="my-12 mx-auto w-3/4 text-lg md:w-3/4">
+                  <div className="flex flex-wrap justify-center">
+                    <Icon name="Gravity" href="/love"></Icon>
+                    <Icon name="Love" href="/love"></Icon>
+                    <Icon
+                      name={
+                        <span>
+                          Orbit <br />
+                          Levels
+                        </span>
+                      }
+                      icon=""
+                      href="/love/orbit-levels"
+                    ></Icon>
+                    <Icon name="Roles" href="/love/roles"></Icon>
+                    <Icon name="Reach" href="/reach"></Icon>
+                    <Icon name="Impact" href="/impact"></Icon>
+                    <Icon name="...more" href="/introduction"></Icon>
+                  </div>
                 </div>
               </div>
-            </div>
-          </ScrollPage>
+            </ScrollPage>
+          </div>
         </ScrollContainer>
       )}
     </>

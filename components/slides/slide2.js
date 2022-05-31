@@ -5,16 +5,16 @@ export default function Slide2(props) {
   return (
     <Slide image={image} {...props}>
       <div className="py-12 md:py-0">
-        <div className="flex justify-center items-center mt-8 mx-auto w-96 text-center md:hidden md:p-12 md:mt-0">
+        <div className="xs:block flex hidden justify-center items-center mt-8 mx-auto w-96 text-center md:hidden md:p-12 md:mt-0">
           <img src={image} />
         </div>
         <br></br>
-        <div className="px-10 text-3xl font-extrabold md:px-0 md:w-4/5 md:text-5xl">
+        <div className="xs:text-3xl px-10 text-xl font-extrabold md:px-0 md:w-4/5 md:text-5xl">
           The secret: gravity
         </div>
         <br></br>
 
-        <div className="px-10 w-full text-lg tracking-wide leading-relaxed md:px-0 md:w-4/5 md:text-xl">
+        <div className="xs:text-lg px-10 pb-10 w-full tracking-wide leading-relaxed md:px-0 md:w-4/5 md:text-xl">
           <div>
             <span className="font-bold">Gravity</span> is the force of
             attraction that holds the community together, drawing members into

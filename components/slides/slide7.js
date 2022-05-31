@@ -5,10 +5,10 @@ import BaseButton from "components/base_button";
 export default function Slide7(props, onNext) {
   return (
     <Slide lastSlide={true} {...props}>
-      <div className="text-4xl font-extrabold text-center md:text-5xl">
+      <div className="xs:text-4xl text-xl font-extrabold text-center md:text-5xl">
         Mission complete!
       </div>
-      <div className="px-10 mx-auto w-full text-lg tracking-wide leading-relaxed text-center md:px-8 md:w-4/5">
+      <div className="xs:text-lg px-10 mx-auto w-full tracking-wide leading-relaxed text-center md:px-8 md:w-4/5">
         <p>
           Congratulations, you now have a 30,000km view of the Orbit Model.
           Balance gravity and growth, increase the love and reach of your
@@ -20,9 +20,9 @@ export default function Slide7(props, onNext) {
           concept in detail. Good luck!
         </p>
       </div>
-      <div className="mx-auto w-3/5 text-center">
+      <div className="xs:text-base mx-auto w-3/5 text-sm text-center">
         <Link href="/introduction" passHref>
-          <button className="p-4 font-semibold text-[#1E1449] bg-[#A691FF] rounded rounded-sm hover:opacity-60">
+          <button className="p-2 xs:p-4 font-semibold text-[#1E1449] bg-[#A691FF] rounded rounded-sm hover:opacity-60">
             Next: Read the guides
           </button>
         </Link>
