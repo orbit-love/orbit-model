@@ -14,11 +14,11 @@ export default function _Head() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="og:image"
-          content="https://orbit-model-next.vercel.app/om_social_share.jpg"
+          content="https://orbitmodel.com/om_social_share.jpg"
         />
         <meta
           name="twitter:image"
-          content="https://orbit-model-next.vercel.app/om_social_share.jpg"
+          content="https://orbitmodel.com/om_social_share.jpg"
         />
         <meta property="og:image:alt" content="Page image for Orbit Model" />
         <meta name="twitter:image:alt" content="Page image for Orbit Model" />
