@@ -1,0 +1,181 @@
+import {
+  createSimpleNode,
+  createSimpleEdge,
+  createNodes,
+  createEdges,
+} from "lib/data/graphs/generate";
+import baseData, { withLabels } from "lib/data/graphs/base";
+
+# Measuring reach
+
+Building on the foundation of how communities function as networks, we can start
+to analyze the reach of our community members. First, we'll look at how to
+establish connections between members and assign strength to those connections.
+From there, we'll be able to calculate reach in a few different ways by doing
+some math and using some well-known graph algorithms.
+
+## Establishing connections
+
+How do we know if two members know each other? We can see if they have any
+activities in common. We can see if they attended the same event or mentioned
+each other on our chat platform. In the Orbit Model, we call these
+shared-activity exchanges _interactions_. They come in two varieties: direct and
+indirect. Each one implies a different _connection strength_. Measuring
+connection strength is akin to asking the question _how well do these two
+members know each other?_
+
+#### Direct interactions
+
+A direct interaction is one where two members speak directly to each other. This includes
+at-mentions and conversations on chat platforms, forums, social media. Direct interactions
+create the most connection strength.
+
+#### Indirect interactions
+
+An indirect interaction is one where two members were in the same place at the same time,
+but without conversing with each other. Indirect interactions create less connection
+strength than direct ones.
+
+If two members have had an interaction with each other, we draw an edge between them on
+the graph. If the connection is strong, we can draw a thicker line between the members.
+In this example, an indirect connection is worth 1 and a direct connection is worth 10.
+
+<Graph
+  data={{
+    nodes: [
+      ...createNodes(2, "A", {
+        label: "Indirect",
+        size: 70,
+      }),
+      ...createNodes(2, "B", {
+        label: "Direct",
+        size: 70,
+      }),
+    ],
+    edges: [
+      createSimpleEdge("m1-A", "m2-A", 1),
+      createSimpleEdge("m1-B", "m2-B", 10),
+    ],
+  }}
+/>
+
+What are good real-world values for direct and indirect connections? It depends!
+This is an area of future study. Feel free to experiment, but don't fret too
+much. In practice, treating all connections the same or providing a simple scale
+like the example above a still creates a useful view of the community graph.
+
+## Sum of connection strength
+
+A simple but effective way to calculate the member's reach is to sum up the
+strength of each of their connections. Let's look at an example. In this graph,
+Jennifer is connected to 4 other members, with each relationship having a
+different connection strength.
+
+<Graph data={withLabels} />
+
+If we sum up the connection strength of the 4 members that Jennifer is directly
+connected to, we get a value of `15`.
+
+```
+Reach(Jennifer) = 4 + 3 + 1 + 7 = 15
+```
+
+As Jennifer has more interactions with these members, or interactions with new members,
+her reach will go up.
+
+#### Weakening idle connections over time
+
+In practice, reach can also go down due to inactivity and connections going cold.
+We can reduce the connection strength between two members to account for this,
+for example by 10% for every month passed since the two members' last interaction.
+
+Using the example from above, let's see how Jennifer and Tony's connection strength
+would change over time. Let's assume they haven't interacted in 3 months.
+
+```
+Connection Strength(Jennifer, Tony) = 7 * 0.9^3 = 5.1
+```
+
+In 3 months, the connection strength has dropped from `7` to `5.1`.
+After 12 months of idleness it would drop to `1.9`.
+
+## Other reach-related measurements
+
+Here are a few other graph-related concepts that can tell us about a member's role in
+the community network.
+
+#### Degree
+
+In graph theory, the _degree_ of a node refers to how many edges it has. A
+member's degree of connections is simply the number of other members they are
+connected to, irrespective of strengths.
+
+#### Second-degree
+
+A member's second-degree is the number of other members they are connected
+to, plus the number of members those members are connected to. Each unique member
+is only counted once.
+
+#### Centrality
+
+First and second-degree connections tell us about the member's immediate
+network, but not how stronlgly that network is connected the community as a
+whole. For that, we can use the idea of centrality. Members with high centrality
+have an immediate network that is well-connected to the networks of other
+high-reach members. If we imagine a community as a flowing network of
+information, the highest-centrality members are those through whom the most
+information passes, globally. The original algorithm behind Google search,
+PageRank, ranked web pages based on their centrality amongst all other pages on
+the internet.
+
+#### Betweenness
+
+A member's _betweenness_ is a measure of how much they form bridges between
+different pockets of the community. As an example, imagine a community with a
+concentration of tight-knit members in New York and Amsterdam. These could be
+two local meetup chapters. A member who only knows members in their repective
+New York or Amsterdam has a low betweenness. A member who is connected to
+members in both locations has a higher betweenness, and will play a key role in
+the exchange of information between the two disparate pockets.
+
+## Reach at the community level
+
+Everything we've talked about so far has to do with the reach of individual
+members. Can we also measure the reach of the community as a whole? In a way,
+yes. We can measure the _density_ of the network.
+
+#### Network density
+
+Network density is defined as the number of actual connections divided by the
+number of potential connections. In a network of `n` members, the number of
+potential connections is defined as:
+
+```
+Potential Connections = (n * (n - 1)) / 2
+Network Density = Actual Connections / Potential Connections
+```
+
+In a 5-person community, there's 10 possible connections. If there are 6 actual
+member-to-member connections, the density is 0.6 or 60%.
+
+#### Total reach
+
+Another metric for reach at the community level is the cumulative amount of
+connection strength of all members. To calculate, take each connection in the
+community and add up all the strength. On its own, this doesn't tell you much,
+but you can track it over time. Reduce strength by some amount over time, say
+10% per month, if members have stopped interacting. For larger communities, it
+can be most useful to calculate total reach for specific pockets of the
+community and compare them. This may help you spot a need to create more
+connections between members in a certain segment.
+
+#### Recurring connections
+
+There's another way to compare reach over time: calculate the number of
+recurring connections in one time period vs. another. A recurring connection is
+one that was active during the period in question, i.e. where 2 members shared
+an interaction. This approach is straightforward and doesn't require using
+connection strength or reducing the weight of idle connections. If the number of
+recurring connections is going up (assuming no growth) it means that there's a
+greater degree of communication and collaboration happening, not just more work
+getting done.

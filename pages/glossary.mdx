@@ -1,0 +1,124 @@
+import {
+  createSimpleNode,
+  createSimpleEdge,
+  createNodes,
+  createEdges,
+} from "lib/data/graphs/generate";
+import baseData, { withLabels } from "lib/data/graphs/base";
+
+# Orbit Model Glossary
+
+This is a list of key terms described throughout the Orbit Model. If you're new the model, we suggest reading all the way through, but going forward, this reference may come in handy. 
+
+### The Orbit Model
+
+The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience and increasing the bonds between members. 
+
+### Gravity 
+Gravity is the rate at which member involvement is changing. It is measured at the community level. 
+```
+Gravity = Change in Weighted Commitment / # of Members
+```
+
+### Growth
+Growth is a measure of the rate at which a community adds new members. This includes net new additions to the community as well as retaining existing members. 
+
+### Activity 
+
+An Activity is any action an individual member takes, like following on twitter, joining the Discord server, or opening a pull request. It can also include product-related activities like creating an account or taking a key in-product action.
+
+### Orbit levels
+
+Orbit levels are a practical tool for grouping community members according to their love. There are 4 orbit levels, and each level has 3 steps. 
+
+There are two primary signals that we can use to place members in orbit levels:
+
+- the commitment level of their activities
+- the frequency of their participation
+
+
+#### Steps 
+
+Steps are sublevels within each level, designed to sharpen the understanding of the members in that level. In the standard configuration, each level has 3 steps inside of it.
+
+#### Roles
+
+Roles group members according to the jobs they do in the community, or that we need them to do. Roles can be acquired by doing certain activities or assigned by community leaders.
+
+### Love
+
+Love is the measure of the member's level of involvement in the community. It takes into account the Presence of a member as well as the Frequency and Recency of their activity. 
+
+#### Presence 
+
+Presence is a measure of a member's pattern of activity. It includes the
+frequency and regularity with which a member participates.
+
+#### Frequency
+
+Frequency is the average number of days active per week/month/year.
+
+#### Recency
+
+Recency is the time since the last activity.
+
+#### Commitment
+
+Commitment is a measure of a member's depth of involvement and level of leadership. 
+
+### Reach
+
+Reach is a measure of a member's sphere of influence and their degree of connectedness inside the community and their influence outside of it. Reach can decrease due to inactivity and connections going cold. 
+
+### Connections 
+
+Direct or indirect interactions between community members. 
+
+
+<Graph
+  data={{
+    nodes: [
+      ...createNodes(2, "A", {
+        label: "Indirect",
+        size: 70,
+      }),
+      ...createNodes(2, "B", {
+        label: "Direct",
+        size: 70,
+      }),
+    ],
+    edges: [
+      createSimpleEdge("m1-A", "m2-A", 1),
+      createSimpleEdge("m1-B", "m2-B", 10),
+    ],
+  }}
+/>
+
+#### Direct interaction
+
+A direct interaction is one where two members speak directly to each other. This includes
+at-mentions and conversations on chat platforms, forums, social media. Direct interactions
+create the most connection strength.
+
+#### Indirect interaction
+
+An indirect interaction is one where two members were in the same place at the same time,
+but without conversing with each other. Indirect interactions create less connection
+strength than direct ones.
+
+#### Network density
+
+Network density is defined as the number of actual connections divided by the
+number of potential connections.
+
+```
+Potential Connections = (n * (n - 1)) / 2
+Network Density = Actual Connections / Potential Connections
+```
+
+In a 5-person community, there's 10 possible connections. If there are 6 actual
+member-to-member connections, the density is 0.6 or 60%.
+
+### Clout
+
+A measure of a member's external influence, in the form of twitter followers, newsletter subscribers, members of their own communities, and more. 

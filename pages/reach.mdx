@@ -1,0 +1,100 @@
+import { createSimpleNode } from "lib/data/graphs/generate";
+import baseData from "lib/data/graphs/base";
+import pocketsData from "lib/data/graphs/pockets";
+
+# Reach
+
+**Reach is a measure of a member's sphere of influence and their degree of
+visibility and connectedness.**
+
+High-reach members maintain a wide network of
+active relationships and help move information throughout the community.
+Whereas love is based on _what_ a member does and _how often_, reach is
+concerned with _who_ the member does activities with. The most connected
+members have the highest reach.
+
+How can reach help us build a strong community? If we need a big announcement
+amplified, high reach members can help get the word out quickly. If we're
+looking to get an introduction to someone, our high reach members are likely to
+yield the shortest path to that connection. If we're looking to pack the house
+for a big event, we can start by inviting the high reach members and expect that
+others will follow their lead.
+
+As community builders, we should also think about ways of increasing reach for
+our members. This can look like direct introductions to other members,
+amplifying a member&apos;s content on Twitter and other channels, and inviting
+members to speak at events. Actions like these benefit the member while
+increasing their reach.
+
+In the Orbit Model, reach takes into account a member&apos;s external following (we
+call this clout), as well as the number and strengths of their connections
+inside the community. The latter is what matters most within the community, and
+it&apos;s what the builder can impact the most.
+
+## The community is a network
+
+As reach is based on member-to-member connectedness, we can study it by
+modeling the community as a network of people. To visualize the network, we can
+use a graph. Graphs are powerful devices for understanding interconnected,
+complex systems like social networks and human populations.
+
+Graphs have two primary features: nodes and edges. In the Orbit Model, we
+represent members with nodes and draw edges when there is a connection between
+them.
+
+<Graph data={baseData} />
+
+Visualizing the community this way makes it easy to see who each member is
+connected to, and who their connections are connected to. With it, we can ask
+some interesting questions:
+
+- Who are the most-connected members? The least?
+- Who can introduce member A to member B?
+- What members tend to interact only with a small group?
+- What members interact across the whole community?
+- What parts of the community are tightly or loosely connected?
+
+### Pockets of gravity
+
+This visualization also helps us find concentrations of densely-connected
+members called _pockets of gravity_. Pockets emerge when members share a common
+attribute, such as a topic of interest, geographic location, or presence on the
+same platform. Members within a pocket tend to have strong reach amongst reach other.
+Some members also have reach into other pockets, forming important bridges that
+connect disparate parts of the community. These members are highlighted in the
+graph below.
+
+<Graph data={pocketsData} />
+
+## Community topologies
+
+If we zoom out and look at the entirety of a community's network, patterns in
+the shape and structure will emerge, giving the community it's own unique
+topology. Understanding the topology gives us valuable insights into what type
+of community it is, how information travels, and where opportunities to increase
+reach live.
+
+### Four common topologies
+
+In her book [Working in
+Public](https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862),
+researcher Nadia Eghbal groups open source communities into different
+models based on the nature of their growth and participation:
+
+|                                  | High User Growth | Low User Growth |
+| -------------------------------- | ---------------- | --------------- |
+| **High Contributor<br/> Growth** | Federations      | Clubs           |
+| **Low Contributor<br/> Growth**  | Stadiums         | Toys            |
+
+Let's look at what each of these communities looks like in graph form.
+
+### Why topology matters
+
+Think of a topology as a way to map out the community you _want_ to build.
+Without a map, you won't know what member-to-member connections you should
+invest time trying to make. If your community needs to be a federation in order
+to reach its goals, you won't get there by treating it as a club or a stadium.
+Building a federation requires creating connections between separate pockets of
+gravity, and then connecting those pockets to unified center. Building a stadium
+requires that some members be connected to hundreds or thousands of others (if
+only by recognition).

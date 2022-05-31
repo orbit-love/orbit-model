@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* other classes applied in _document.js */
+html,
+body {
+  overscroll-behavior: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.prose p a,
+.prose li a {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-indigo-300 to-indigo-500;
+}
+.prose p a:hover,
+.prose li a:hover,
+a.active-link:hover {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-indigo-200 to-indigo-500;
+}
+
+body .carousel.carousel-slider .control-arrow {
+  @apply px-4;
+}
+
+.side-navigation-panel-select-option {
+  @apply flex justify-between items-center py-2 w-full text-lg cursor-pointer;
+}
+.side-navigation-panel-select-option:hover {
+  @apply text-indigo-400;
+}
+.side-navigation-panel-select-option-selected {
+  @apply text-indigo-400;
+}
+
+.side-navigation-panel-select-inner {
+  @apply pb-2;
+}
+.side-navigation-panel-select-inner-option {
+  @apply flex justify-between items-center py-0.5 px-3 text-slate-300 cursor-pointer;
+}
+.side-navigation-panel-select-inner-option-selected {
+  @apply text-indigo-400;
+}
+.side-navigation-panel-select-inner-option-selected:hover {
+  @apply text-indigo-400;
+}
+
+.header-background {
+  background: linear-gradient(90.12deg, #1e1449 0%, rgba(30, 20, 73, 0.15) 100%),
+    #0f0a25;
+}
+
+/* These four classes are necessary for the mobile-nav menu transition */
+.mobile-nav-enter {
+  display: hidden;
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.mobile-nav-enter-active {
+  display: block;
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 400ms, transform 400ms;
+}
+.mobile-nav-exit {
+  display: block;
+  transform: translateY(50%);
+}
+.mobile-nav-exit-active {
+  display: block;
+  transform: translateX(0);
+  transition: display 400ms, transform 400ms;
+}

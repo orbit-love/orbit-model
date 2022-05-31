@@ -1,0 +1,156 @@
+# Measure gravity
+
+By the end of this section, you'll learn that: 
+```
+Gravity = Change in Weighted Commitment / # of Members
+```
+
+To ge there, let's take the gravity calculation one step at a time, starting with each
+individual member. 
+
+## Moving along the commitment curve
+
+Each community member moves up and down a [commitment curve](/love) at
+their own pace. Time is the curve's x-axis and involvement is the y-axis. As
+members move along, their [orbit level](/orbit-levels) changes. 
+
+In the Orbit Model, there are 4
+levels with 3 steps each, for a total of 12 levels.
+
+Members progress thru the levels in two ways: 
+- by achieving new commitment milestones, like progressing from forum observer to active responder to hosting meetups 
+- by increasing their presence, like progressing from casual observer to someone who is active in the community 5 days per week 
+
+_Illustration: commitment curve with orbit levels page, should add 12 tick marks on y-axis_
+
+![Commitment curve](/commitment-curve.jpg)
+
+☝️ The movement between these levels forms the basis for gravity. 
+
+Gravity is a community-level metric, but first we'll look at an individual's participation, then build up from there. 
+
+ Here's an
+example of a how a single member's commitment level changes over time.
+
+| Member | Month         | Commitment | Activity |  Orbit Level
+| ------ | ------------- | ---------- | ------ | ---------------- | 
+| Alex   | January 2022  | 2          | Read newsletter | Exploring II     |
+| Alex   | February 2022 | 5          | Came to an event | Participating II |
+| Alex   | March 2022    | 7          | Was active for 5 days/week | Contributing III |
+
+Between December and March, Alex's commitment has changed by `+4`. During each
+month that Alex's commitment increased, she reached a new milestone in terms of
+the commitment level and frequency of her activities.
+
+## Comparing change between orbit levels
+
+Now imagine that we added up the commitment change for every member in the
+community. That's what we'll do next. 
+
+Quick note: in the examples below, we'll use just the 4 orbit levels, rather than the the
+orbit levels + steps. This is to keep the example simple, but 12 steps will
+yield fine-grained results in practice.
+
+In this table, each value represents the number of members in that orbit level
+during the given month.
+
+| Orbit Level   | January 2022 | February 2022 | March 2022 |
+| ------------- | ------------ | ------------- | ---------- |
+| Exploring     | 17           | 15            | 12         |
+| Participating | 8            | 9             | 10         |
+| Contributing  | 4            | 5             | 6          |
+| Leading       | 1            | 1             | 2          |
+
+Our example community has undergone some changes in the last 3 months. There's 1
+new leader, 2 new contributors, and 2 new participants. We have also 5 fewer
+explorers, but that's okay thing since they've moved up to other levels.
+
+### Weighted commitment
+
+Okay, now we know how our members have moved through the different levels, but in reality, all levels aren't created equal. Getting an explorer to participate is great, but getting a member to step up and become a leader is both valuable and difficult. It requires *much* more commitment. 
+
+If we were to stop here, we'd have some interesting information, but that info would not reflect the dedication nor difficulty required for moving members up the commitment curve. 
+
+This is where weights come in. **Weighting provides more "credit" for moving members to higher and higher levels of commitment**. 
+
+This table shows the # of members in each orbit level in January 2022, multiplied by
+the weight associated with each orbit level, squared. Why squared? Moving a member from
+Orbit 2 to 1 is a much larger achievement per member from 4 to 3. Metaphorically, the
+community has to pull harder and longer for it to happen.
+
+```
+Weighted Commitment(Level) = Weight(Level) ^ 2 * # of Members
+```
+
+| Orbit Level   | Weight | # Members | Weighted Commitment |
+| ------------- | ------ | --------- | ------------------- |
+| Exploring     | 1      | 17        | 1^2 \* 17 = 17      |
+| Participating | 4      | 8         | 4^2 \* 8 = 128      |
+| Contributing  | 7      | 4         | 7^2 \* 4 = 196      |
+| Leading       | 10     | 1         | 10^2 \* 1 = 100     |
+| Total         |        | 30        | 441                 |
+
+Let's compare the weighted commitment scores between January, February, and March.
+
+| Orbit Level   | January 2022 | February 2022 | March 2022 |
+| ------------- | ------------ | ------------- | ---------- |
+| Exploring     | 17           | 15            | 12         |
+| Participating | 128          | 144           | 160        |
+| Contributing  | 196          | 245           | 294        |
+| Leading       | 100          | 100           | 200        |
+| Total         | 441          | 504           | 666        |
+
+The weighted commitment between January and February changed by `+63`, or `+2.1 per member`. The weighted commitment between February and March changed by
+`+162`, or `+5.4 per member`.
+
+```
+Gravity = Change in Weighted Commitment / # of Members
+```
+
+The numbers `+2.1` and `+5.4` are our community's gravity for January and
+February respectively. February's gravity is that much higher because the
+community was able to "pull" one member from being a contributor to a leader.
+
+The way to read the gravity number is that, on average, the community increased
+each member's weighted commitment by the calculated amount, where weighted
+commitment = the weight of their orbit level, squared.
+
+## Find bottlenecks using orbit levels
+
+To find bottlenecks in your community's field of gravity, you can look at
+the percentages of members who move up and down month over month. Here's an
+example of a table that compares data from two months.
+
+**Period: March to April 2022**
+
+| Orbit Level | Moved up | Held | Moved down |
+| ----------- | -------- | ---- | ---------- |
+| 4           | 25%      | 55%  |            |
+| 3           | 18%      | 61%  | 21%        |
+| 2           | 12%      | 74%  | 14%        |
+| 1           |          | 82%  | 18%        |
+
+Members get stuck at levels with a low "Moved up" percentage. Levels with a high
+"Moved down" percentage struggle to keep members engaged at that level. It's
+good to keep an eye on these numbers to see how they change over time. If 25% of
+members moved up from Orbit 4 in one month and the next month only 10% did,
+investigate to see what happened.
+
+For more granularity, this analysis can be done with steps in addition to the
+orbit levels.
+
+## Increasing gravity
+
+There are two levers for increasing the gravity of ao community: love and reach. Tactically, this looks like providing more relevant opportunities for members to get invovled, and creating more opportunities for members to connect with one another.  
+
+To increase love, consider programs that enable:
+
+- higher commitment activities
+- more frequent activities
+
+To increase reach, try tactics that:
+
+- create more opportunity for member-to-member connections
+- gain outside influence
+
+See the [love](/love) and [reach](/reach) pages to learn more.
