@@ -114,12 +114,8 @@ export const items = [
         itemId: "/examples/saas",
       },
       {
-        title: "web3",
-        itemId: "/examples/web3",
-      },
-      {
-        title: "Accelerators",
-        itemId: "/examples/accelerators",
+        title: "Creators",
+        itemId: "/examples/creators",
       },
     ],
   },
