@@ -12,6 +12,7 @@ export default function Slide6(props) {
         <div className="px-10 text-3xl font-extrabold md:px-0 md:w-4/5 md:text-5xl">
           Grow your business
         </div>
+        <br></br>
         <div className="px-10 w-full text-lg tracking-wide leading-relaxed md:px-0 md:w-4/5 md:text-xl">
           <div>
             A thriving community makes every part of a business better. Happier

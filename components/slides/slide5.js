@@ -12,6 +12,7 @@ export default function Slide5(props) {
         <div className="px-10 text-3xl font-extrabold tracking-wide md:px-0 md:w-5/6 md:text-5xl">
           Organize with orbit levels
         </div>
+        <br></br>
         <div className="px-10 w-full text-lg tracking-wide leading-relaxed md:px-0 md:w-4/5 md:text-xl">
           <div>
             Every community member deserves the right experience. Design
