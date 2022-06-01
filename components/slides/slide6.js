@@ -1,12 +1,15 @@
 import Slide from "components/slides/slide";
+import Image from "next/image";
+import slideSixImage from "../../public/slides/flywheel_growth.svg";
 
 export default function Slide6(props) {
-  const image = "/slides/flywheel_growth.svg";
+  const altText = "Wheel spinning and growing larger illustration";
+
   return (
-    <Slide image={image} {...props}>
+    <Slide image={slideSixImage} altText={altText} {...props}>
       <div className="py-12 md:py-0">
         <div className="xs:block flex hidden justify-center items-center px-16 mt-8 mx-auto w-96 text-center md:hidden md:p-12 md:mt-0">
-          <img src={image} />
+          <Image src={slideSixImage} alt={altText} />
         </div>
         <br></br>
         <div className="xs:text-3xl px-10 text-xl font-extrabold md:px-0 md:w-4/5 md:text-5xl">

@@ -2,13 +2,16 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Head from "components/head";
 import Header from "components/header";
+import Image from "next/image";
+import arrowDown from "../../public/arrow_down.svg";
+import orbitModelCoverImage from "../../public/cover_logo_orbit_model.svg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
   Animator,
   ScrollContainer,
   ScrollPage,
-  MoveIn,
   MoveOut,
 } from "react-scroll-motion";
 import Slide1 from "components/slides/slide1";
@@ -55,9 +58,11 @@ export default function HeroLayout() {
             <div className="flex flex-col justify-evenly items-center h-screen text-white">
               <div className="hidden md:block md:py-10"></div>
               <Animator animation={MoveOut(-1000, 0)}>
-                <img
-                  src="/cover_logo_orbit_model.svg"
-                  className="mx-auto w-3/4"
+                <Image
+                  src={orbitModelCoverImage}
+                  alt="The Orbit Model logo text with orbiting circles behind it"
+                  width={500}
+                  height={380}
                   onDragStart={preventDragHandler}
                 />
               </Animator>
@@ -72,7 +77,8 @@ export default function HeroLayout() {
                 <br></br>
                 <div className="text-center">
                   <p>Scroll down to start guide</p>
-                  <img src="/arrow_down.svg" className="mt-4 mx-auto" />
+                  <br></br>
+                  <Image src={arrowDown} alt="Purple arrow pointing down" />
                 </div>
               </div>
             </div>

@@ -1,12 +1,15 @@
 import Slide from "components/slides/slide";
+import Image from "next/image";
+import slideFiveImage from "../../public/slides/organize_orbit_levels.svg";
 
 export default function Slide5(props) {
-  const image = "/slides/organize_orbit_levels.svg";
+  const altText = "Points rotating around circle illustration";
+
   return (
-    <Slide image={image} {...props}>
+    <Slide image={slideFiveImage} altText={altText} {...props}>
       <div className="py-12 md:py-0">
         <div className="xs:block flex hidden justify-center items-center px-16 mx-auto w-96 md:hidden md:p-12 md:mt-0">
-          <img src={image} />
+          <Image src={slideFiveImage} alt={altText} />
         </div>
         <br></br>
         <div className="xs:text-3xl px-10 text-xl font-extrabold tracking-wide md:px-0 md:w-5/6 md:text-5xl">
