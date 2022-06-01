@@ -56,20 +56,29 @@ export default function HeroLayout() {
           {!inView && <Header />}
           <ScrollPage page={0}>
             <div className="flex flex-col justify-evenly items-center h-screen text-white">
-              <div className="hidden md:block md:py-10"></div>
+              <div className="hidden md:block md:py-16"></div>
               <Animator animation={MoveOut(-1000, 0)}>
-                <Image
-                  src={orbitModelCoverImage}
-                  alt="The Orbit Model logo text with orbiting circles behind it"
-                  width={500}
-                  height={380}
+                <div
+                  className="group relative"
                   onDragStart={preventDragHandler}
-                />
+                >
+                  <div className="group-hover:bg-purple-600 group-hover:opacity-10 group-hover:blur-xl absolute inset-0 rounded rounded-full"></div>
+                  <div className="relative">
+                    <img
+                      src="/cover/orbits.svg"
+                      className="relative mx-auto w-[70%] animate-spin-slow hover:"
+                    />
+                    <img
+                      src="/cover/text.svg"
+                      className="absolute top-[108px] p-4 bg-[#0E0A22]"
+                    />
+                  </div>
+                </div>
               </Animator>
               {/* This ref is needed so that the app knows when to display Header */}
               <div ref={ref} className="absolute top-36"></div>
 
-              <div className="hidden md:block">
+              <div className="hidden mt-8 md:block">
                 <div className="font-semibold text-center">
                   <div>Learn how to build and measure a thriving community</div>
                   <div>with the Orbit Model.</div>
@@ -78,7 +87,11 @@ export default function HeroLayout() {
                 <div className="text-center">
                   <p>Scroll down to start guide</p>
                   <br></br>
-                  <Image src={arrowDown} alt="Purple arrow pointing down" />
+                  <Image
+                    src={arrowDown}
+                    alt="Purple arrow pointing down"
+                    className="animate-bounce"
+                  />
                 </div>
               </div>
             </div>

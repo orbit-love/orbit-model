@@ -7,7 +7,11 @@ module.exports = {
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 4s linear infinite'
+      }
+    },
     // Note: screen sizes ('sm', 'md', etc) need to be wrapped
     // in quotes. So if auto-format saves without quotes, please
     // save this file without auto-formatting.
