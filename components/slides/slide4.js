@@ -1,12 +1,15 @@
 import Slide from "components/slides/slide";
+import Image from "next/image";
+import slideFourImage from "../../public/slides/love_and_reach.svg";
 
 export default function Slide4(props) {
-  const image = "/slides/love_and_reach.svg";
+  const altText = "Two globes in circular motion illustration";
+
   return (
-    <Slide image={image} {...props}>
+    <Slide image={slideFourImage} altText={altText} {...props}>
       <div className="py-12 md:py-0">
         <div className="xs:block flex hidden justify-center items-center px-12 mt-8 mx-auto w-96 md:hidden md:p-12 md:mt-0">
-          <img src={image} />
+          <Image src={slideFourImage} alt={altText} />
         </div>
         <div className="xs:text-3xl px-10 text-xl font-extrabold md:px-0 md:w-4/5 md:text-5xl">
           Increase love and reach

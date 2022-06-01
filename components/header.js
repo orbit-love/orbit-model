@@ -1,7 +1,8 @@
 import { React, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CSSTransition } from "react-transition-group";
-import { purple } from "lib/gradients";
+import Image from "next/image";
+import headerLogo from "../public/header_logo.svg";
 
 import Link from "next/link";
 import MobileNav from "./mobile_nav";
@@ -28,7 +29,13 @@ export default function Header() {
           </button>
         </div>
         <Link href="/">
-          <img src="/header_logo.svg" className="w-48 cursor-pointer" />
+          <Image
+            src={headerLogo}
+            alt="Orbit Model logo"
+            width={190}
+            height={40}
+            className="cursor-pointer"
+          />
         </Link>
 
         <div className="flex-1" />

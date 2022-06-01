@@ -1,6 +1,9 @@
+import Image from "next/image";
+
 export default function Slide({
   children,
   image,
+  altText,
   needsLargerImageSize,
   lastSlide,
 }) {
@@ -25,7 +28,7 @@ export default function Slide({
               needsLargerImageSize ? "right-6 w-1/2" : "right-24 w-2/5"
             } text-center md:block md:mt-0`}
           >
-            <img src={image} onDragStart={preventDragHandler} />
+            <Image src={image} alt={altText} onDragStart={preventDragHandler} />
           </div>
         )}
       </div>

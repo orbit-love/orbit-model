@@ -1,13 +1,21 @@
 import Slide from "components/slides/slide";
+import Image from "next/image";
+import slideThreeImage from "../../public/slides/slide3_deepen_love.svg";
 
 export default function Slide3(props) {
-  const image = "slides/slide3_deepen_love.svg";
+  const altText = "Points entering gravitational orbit illustration";
+
   return (
-    <Slide image={image} needsLargerImageSize={true} {...props}>
+    <Slide
+      image={slideThreeImage}
+      altText={altText}
+      needsLargerImageSize={true}
+      {...props}
+    >
       <div className="py-12 md:py-0">
         <div className="pt-6 pb-12 md:py-0">
           <div className="mb-4 hidden xs:block mx-auto px-0 w-[425px] md:hidden md:p-12 md:mt-0">
-            <img src={image} />
+            <Image src={slideThreeImage} alt={altText} />
           </div>
           <br></br>
           <div className="xs:text-3xl px-10 text-xl font-extrabold md:px-0 md:w-4/5 md:text-5xl">

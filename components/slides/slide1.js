@@ -1,11 +1,14 @@
 import Slide from "components/slides/slide";
+import Image from "next/image";
+import slideOneImage from "../../public/slides/atomic_heart.svg";
 
 export default function Slide1(props) {
-  const image = "/slides/atomic_heart.svg";
+  const altText = "Heart within atom illustration";
+
   return (
-    <Slide image={image} {...props}>
+    <Slide image={slideOneImage} altText={altText} {...props}>
       <div className="xs:block flex hidden justify-center items-center px-12 mt-8 mx-auto w-96 text-center md:hidden md:p-12 md:mt-0">
-        <img src={image} />
+        <Image src={slideOneImage} alt={altText} />
       </div>
       <div className="xs:text-3xl px-10 w-full text-xl font-extrabold md:px-0 md:w-4/5 md:text-5xl">
         Grow the community,
