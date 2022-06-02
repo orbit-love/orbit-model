@@ -12,11 +12,11 @@ export default function Slide({
   };
 
   return (
-    <div className="py-12 w-full md:px-20">
+    <div className="overflow-hidden py-0 w-full md:px-20">
       <div
         className={`${
           lastSlide ? "justify-center" : "justify-start"
-        } flex flex-col md:flex-row items-center pt-16 md:px-0 md:pb-16 pb-8 max-w-[1200px] mx-auto`}
+        } flex flex-col md:flex-row items-center pt-0 md:px-0 md:pb-16 pb-8 max-w-[1200px] mx-auto`}
       >
         <div className="flex flex-col mb-4 space-y-9 w-full md:w-3/5">
           {children}
