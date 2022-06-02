@@ -8,7 +8,7 @@ export default function Slide7(props, onNext) {
       <div className="xs:text-4xl text-xl font-extrabold text-center md:text-5xl">
         Mission complete!
       </div>
-      <div className="xs:text-lg px-10 mx-auto w-full tracking-wide leading-relaxed text-center md:px-8 md:w-4/5">
+      <div className="xs:text-lg px-4 mx-auto w-full tracking-wide leading-relaxed text-center md:px-8 md:w-4/5">
         <p>
           Congratulations, you now have a 30,000km view of the Orbit Model.
           Balance gravity and growth, increase the love and reach of your

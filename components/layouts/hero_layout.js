@@ -4,16 +4,10 @@ import Head from "components/head";
 import Header from "components/header";
 import Image from "next/image";
 import arrowDown from "../../public/arrow_down.svg";
-import orbitModelCoverImage from "../../public/cover_logo_orbit_model.svg";
+import ReactFullpage from "@fullpage/react-fullpage";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {
-  Animator,
-  ScrollContainer,
-  ScrollPage,
-  MoveOut,
-} from "react-scroll-motion";
 import Slide1 from "components/slides/slide1";
 import Slide2 from "components/slides/slide2";
 import Slide3 from "components/slides/slide3";
@@ -51,13 +45,16 @@ export default function HeroLayout() {
   return (
     <>
       <Head />
-      {isBrowser && (
-        <ScrollContainer snap="none" inView={inView}>
-          {!inView && <Header />}
-          <ScrollPage page={0}>
-            <div className="flex flex-col justify-evenly items-center h-screen text-white">
-              <div className="hidden md:block md:py-16"></div>
-              <Animator animation={MoveOut(-1000, 0)}>
+      <ReactFullpage
+        //fullpage options
+        scrollingSpeed={1000}
+        continuousVertical="false"
+        scrollBar="true"
+        render={({ state, fullpageApi }) => {
+          return (
+            <ReactFullpage.Wrapper>
+              <div className="section flex flex-col justify-evenly items-center h-screen text-white">
+                <div className="hidden md:block md:py-16"></div>
                 <div
                   className="group relative"
                   onDragStart={preventDragHandler}
@@ -66,109 +63,94 @@ export default function HeroLayout() {
                   <div className="relative">
                     <img
                       src="/cover/orbits.svg"
-                      className="relative mx-auto w-[70%] animate-spin-slow hover:"
+                      className="relative mx-auto w-[90%] xs:w-[70%] animate-spin-slow hover:"
                     />
                     <img
                       src="/cover/text.svg"
-                      className="absolute top-[108px] p-4 bg-[#0E0A22]"
+                      className="xs:absolute xs:top-[108px] p-4 bg-[#0E0A22]"
                     />
                   </div>
                 </div>
-              </Animator>
-              {/* This ref is needed so that the app knows when to display Header */}
-              <div ref={ref} className="absolute top-36"></div>
+                {/* This ref is needed so that the app knows when to display Header */}
+                <div ref={ref} className="absolute top-36"></div>
 
-              <div className="hidden mt-8 md:block">
-                <div className="font-semibold text-center">
-                  <div>Learn how to build and measure a thriving community</div>
-                  <div>with the Orbit Model.</div>
-                </div>
-                <br></br>
-                <div className="text-center">
-                  <p>Scroll down to start guide</p>
+                <div className="hidden mt-8 md:block">
+                  <div className="font-semibold text-center">
+                    <div>
+                      Learn how to build and measure a thriving community
+                    </div>
+                    <div>with the Orbit Model.</div>
+                  </div>
                   <br></br>
-                  <Image
-                    src={arrowDown}
-                    alt="Purple arrow pointing down"
-                    className="animate-bounce"
-                  />
-                </div>
-              </div>
-            </div>
-          </ScrollPage>
-
-          <ScrollPage page={1}>
-            <div className="flex justify-center items-center h-screen text-white bg-[#1E1449]">
-              <Slide1 />
-            </div>
-          </ScrollPage>
-          <ScrollPage page={2}>
-            <div className="flex justify-center items-center h-screen text-white bg-[#0F0A25]">
-              <Slide2 />
-            </div>
-          </ScrollPage>
-          <ScrollPage page={3}>
-            <div className="flex justify-center items-center h-screen text-white bg-[#1E1449]">
-              <Slide3 />
-            </div>
-          </ScrollPage>
-          <ScrollPage page={4}>
-            <div className="flex justify-center items-center h-screen text-white bg-[#0F0A25]">
-              <Slide4 />
-            </div>
-          </ScrollPage>
-          <ScrollPage page={5}>
-            <div className="flex justify-center items-center h-screen text-white bg-[#1E1449]">
-              <Slide5 />
-            </div>
-          </ScrollPage>
-          <ScrollPage page={6}>
-            <div className="flex justify-center items-center h-screen text-white bg-[#0F0A25]">
-              <Slide6 />
-            </div>
-          </ScrollPage>
-          <ScrollPage page={7}>
-            <div className="flex justify-center items-center h-screen text-white bg-[#1E1449]">
-              <Slide7 />
-            </div>
-          </ScrollPage>
-          <div className="xs:block hidden">
-            <ScrollPage page={8}>
-              <div className="md:my-32"></div>
-              <div className="xs:block hidden overflow-y-auto pb-12 my-24 text-center md:px-8">
-                <h1 className="xs:text-3xl px-6 text-xl font-extrabold md:text-4xl">
-                  Speak the cosmic language
-                </h1>
-                <p className="xs:text-lg px-6 my-4 mx-auto w-full md:my-6 md:my-12 md:w-2/3 md:text-xl">
-                  The model is a family of concepts designed to work together,
-                  giving your team a vocabulary and framework for visualizing
-                  how your community works.
-                </p>
-                <div className="my-12 mx-auto w-3/4 text-lg md:w-3/4">
-                  <div className="flex flex-wrap justify-center">
-                    <Icon name="Gravity" href="/love"></Icon>
-                    <Icon name="Love" href="/love"></Icon>
-                    <Icon
-                      name={
-                        <span>
-                          Orbit <br />
-                          Levels
-                        </span>
-                      }
-                      icon=""
-                      href="/love/orbit-levels"
-                    ></Icon>
-                    <Icon name="Roles" href="/love/roles"></Icon>
-                    <Icon name="Reach" href="/reach"></Icon>
-                    <Icon name="Impact" href="/impact"></Icon>
-                    <Icon name="...more" href="/introduction"></Icon>
+                  <div className="text-center">
+                    <p>Scroll down to start guide</p>
+                    <br></br>
+                    <Image
+                      src={arrowDown}
+                      alt="Purple arrow pointing down"
+                      className="animate-bounce"
+                    />
                   </div>
                 </div>
               </div>
-            </ScrollPage>
-          </div>
-        </ScrollContainer>
-      )}
+              <div className="section flex justify-center items-center h-screen text-white bg-[#1E1449]">
+                <Slide1 />
+              </div>
+              <div className="section flex justify-center items-center h-screen text-white bg-[#0F0A25]">
+                <Slide2 />
+              </div>
+              <div className="section flex justify-center items-center h-screen text-white bg-[#1E1449]">
+                <Slide3 />
+              </div>
+              <div className="section flex justify-center items-center h-screen text-white bg-[#0F0A25]">
+                <Slide4 />
+              </div>
+              <div className="section flex justify-center items-center h-screen text-white bg-[#1E1449]">
+                <Slide5 />
+              </div>
+              <div className="section flex justify-center items-center h-screen text-white bg-[#0F0A25]">
+                <Slide6 />
+              </div>
+              <div className="section flex justify-center items-center h-screen text-white bg-[#1E1449]">
+                <Slide7 />
+              </div>
+              <div className="section xs:block hidden">
+                <div className="md:my-24"></div>
+                <div className="xs:block hidden pb-6 text-center md:px-8">
+                  <h1 className="xs:text-3xl px-6 text-xl font-extrabold md:text-4xl">
+                    Speak the cosmic language
+                  </h1>
+                  <p className="xs:text-lg px-6 my-4 mx-auto w-full md:my-6 md:my-12 md:w-2/3 md:text-xl">
+                    The model is a family of concepts designed to work together,
+                    giving your team a vocabulary and framework for visualizing
+                    how your community works.
+                  </p>
+                  <div className="mx-auto w-3/4 text-lg md:w-3/4">
+                    <div className="flex flex-wrap justify-center">
+                      <Icon name="Gravity" href="/love"></Icon>
+                      <Icon name="Love" href="/love"></Icon>
+                      <Icon
+                        name={
+                          <span>
+                            Orbit <br />
+                            Levels
+                          </span>
+                        }
+                        icon=""
+                        href="/love/orbit-levels"
+                      ></Icon>
+                      <Icon name="Roles" href="/love/roles"></Icon>
+                      <Icon name="Reach" href="/reach"></Icon>
+                      <Icon name="Impact" href="/impact"></Icon>
+                      <Icon name="...more" href="/introduction"></Icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ReactFullpage.Wrapper>
+          );
+        }}
+      />
     </>
   );
 }
