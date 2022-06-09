@@ -19,8 +19,7 @@ export default function Slide4(props) {
           <div>
             Love is a measure of a member&apos;s involvement, based on what
             activities they do and how often. Reach is a measure of the
-            member&apos;s influence and degree of connectness with other
-            members.
+            member&apos;s influence and connection with other members.
           </div>
           <br></br>
           <div>
