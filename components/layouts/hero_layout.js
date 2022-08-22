@@ -146,7 +146,7 @@ export default function HeroLayout() {
                 </p>
                 <div className="my-12 mx-auto w-3/4 text-lg md:w-3/4">
                   <div className="flex flex-wrap justify-center">
-                    <Icon name="Gravity" href="/love"></Icon>
+                    <Icon name="Gravity" href="/gravity"></Icon>
                     <Icon name="Love" href="/love"></Icon>
                     <Icon
                       name={
