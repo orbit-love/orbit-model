@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
+import favicon from "public/favicon.ico";
 
 export default function _Head() {
   return (
@@ -7,7 +8,7 @@ export default function _Head() {
       <Head>
         <title>Orbit Model</title>
         <meta name="description" content="Build a high-gravity community" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={favicon.src} />
         <meta property="og:site_name" content="Orbit Model" />
         <meta property="og:title" content="Orbit Model" />
         <meta property="og:type" content="website" />
