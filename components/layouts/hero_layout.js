@@ -3,8 +3,9 @@ import Link from "next/link";
 import Head from "components/head";
 import Header from "components/header";
 import Image from "next/image";
-import arrowDown from "../../public/arrow_down.svg";
-import orbitModelCoverImage from "../../public/cover_logo_orbit_model.svg";
+import arrowDown from "public/arrow_down.svg";
+import orbitsImage from "public/cover/orbits.svg";
+import textImage from "public/cover/text.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -65,12 +66,14 @@ export default function HeroLayout() {
                   <div className="group-hover:bg-purple-600 group-hover:opacity-10 group-hover:blur-xl absolute inset-0 rounded rounded-full"></div>
                   <div className="relative">
                     <img
-                      src="/cover/orbits.svg"
+                      src={orbitsImage.src}
                       className="relative mx-auto w-[70%] animate-spin-slow hover:"
+                      alt="Concentric circles rotating together"
                     />
                     <img
-                      src="/cover/text.svg"
+                      src={textImage.src}
                       className="absolute top-[108px] p-4 bg-[#0E0A22]"
+                      alt="Learn how to build and measure a thriving community with the Orbit Model"
                     />
                   </div>
                 </div>
