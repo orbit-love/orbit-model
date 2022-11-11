@@ -4,7 +4,7 @@ The Orbit Model is a framework for building high gravity communities. A high gra
 
 ## Explore the model
 
-**Visit the website: [https://orbitmodel.com/](https://orbitmodel.com/)**
+**Visit the website: [https://orbit.love/model](https://orbit.love/model)**
 
 The model will help you answer questions like:
 
@@ -31,7 +31,7 @@ Build relationships that help convert users into contributors.
 The Orbit Model was developed by developer advocates for working with communities of software developers, but the principles apply to most things that are community-shaped. The model was first used in 2014 and put on GitHub in November 2019 so anyone can use it and contribute back. We aim to make this framework useful to open source maintainers, developer advocates, community managers, founders, and anyone interested in building a community. It is sponsored and maintained by
 [Orbit](https://orbit.love/).
 
-Learn more on the [about page](https://orbitmodel.com/about).
+Learn more on the [about page](https://orbit.love/model/about).
 
 ## Contributing
 
