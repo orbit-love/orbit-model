@@ -88,7 +88,7 @@ function MyApp({ Component, pageProps }) {
     //  - If you're using www. for your domain, make sure you include that here.
     Fathom.load("XEYVCUXY", {
       url: "https://dog.orbit.love/script.js",
-      includedDomains: ["orbitmodel.com", "next.orbitmodel.com"],
+      includedDomains: ["orbit.love", "model.orbit.love"],
     });
 
     function onRouteChangeComplete() {
