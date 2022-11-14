@@ -67,7 +67,7 @@ export default function HeroLayout() {
                   <div className="relative">
                     <img
                       src={orbitsImage.src}
-                      className="relative mx-auto w-[70%] animate-spin-slow hover:"
+                      className="relative mx-auto w-[70%] animate-spin-slow motion-reduce:animate-none hover:"
                       alt="Concentric circles rotating together"
                     />
                     <img
@@ -93,7 +93,7 @@ export default function HeroLayout() {
                   <Image
                     src={arrowDown}
                     alt="Purple arrow pointing down"
-                    className="animate-bounce"
+                    className="animate-bounce motion-reduce:animate-none"
                   />
                 </div>
               </div>
