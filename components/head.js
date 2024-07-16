@@ -46,11 +46,6 @@ export default function _Head() {
           }}();
           `}
       </Script>
-      <script
-        src="https://dog.orbit.love/script.js"
-        data-site="XEYVCUXY"
-        defer
-      ></script>
     </>
   );
 }

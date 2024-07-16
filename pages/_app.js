@@ -1,5 +1,7 @@
 import "styles/globals.css";
-import { useEffect } from "react";
+import 'public/assets/fontawesome-pro-6.5.2-web/js/all.js';
+import 'public/assets/fontawesome-pro-6.5.2-web/css/fontawesome.css';
+
 import { MDXProvider } from "@mdx-js/react";
 import Layout from "components/mdx/layout";
 import Placeholder from "components/mdx/placeholder";
@@ -10,8 +12,7 @@ import Blockquote from "components/mdx/blockquote";
 import Code from "components/mdx/code";
 import Button from "components/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRouter } from "next/router";
-import * as Fathom from "fathom-client";
+
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -20,45 +21,45 @@ import {
   faHeartCircleCheck,
   faBuildingColumns,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faBars,
-  faXmark,
-  faSolarSystem,
-  faPlanetMoon,
-  faPlanetRinged,
-  faRocketLaunch,
-  faCircleNodes,
-  faFaceSadCry,
-  faTrafficCone,
-  faDrawCircle,
-  faChartNetwork,
-  faChartMixed,
-  faTire,
-  faBoxCheck,
-  faStairs,
-} from "@fortawesome/pro-solid-svg-icons";
+// import {
+//   faBars,
+//   faXmark,
+//   faSolarSystem,
+//   faPlanetMoon,
+//   faPlanetRinged,
+//   faRocketLaunch,
+//   faCircleNodes,
+//   faFaceSadCry,
+//   faTrafficCone,
+//   faDrawCircle,
+//   faChartNetwork,
+//   faChartMixed,
+//   faTire,
+//   faBoxCheck,
+//   faStairs,
+// } from "@fortawesome/pro-solid-svg-icons";
 
 // add to library
 library.add(
-  faBars,
-  faXmark,
+//   faBars,
+  // faXmark,
   faSpinner,
   faYinYang,
-  faSolarSystem,
-  faPlanetRinged,
-  faPlanetMoon,
-  faRocketLaunch,
-  faCircleNodes,
+//   faSolarSystem,
+//   faPlanetRinged,
+//   faPlanetMoon,
+//   faRocketLaunch,
+//   faCircleNodes,
   faHeartCircleCheck,
-  faTrafficCone,
-  faFaceSadCry,
-  faDrawCircle,
-  faChartNetwork,
-  faChartMixed,
+//   faTrafficCone,
+//   faFaceSadCry,
+//   faDrawCircle,
+//   faChartNetwork,
+//   faChartMixed,
   faBuildingColumns,
-  faTire,
-  faBoxCheck,
-  faStairs
+//   faTire,
+//   faBoxCheck,
+//   faStairs
 );
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -78,31 +79,6 @@ const components = {
 };
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter();
-
-  useEffect(() => {
-    // Initialize Fathom when the app loads
-    // Example: yourdomain.com
-    //  - Do not include https://
-    //  - This must be an exact match of your domain.
-    //  - If you're using www. for your domain, make sure you include that here.
-    Fathom.load("XEYVCUXY", {
-      url: "https://dog.orbit.love/script.js",
-      includedDomains: ["orbit.love", "model.orbit.love"],
-    });
-
-    function onRouteChangeComplete() {
-      Fathom.trackPageview();
-    }
-    // Record a pageview when route changes
-    router.events.on("routeChangeComplete", onRouteChangeComplete);
-
-    // Unassign event listener
-    return () => {
-      router.events.off("routeChangeComplete", onRouteChangeComplete);
-    };
-  });
-
   return (
     <MDXProvider components={components}>
       <Component {...pageProps} />
