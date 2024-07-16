@@ -12,15 +12,15 @@ export default function _Head() {
         <meta property="og:site_name" content="Orbit Model" />
         <meta property="og:title" content="Orbit Model" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://orbit.love/model/" />
+        <meta property="og:url" content="https://orbitmodel.com/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="og:image"
-          content="https://orbit.love/model/social-share.jpg"
+          content="https://orbitmodel.com/social-share.jpg"
         />
         <meta
           name="twitter:image"
-          content="https://orbit.love/model/social-share.jpg"
+          content="https://orbitmodel.com/social-share.jpg"
         />
         <meta property="og:image:alt" content="Page image for Orbit Model" />
         <meta name="twitter:image:alt" content="Page image for Orbit Model" />
