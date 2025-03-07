@@ -1,10 +1,12 @@
 # Welcome to the Orbit Model
 
-The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience.
+The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience. The project is no longer under active development but the website is still up for your perusal.
 
 ## Explore the model
 
-**Visit the website: [https://orbitmodel.com/](https://orbitmodel.com/)**
+**Visit the website: [https://orbit-model.vercel.app/](https://orbit-model.vercel.app/)**
+
+There was also an earlier version of the website, which is available here: [https://orbit-model-archived.vercel.app/](https://orbit-model-archived.vercel.app/)
 
 The model will help you answer questions like:
 
