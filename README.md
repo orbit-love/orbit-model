@@ -4,7 +4,7 @@ The Orbit Model is a framework for building high gravity communities. A high gra
 
 ## Explore the model
 
-**Visit the website: [https://orbit-model.vercel.app/](https://orbit-model.vercel.app/)**
+**Visit the website: [https://orbit-model.joshed.io/](https://orbit-model.joshed.io/)**
 
 There was also an earlier version of the website, which is available here: [https://orbit-model-archived.vercel.app/](https://orbit-model-archived.vercel.app/)
 
@@ -30,10 +30,8 @@ Build relationships that help convert users into contributors.
 
 ## About the Orbit Model
 
-The Orbit Model was developed by developer advocates for working with communities of software developers, but the principles apply to most things that are community-shaped. The model was first used in 2014 and put on GitHub in November 2019 so anyone can use it and contribute back. We aim to make this framework useful to open source maintainers, developer advocates, community managers, founders, and anyone interested in building a community. It is sponsored and maintained by
-[Orbit](https://orbit.love/).
-
-Learn more on the [about page](https://orbitmodel.com/about).
+The Orbit Model was developed by developer advocates for working with communities of software developers, but the principles apply to most things that are community-shaped. The model was first used in 2014 and put on GitHub in November 2019 so anyone can use it and contribute back. We aim to make this framework useful to open source maintainers, developer advocates, community managers, founders, and anyone interested in building a community. It was sponsored and maintained by
+Orbit.
 
 ## Contributing
 
