@@ -1,5 +1,7 @@
 # Welcome to the Orbit Model
 
+[简体中文](README.CN.md) | [日本語](README.JA.md)
+
 The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience. The project is no longer under active development but the website is still up for your perusal.
 
 ## Explore the model
