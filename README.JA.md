@@ -1,32 +1,31 @@
-# Welcome to the Orbit Model
+# 軌道モデル（オービット・モデル）へようこそ！
 
-The Orbit Model is a framework for building high gravity communities. A high gravity community is one that excels at attracting and retaining members by providing an outstanding member experience. The project is no longer under active development but the website is still up for your perusal.
+Orbit Model（オービット・モデル）は、求心力の高いコミュニティを構築するためのフレームワークです。「求心力の高いコミュニティ」とは、最高の体験を提供することでメンバーを惹きつけ、定着させることことができるコミュニティのことを指します。本プロジェクトの活発な開発はすでに終了していますが、ウェブサイトや、それらの情報は現在も閲覧可能です。
 
-## Explore the model
+## 軌道モデルを探求する
 
-**Visit the website: [https://orbit-model.joshed.io/](https://orbit-model.joshed.io/)**
+**ウェブサイトはこちらからご確認いただけます。: [https://orbit-model.joshed.io/](https://orbit-model.joshed.io/)**
 
-There was also an earlier version of the website, which is available here: [https://orbit-model-archived.vercel.app/](https://orbit-model-archived.vercel.app/)
+初期のウェブサイトはこちらからもご確認いただけます。: [https://orbit-model-archived.vercel.app/](https://orbit-model-archived.vercel.app/)
 
-The model will help you answer questions like:
+軌道モデルは、以下のような問いを考える際に役立ちます。：
+- コミュニティの成熟度や、満足度（エンゲージメント）をどのように測定すればよいでしょうか？
+- どうすれば、新たな仲間をコミュニティに惹きつけることができるのでしょうか？
+- どのコミュニティメンバーと関わる時間を優先的にすれば良いのでしょうか？
+- 各コミュニティメンバーには、どのようなコミュニティへの貢献をお願いすべきでしょうか？
 
-- How do I measure my community's engagement and growth?
-- How do I attract new people to my community?
-- Which members should I prioritize spending time with?
-- What contribution should I ask each community member to make?
+## 軌道モデルはどのような人のためのものでしょうか？
 
-## Who can use the Orbit Model?
+**プロダクトおよび開発者コミュニティ**
+最も熱心なユーザーや開発者によるコミュニティをつくることができます。
 
-**Product and developer communities**.
-Form a community of your most enthusiastic users and developers.
+**コミュニティ主導型のビジネス**
+影響力のある顧客を特定し、その影響力を拡大させることに役立ちます。
 
-**Community-driven businesses**.
-Learn who your most influential customers and help increase their reach.
+**オープンソースプロジェクト**
+ユーザーを貢献者に変えるための関係性を構築することができます。
 
-**Open source projects**.
-Build relationships that help convert users into contributors.
-
-**And anyone else focused on growing their community!**
+そして、コミュニティの成長を頑張るすべての方々のためのものです！
 
 ## About the Orbit Model
 
