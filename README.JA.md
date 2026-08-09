@@ -1,20 +1,20 @@
-# 軌道モデル（オービット・モデル）へようこそ！
+# Orbit Model（オービット・モデル）へようこそ！
 
-Orbit Model（オービット・モデル）は、求心力の高いコミュニティを構築するためのフレームワークです。「求心力の高いコミュニティ」とは、最高の体験を提供することでメンバーを惹きつけ、定着させることことができるコミュニティのことを指します。本プロジェクトの活発な開発はすでに終了していますが、ウェブサイトや、それらの情報は現在も閲覧可能です。
+Orbit Model（オービット・モデル）は、求心力の高いコミュニティを構築するためのフレームワークです。「求心力の高いコミュニティ」とは、最高の体験を提供することでメンバーを惹きつけ、定着させることに長けたコミュニティのことを指します。本プロジェクトの活発な開発はすでに終了していますが、ウェブサイトや、それらの情報は現在でも閲覧が可能です。
 
-## 軌道モデルを探求する
+## Orbit Modelを探求する
 
 **ウェブサイトはこちらからご確認いただけます。: [https://orbit-model.joshed.io/](https://orbit-model.joshed.io/)**
 
 初期のウェブサイトはこちらからもご確認いただけます。: [https://orbit-model-archived.vercel.app/](https://orbit-model-archived.vercel.app/)
 
-軌道モデルは、以下のような問いを考える際に役立ちます。：
-- コミュニティの成熟度や、満足度（エンゲージメント）をどのように測定すればよいでしょうか？
+Orbit Modelは、以下のような問いを考える際に役立ちます。：
+- コミュニティのエンゲージメントや成長をどのように測定すればよいでしょうか？
 - どうすれば、新たな仲間をコミュニティに惹きつけることができるのでしょうか？
-- どのコミュニティメンバーと関わる時間を優先的にすれば良いのでしょうか？
+- どのコミュニティメンバーとのコミュニケーションを優先すべきでしょうか？
 - 各コミュニティメンバーには、どのようなコミュニティへの貢献をお願いすべきでしょうか？
 
-## 軌道モデルはどのような人のためのものでしょうか？
+## Orbit Modelはどのような人のためのものでしょうか？
 
 **プロダクトおよび開発者コミュニティ**
 最も熱心なユーザーや開発者によるコミュニティをつくることができます。
@@ -22,54 +22,59 @@ Orbit Model（オービット・モデル）は、求心力の高いコミュニ
 **コミュニティ主導型のビジネス**
 影響力のある顧客を特定し、その影響力を拡大させることに役立ちます。
 
-**オープンソースプロジェクト**
+**OSS（オープンソース）プロジェクト**
 ユーザーを貢献者に変えるための関係性を構築することができます。
 
 そして、コミュニティの成長を頑張るすべての方々のためのものです！
 
-## About the Orbit Model
+## Orbit Modelについて
 
-The Orbit Model was developed by developer advocates for working with communities of software developers, but the principles apply to most things that are community-shaped. The model was first used in 2014 and put on GitHub in November 2019 so anyone can use it and contribute back. We aim to make this framework useful to open source maintainers, developer advocates, community managers, founders, and anyone interested in building a community. It was sponsored and maintained by
-Orbit.
 
-## Contributing
+「Orbit Model（オービット・モデル）」は、元々はソフトウェア開発者のコミュニティと連携する中で、Developer Advocate（デベロッパー・アドボケイト）[^1] たちによって生み出されたフレームワークですが、その原則は**コミュニティ構造を持つあらゆる組織や取り組み**に適用できます。Orbit Modelは2014年に初めて使用され、2019年11月に誰もが利用・貢献できるようにGitHub上に公開されました。
 
-Contributions and questions are very welcome. Please open issues with ideas on how to improve the model including feedback, critiques, and information about how you're using it.
+私たちは、このフレームワークがOSSのメンテナー、デベロッパー・アドボケイト、コミュニティマネージャー、創業者、その他コミュニティ運営に関心のあるすべての人にとって有用なものとなることを目指しています。本プロジェクトは Orbit社によって提供され、維持管理されていました。
 
-Read the [contribution guide](CONTRIBUTING.md) to learn more.
+[^1]: Developer Advocate（デベロッパー・アドボケイト）とは、自社の技術製品（API、SDK、クラウド、開発ツールなど）と「外部の開発者コミュニティ」との橋渡し役となる専門職のことです。単に製品を宣伝するだけでなく、「開発者の成功を全力で支援し、現場の声を自社のプロダクト開発チームへフィードバックする」という双方向の役割を担うのが大きな特徴です。DevRel（Developer Relations：開発者との関係構築）活動の中心人物として活躍する役割を担います。
 
-## Tech Stack
+## 貢献について
 
-We want to thank and acknowledge the open source projects used to build this site:
+プロジェクトへの貢献やご質問は大歓迎です。フィードバック、ご指摘、活用事例など、Orbit Modelの改善につながるアイデアがございましたら、ぜひイシューを開いてお知らせください。
 
+詳細については、[貢献ガイド](CONTRIBUTING.md)をご覧ください。
+<br>※日本語版は鋭意翻訳中です。
+
+## 技術スタック
+
+本サイトの構築に利用したオープンソースプロジェクトに対し、感謝の意を表するとともに、その貢献を称えたいと思います：
 - Next.js
 - MDX
 - G6
 - FontAwesome
 - Tailwind CSS
 
-## Changelog
+## 変更履歴
 
-**May 2022**
+**2022年5月**
 
-- New website, updated concepts
+- 追加：新しいウェブサイト
+- 更新：コンセプト
 
-**July 2021**
+**2021年7月**
 
-- Updated Orbit Level names
+- 更新：Orbit Modelの名称
 
-**March 2020**
+**2020年3月**
 
-- Created sections for love, reach, and gravity
-- Added calculations and example tables for each metric
-- Added Orbit KPIs section
-- Added sections about choosing and distributing orbit levels
+- 作成：「Love（エンゲージメントの深さ）」、「Reach（影響力の広さ）」、「Gravity（求心力）」の各セクション
+- 追加：各指標についての計算式と例表
+- 追加：「軌道KPI」のセクション
+- 追加：軌道レベルの選定と配分に関するセクション
 
-**December 2019**
+**2019年12月**
 
-- Added orbit levels
-- Improved introduction
+- 追加：軌道レベル
+- 更新：導入部
 
-**June 2019**
+**2019年6月**
 
-- Repository created
+- 作成：リポジトリ
